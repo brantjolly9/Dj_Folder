@@ -71,5 +71,3 @@ def changeDir():
         print(f'Return: {cwd}')
         os.chdir(cwd)
         print(os.getcwd())
-
-changeDir()

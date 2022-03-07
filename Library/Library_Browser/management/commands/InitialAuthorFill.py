@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from Library_Browser.models import Author
+from Library.Library_Browser.models import Author
 import os
 import json
 from pprint import pprint

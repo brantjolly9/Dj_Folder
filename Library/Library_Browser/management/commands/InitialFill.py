@@ -2,7 +2,7 @@ import sys
 sys.path.append('..')
 from Django_Logger import DjangoLogger
 from django.core.management.base import BaseCommand
-from builder.models import Book, Author
+from Library_Browser.models import Book, Author
 
 
 import os
@@ -31,7 +31,7 @@ class Command(BaseCommand):
 
     # Fetch books from dir and fill Book model
     def handle(self, **options):
-        mainLog = DjangoLogger(homePath = r'C:\Users\User\Documents\Programming\Python_stuff\Dj_Library')
+        mainLog = DjangoLogger(homePath = r'C:\Users\User\Documents\Programming\Python_stuff\Dj_Folder')
         self.roamLog = mainLog.make_log(name='roam')
         self.makeAuthorLog = mainLog.make_log(name='make_author')
         self.roamLog.info('**************************\nBEGIN NEW TEST')
@@ -155,37 +155,48 @@ class Command(BaseCommand):
                 fullName['first'] = raw[0]
 
             elif len(raw) == 2:
-                fullName['last'] = raw[0].replace(',', '')
-                fullName['first'] = raw[1]
+                if ',' in raw[0]:
+                    fullName['last'] = raw[0].replace(',', '')
+                    fullName['first'] = raw[1]
+                   
+                else:
+                    fullName['first'] = raw[0]
+                    fullName['last'] = raw[1]
+                    
+                    
             elif len(raw) == 3:
                 fullName['last'] = raw[0].replace(',', '')
                 fullName['first'] = raw[1]
                 fullName['middle'] = raw[2]
             self.makeAuthorLog.info(f'Full Name: {fullName}')
 
-            # Check if Author(first, last) already exists
-            try:
+
+            filt = Author.objects.filter(first_name=fullName['first'],
+                                        middle_initial=fullName['middle'],
+                                        last_name=fullName['last'])
+            
+            revFilt = Author.objects.filter(first_name=fullName['last'],
+                                            middle_initial=fullName['middle'],
+                                            last_name=fullName['first'])
+            if len(filt) != 0 or len(revFilt) != 0:
+                self.roamLog.info(f'Repeat Filtered {fullName}')
+                self.roamLog.info(f'Filt: {len(filt)}\t RevFilt: {len(revFilt)}')
                 
-                existingAuthor = Author.objects.get(
-                    first_name=fullName.get('first'),
-                    last_name=fullName.get('last')
-                    )
-                self.makeAuthorLog.warn(f'Author with first={fullName.get("first")},  last={fullName.get("last")} already exists')
-
-            # If doesnt exist: make new, save, return pk
-            except Author.DoesNotExist as e:
-                self.makeAuthorLog.exception(e)
-                self.makeAuthorLog.warning('Creating new author')
-                newAuthor = Author(
-                    first_name="F_"+fullName.get('first'),
-                    middle_initial="M_"+fullName.get('middle'),
-                    last_name="L_"+fullName.get('last')
-                )
-                newAuthor.save()
-                pk = newAuthor.pk
-                self.makeAuthorLog.info(f'newAuthor.pk: {pk}')
-                return pk
-
+            
+            else:
+                try:
+                    newAuthor = Author(first_name=fullName['first'],
+                                        middle_initial=fullName['middle'],
+                                        last_name=fullName['last'])
+                    newAuthor.save()
+                    pk = newAuthor.pk
+                    self.roamLog.info(f'Created {newAuthor.first_name} {newAuthor.last_name} {pk}')
+                    return pk
+                except Exception as e:
+                    self.roamLog.warn(f'Failed to create{newAuthor.first_name} {newAuthor.last_name}')
+                    self.roamLog.error(e)
+                    return fullName
+            
         def fillAuthors():
             # Chdir to books and list file names
             bookInfoPath = 'C:\\Users\\User\\Documents\\Programming\\Python_stuff\\LibraryBuilder\\Book_Info_Json'

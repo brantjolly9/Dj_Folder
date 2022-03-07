@@ -1,0 +1,1679 @@
+INFO:Django_Logger.roam:**************************
+BEGIN NEW TEST
+INFO:Django_Logger.roam:Number of books: 2
+INFO:Django_Logger.roam:Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+INFO:Django_Logger.roam:-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+INFO:Django_Logger.roam:	Searched for: A.D. After Disclosure, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/A.D.%20After%20Disclosure?page=1&pageSize=2 HTTP/1.1" 200 1163
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 78
+INFO:Django_Logger.roam:	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+INFO:Django_Logger.roam:		SearchedAuthor: Dolan, Richard M.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:		SearchedAuthor: Zabel, Bryce
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+INFO:Django_Logger.roam:		SearchedAuthor: John Chalmers
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Chalmers', 'middle': 'z', 'last': 'John'}
+INFO:Django_Logger.roam:-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+INFO:Django_Logger.roam:	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/America%20Before%20a%20New%20Investigation%20Into%20the%20Mysteries%20of%20the%20Human%20Past%20by%20the%20Bestse?page=1&pageSize=2 HTTP/1.1" 404 60
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: None
+WARNING:Django_Logger.roam:Cannot find: GRAHAM_HANCOCK
+INFO:Django_Logger.roam:**************************
+BEGIN NEW TEST
+INFO:Django_Logger.roam:Number of books: 3
+INFO:Django_Logger.roam:Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+INFO:Django_Logger.roam:-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+INFO:Django_Logger.roam:	Searched for: A.D. After Disclosure, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/A.D.%20After%20Disclosure?page=1&pageSize=2 HTTP/1.1" 200 1163
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 78
+INFO:Django_Logger.roam:	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+INFO:Django_Logger.roam:		SearchedAuthor: Dolan, Richard M.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Created Richard Dolan 2
+INFO:Django_Logger.roam:		SearchedAuthor: Zabel, Bryce
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Created Bryce Zabel 3
+INFO:Django_Logger.roam:	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+INFO:Django_Logger.roam:		SearchedAuthor: John Chalmers
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Chalmers', 'middle': 'z', 'last': 'John'}
+INFO:Django_Logger.roam:Created Chalmers John 4
+INFO:Django_Logger.roam:-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+INFO:Django_Logger.roam:	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/America%20Before%20a%20New%20Investigation%20Into%20the%20Mysteries%20of%20the%20Human%20Past%20by%20the%20Bestse?page=1&pageSize=2 HTTP/1.1" 404 60
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: None
+WARNING:Django_Logger.roam:Cannot find: GRAHAM_HANCOCK
+INFO:Django_Logger.roam:-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+INFO:Django_Logger.roam:	Searched for: Anarchism and Other Essays, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Anarchism%20and%20Other%20Essays?page=1&pageSize=2 HTTP/1.1" 200 6021
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 9679
+INFO:Django_Logger.roam:	SearchedBook: Neck Deep and Other Predicaments: Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Monson, Ander
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Created Ander Monson 5
+INFO:Django_Logger.roam:	SearchedBook: Twenty Poems That Could Save America and Other Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Hoagland, Tony
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Created Tony Hoagland 6
+INFO:Django_Logger.roam:**************************
+BEGIN NEW TEST
+INFO:Django_Logger.roam:Number of books: 6
+INFO:Django_Logger.roam:Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+INFO:Django_Logger.roam:-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+INFO:Django_Logger.roam:	Searched for: A.D. After Disclosure, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/A.D.%20After%20Disclosure?page=1&pageSize=2 HTTP/1.1" 200 1163
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 78
+INFO:Django_Logger.roam:	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+INFO:Django_Logger.roam:		SearchedAuthor: Dolan, Richard M.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Created Richard Dolan 7
+INFO:Django_Logger.roam:		SearchedAuthor: Zabel, Bryce
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Created Bryce Zabel 8
+INFO:Django_Logger.roam:	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+INFO:Django_Logger.roam:		SearchedAuthor: John Chalmers
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Chalmers', 'middle': 'z', 'last': 'John'}
+INFO:Django_Logger.roam:Created Chalmers John 9
+INFO:Django_Logger.roam:-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+INFO:Django_Logger.roam:	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/America%20Before%20a%20New%20Investigation%20Into%20the%20Mysteries%20of%20the%20Human%20Past%20by%20the%20Bestse?page=1&pageSize=2 HTTP/1.1" 404 60
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: None
+WARNING:Django_Logger.roam:Cannot find: GRAHAM_HANCOCK
+INFO:Django_Logger.roam:-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+INFO:Django_Logger.roam:	Searched for: Anarchism and Other Essays, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Anarchism%20and%20Other%20Essays?page=1&pageSize=2 HTTP/1.1" 200 6021
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 9679
+INFO:Django_Logger.roam:	SearchedBook: Neck Deep and Other Predicaments: Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Monson, Ander
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Created Ander Monson 10
+INFO:Django_Logger.roam:	SearchedBook: Twenty Poems That Could Save America and Other Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Hoagland, Tony
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Created Tony Hoagland 11
+INFO:Django_Logger.roam:-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+INFO:Django_Logger.roam:	Searched for: Atlas Shrugged, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Atlas%20Shrugged?page=1&pageSize=2 HTTP/1.1" 200 3135
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+INFO:Django_Logger.roam:		SearchedAuthor: Netter MD, Frank H.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created z z 12
+INFO:Django_Logger.roam:	SearchedBook: A Brief Atlas Of The Human Body
+INFO:Django_Logger.roam:		SearchedAuthor: Hutchinson
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Hutchinson z 13
+INFO:Django_Logger.roam:		SearchedAuthor: Matt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Matt z 14
+INFO:Django_Logger.roam:		SearchedAuthor: Mallatt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Mallatt z 15
+INFO:Django_Logger.roam:		SearchedAuthor: Jon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Jon z 16
+INFO:Django_Logger.roam:		SearchedAuthor: Marieb
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Marieb z 17
+INFO:Django_Logger.roam:		SearchedAuthor: Elaine Nicpon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Nicpon', 'middle': 'z', 'last': 'Elaine'}
+INFO:Django_Logger.roam:Created Nicpon Elaine 18
+INFO:Django_Logger.roam:-----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+
+INFO:Django_Logger.roam:	Searched for: Beyond the Rift, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Beyond%20the%20Rift?page=1&pageSize=2 HTTP/1.1" 200 5272
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: The Twentieth Century And Beyond: A Global History
+INFO:Django_Logger.roam:		SearchedAuthor: Richard D. Goff
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Richard D. Goff	RAW: ['Richard', 'D.', 'Goff']
+INFO:Django_Logger.make_author:Full Name: {'first': 'D.', 'middle': 'Goff', 'last': 'Richard'}
+INFO:Django_Logger.roam:Created D. Richard 19
+INFO:Django_Logger.roam:		SearchedAuthor: Walter Moss
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Walter Moss	RAW: ['Walter', 'Moss']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Moss', 'middle': 'z', 'last': 'Walter'}
+INFO:Django_Logger.roam:Created Moss Walter 20
+INFO:Django_Logger.roam:		SearchedAuthor: Janice Terry
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Janice Terry	RAW: ['Janice', 'Terry']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Terry', 'middle': 'z', 'last': 'Janice'}
+INFO:Django_Logger.roam:Created Terry Janice 21
+INFO:Django_Logger.roam:	SearchedBook: Beyond Belief: Finding the Strength to Come Back
+INFO:Django_Logger.roam:		SearchedAuthor: Hamilton, Josh
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hamilton, Josh	RAW: ['Hamilton,', 'Josh']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+INFO:Django_Logger.roam:Created Josh Hamilton 22
+INFO:Django_Logger.roam:-----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+
+INFO:Django_Logger.roam:	Searched for: Collapse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Collapse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Collapse?page=1&pageSize=2 HTTP/1.1" 200 12688
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 2539
+INFO:Django_Logger.roam:	SearchedBook: Bowling Alone: The Collapse and Revival of American Community
+INFO:Django_Logger.roam:		SearchedAuthor: Putnam, Robert D.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Putnam, Robert D.	RAW: ['Putnam,', 'Robert', 'D.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+INFO:Django_Logger.roam:Created Robert Putnam 23
+INFO:Django_Logger.roam:	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse
+INFO:Django_Logger.roam:		SearchedAuthor: Brown, Lester R.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Brown, Lester R.	RAW: ['Brown,', 'Lester', 'R.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+INFO:Django_Logger.roam:Created Lester Brown 24
+INFO:Django_Logger.roam:**************************
+BEGIN NEW TEST
+INFO:Django_Logger.roam:Number of books: 10
+INFO:Django_Logger.roam:Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+INFO:Django_Logger.roam:-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+INFO:Django_Logger.roam:	Searched for: A.D. After Disclosure, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/A.D.%20After%20Disclosure?page=1&pageSize=2 HTTP/1.1" 200 1163
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 78
+INFO:Django_Logger.roam:	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+INFO:Django_Logger.roam:		SearchedAuthor: Dolan, Richard M.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Filt: 2	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Zabel, Bryce
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Filt: 2	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+INFO:Django_Logger.roam:		SearchedAuthor: John Chalmers
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Chalmers', 'middle': 'z', 'last': 'John'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Chalmers', 'middle': 'z', 'last': 'John'}
+INFO:Django_Logger.roam:Filt: 2	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+INFO:Django_Logger.roam:	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/America%20Before%20a%20New%20Investigation%20Into%20the%20Mysteries%20of%20the%20Human%20Past%20by%20the%20Bestse?page=1&pageSize=2 HTTP/1.1" 404 60
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: None
+WARNING:Django_Logger.roam:Cannot find: GRAHAM_HANCOCK
+INFO:Django_Logger.roam:-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+INFO:Django_Logger.roam:	Searched for: Anarchism and Other Essays, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Anarchism%20and%20Other%20Essays?page=1&pageSize=2 HTTP/1.1" 200 6021
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 9679
+INFO:Django_Logger.roam:	SearchedBook: Neck Deep and Other Predicaments: Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Monson, Ander
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Filt: 2	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: Twenty Poems That Could Save America and Other Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Hoagland, Tony
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Filt: 2	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+INFO:Django_Logger.roam:	Searched for: Atlas Shrugged, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Atlas%20Shrugged?page=1&pageSize=2 HTTP/1.1" 200 3135
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+INFO:Django_Logger.roam:		SearchedAuthor: Netter MD, Frank H.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 1
+INFO:Django_Logger.roam:	SearchedBook: A Brief Atlas Of The Human Body
+INFO:Django_Logger.roam:		SearchedAuthor: Hutchinson
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Matt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Mallatt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Jon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Marieb
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Elaine Nicpon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Nicpon', 'middle': 'z', 'last': 'Elaine'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Nicpon', 'middle': 'z', 'last': 'Elaine'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+
+INFO:Django_Logger.roam:	Searched for: Beyond the Rift, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Beyond%20the%20Rift?page=1&pageSize=2 HTTP/1.1" 200 5272
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: The Twentieth Century And Beyond: A Global History
+INFO:Django_Logger.roam:		SearchedAuthor: Richard D. Goff
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Richard D. Goff	RAW: ['Richard', 'D.', 'Goff']
+INFO:Django_Logger.make_author:Full Name: {'first': 'D.', 'middle': 'Goff', 'last': 'Richard'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'D.', 'middle': 'Goff', 'last': 'Richard'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Walter Moss
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Walter Moss	RAW: ['Walter', 'Moss']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Moss', 'middle': 'z', 'last': 'Walter'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Moss', 'middle': 'z', 'last': 'Walter'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Janice Terry
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Janice Terry	RAW: ['Janice', 'Terry']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Terry', 'middle': 'z', 'last': 'Janice'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Terry', 'middle': 'z', 'last': 'Janice'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: Beyond Belief: Finding the Strength to Come Back
+INFO:Django_Logger.roam:		SearchedAuthor: Hamilton, Josh
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hamilton, Josh	RAW: ['Hamilton,', 'Josh']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+
+INFO:Django_Logger.roam:	Searched for: Collapse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Collapse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Collapse?page=1&pageSize=2 HTTP/1.1" 200 12688
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 2539
+INFO:Django_Logger.roam:	SearchedBook: Bowling Alone: The Collapse and Revival of American Community
+INFO:Django_Logger.roam:		SearchedAuthor: Putnam, Robert D.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Putnam, Robert D.	RAW: ['Putnam,', 'Robert', 'D.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse
+INFO:Django_Logger.roam:		SearchedAuthor: Brown, Lester R.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Brown, Lester R.	RAW: ['Brown,', 'Lester', 'R.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+
+INFO:Django_Logger.roam:	Searched for: Crystallizing Public Opinion, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Crystallizing%20Public%20Opinion?page=1&pageSize=2 HTTP/1.1" 200 2721
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 2056
+INFO:Django_Logger.roam:	SearchedBook: American Public Opinion (9th Edition)
+INFO:Django_Logger.roam:		SearchedAuthor: Erikson, Robert S.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Erikson, Robert S.	RAW: ['Erikson,', 'Robert', 'S.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+INFO:Django_Logger.roam:Created Robert Erikson 25
+INFO:Django_Logger.roam:		SearchedAuthor: Tedin, Kent L.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Tedin, Kent L.	RAW: ['Tedin,', 'Kent', 'L.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+INFO:Django_Logger.roam:Created Kent Tedin 26
+INFO:Django_Logger.roam:	SearchedBook: Public Opinion: Measuring the American Mind
+INFO:Django_Logger.roam:		SearchedAuthor: Bardes, Barbara A.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Bardes, Barbara A.	RAW: ['Bardes,', 'Barbara', 'A.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+INFO:Django_Logger.roam:Created Barbara Bardes 27
+INFO:Django_Logger.roam:		SearchedAuthor: Oldendick, Robert W.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Oldendick, Robert W.	RAW: ['Oldendick,', 'Robert', 'W.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+INFO:Django_Logger.roam:Created Robert Oldendick 28
+INFO:Django_Logger.roam:-----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+
+INFO:Django_Logger.roam:	Searched for: Dictionary of Symbols, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Dictionary%20of%20Symbols?page=1&pageSize=2 HTTP/1.1" 200 6593
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin)
+INFO:Django_Logger.roam:		SearchedAuthor: Chevalier, Jean
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Chevalier, Jean	RAW: ['Chevalier,', 'Jean']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+INFO:Django_Logger.roam:Created Jean Chevalier 29
+INFO:Django_Logger.roam:		SearchedAuthor: Gheerbrant, Alain
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Gheerbrant, Alain	RAW: ['Gheerbrant,', 'Alain']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+INFO:Django_Logger.roam:Created Alain Gheerbrant 30
+INFO:Django_Logger.roam:	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+INFO:Django_Logger.roam:		SearchedAuthor: Adelson-Goldstein, Jayme
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Adelson-Goldstein, Jayme	RAW: ['Adelson-Goldstein,', 'Jayme']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+INFO:Django_Logger.roam:Created Jayme Adelson-Goldstein 31
+INFO:Django_Logger.roam:		SearchedAuthor: Shapiro, Norma
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Shapiro, Norma	RAW: ['Shapiro,', 'Norma']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+INFO:Django_Logger.roam:Created Norma Shapiro 32
+INFO:Django_Logger.roam:-----------------------
+Title: Go
+FileAuthor: Ch'ihun_Cho
+
+INFO:Django_Logger.roam:	Searched for: Go, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Go
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Go?page=1&pageSize=2 HTTP/1.1" 200 9424
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Go! with Office 2013, Volume 1
+INFO:Django_Logger.roam:		SearchedAuthor: Gaskin, Shelley
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Gaskin, Shelley	RAW: ['Gaskin,', 'Shelley']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Shelley', 'middle': 'z', 'last': 'Gaskin'}
+INFO:Django_Logger.roam:Created Shelley Gaskin 33
+INFO:Django_Logger.roam:		SearchedAuthor: Vargas, Alicia
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Vargas, Alicia	RAW: ['Vargas,', 'Alicia']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Alicia', 'middle': 'z', 'last': 'Vargas'}
+INFO:Django_Logger.roam:Created Alicia Vargas 34
+INFO:Django_Logger.roam:		SearchedAuthor: McLellan, Carolyn
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: McLellan, Carolyn	RAW: ['McLellan,', 'Carolyn']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Carolyn', 'middle': 'z', 'last': 'McLellan'}
+INFO:Django_Logger.roam:Created Carolyn McLellan 35
+INFO:Django_Logger.roam:	SearchedBook: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set
+INFO:Django_Logger.roam:		SearchedAuthor: Michael A. Singer
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Michael A. Singer	RAW: ['Michael', 'A.', 'Singer']
+INFO:Django_Logger.make_author:Full Name: {'first': 'A.', 'middle': 'Singer', 'last': 'Michael'}
+INFO:Django_Logger.roam:Created A. Michael 36
+INFO:Django_Logger.roam:		SearchedAuthor: David R. Hawkins MD PhD
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: David R. Hawkins MD PhD	RAW: ['David', 'R.', 'Hawkins', 'MD', 'PhD']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 1
+INFO:Django_Logger.roam:		SearchedAuthor: Marianne Williamson
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Marianne Williamson	RAW: ['Marianne', 'Williamson']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Williamson', 'middle': 'z', 'last': 'Marianne'}
+INFO:Django_Logger.roam:Created Williamson Marianne 37
+INFO:Django_Logger.roam:-----------------------
+Title: Hallucinogenic Plants
+FileAuthor: Richard_Evans_Schultes
+
+INFO:Django_Logger.roam:	Searched for: Hallucinogenic Plants, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Hallucinogenic Plants
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Hallucinogenic%20Plants?page=1&pageSize=2 HTTP/1.1" 200 6500
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Plants and Society
+INFO:Django_Logger.roam:		SearchedAuthor: Levetin, Estelle
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Levetin, Estelle	RAW: ['Levetin,', 'Estelle']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Estelle', 'middle': 'z', 'last': 'Levetin'}
+INFO:Django_Logger.roam:Created Estelle Levetin 38
+INFO:Django_Logger.roam:		SearchedAuthor: McMahon, Karen
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: McMahon, Karen	RAW: ['McMahon,', 'Karen']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Karen', 'middle': 'z', 'last': 'McMahon'}
+INFO:Django_Logger.roam:Created Karen McMahon 39
+INFO:Django_Logger.roam:	SearchedBook: Medical Botany: Plants Affecting Human Health
+INFO:Django_Logger.roam:		SearchedAuthor: Walter Hepworth Lewis
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Walter Hepworth Lewis	RAW: ['Walter', 'Hepworth', 'Lewis']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Hepworth', 'middle': 'Lewis', 'last': 'Walter'}
+INFO:Django_Logger.roam:Created Hepworth Walter 40
+INFO:Django_Logger.roam:		SearchedAuthor: Memory P. F. Elvin-Lewis
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Memory P. F. Elvin-Lewis	RAW: ['Memory', 'P.', 'F.', 'Elvin-Lewis']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 1
+INFO:Django_Logger.roam:**************************
+BEGIN NEW TEST
+INFO:Django_Logger.roam:Number of books: 5
+INFO:Django_Logger.roam:Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+INFO:Django_Logger.roam:-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+INFO:Django_Logger.roam:	Searched for: A.D. After Disclosure, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/A.D.%20After%20Disclosure?page=1&pageSize=2 HTTP/1.1" 200 1163
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 78
+INFO:Django_Logger.roam:	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+INFO:Django_Logger.roam:		SearchedAuthor: Dolan, Richard M.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Created Richard Dolan 41
+INFO:Django_Logger.roam:		SearchedAuthor: Zabel, Bryce
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Created Bryce Zabel 42
+INFO:Django_Logger.roam:	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+INFO:Django_Logger.roam:		SearchedAuthor: John Chalmers
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Chalmers', 'middle': 'z', 'last': 'John'}
+INFO:Django_Logger.roam:Created Chalmers John 43
+INFO:Django_Logger.roam:-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+INFO:Django_Logger.roam:	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/America%20Before%20a%20New%20Investigation%20Into%20the%20Mysteries%20of%20the%20Human%20Past%20by%20the%20Bestse?page=1&pageSize=2 HTTP/1.1" 404 60
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: None
+WARNING:Django_Logger.roam:Cannot find: GRAHAM_HANCOCK
+INFO:Django_Logger.roam:-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+INFO:Django_Logger.roam:	Searched for: Anarchism and Other Essays, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Anarchism%20and%20Other%20Essays?page=1&pageSize=2 HTTP/1.1" 200 6021
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 9679
+INFO:Django_Logger.roam:	SearchedBook: Neck Deep and Other Predicaments: Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Monson, Ander
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Created Ander Monson 44
+INFO:Django_Logger.roam:	SearchedBook: Twenty Poems That Could Save America and Other Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Hoagland, Tony
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Created Tony Hoagland 45
+INFO:Django_Logger.roam:-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+INFO:Django_Logger.roam:	Searched for: Atlas Shrugged, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Atlas%20Shrugged?page=1&pageSize=2 HTTP/1.1" 200 3135
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+INFO:Django_Logger.roam:		SearchedAuthor: Netter MD, Frank H.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created z z 46
+INFO:Django_Logger.roam:	SearchedBook: A Brief Atlas Of The Human Body
+INFO:Django_Logger.roam:		SearchedAuthor: Hutchinson
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Hutchinson z 47
+INFO:Django_Logger.roam:		SearchedAuthor: Matt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Matt z 48
+INFO:Django_Logger.roam:		SearchedAuthor: Mallatt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Mallatt z 49
+INFO:Django_Logger.roam:		SearchedAuthor: Jon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Jon z 50
+INFO:Django_Logger.roam:		SearchedAuthor: Marieb
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Marieb z 51
+INFO:Django_Logger.roam:		SearchedAuthor: Elaine Nicpon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Nicpon', 'middle': 'z', 'last': 'Elaine'}
+INFO:Django_Logger.roam:Created Nicpon Elaine 52
+INFO:Django_Logger.roam:-----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+
+INFO:Django_Logger.roam:	Searched for: Beyond the Rift, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Beyond%20the%20Rift?page=1&pageSize=2 HTTP/1.1" 200 5272
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: The Twentieth Century And Beyond: A Global History
+INFO:Django_Logger.roam:		SearchedAuthor: Richard D. Goff
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Richard D. Goff	RAW: ['Richard', 'D.', 'Goff']
+INFO:Django_Logger.make_author:Full Name: {'first': 'D.', 'middle': 'Goff', 'last': 'Richard'}
+INFO:Django_Logger.roam:Created D. Richard 53
+INFO:Django_Logger.roam:		SearchedAuthor: Walter Moss
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Walter Moss	RAW: ['Walter', 'Moss']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Moss', 'middle': 'z', 'last': 'Walter'}
+INFO:Django_Logger.roam:Created Moss Walter 54
+INFO:Django_Logger.roam:		SearchedAuthor: Janice Terry
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Janice Terry	RAW: ['Janice', 'Terry']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Terry', 'middle': 'z', 'last': 'Janice'}
+INFO:Django_Logger.roam:Created Terry Janice 55
+INFO:Django_Logger.roam:	SearchedBook: Beyond Belief: Finding the Strength to Come Back
+INFO:Django_Logger.roam:		SearchedAuthor: Hamilton, Josh
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hamilton, Josh	RAW: ['Hamilton,', 'Josh']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+INFO:Django_Logger.roam:Created Josh Hamilton 56
+INFO:Django_Logger.roam:**************************
+BEGIN NEW TEST
+INFO:Django_Logger.roam:Number of books: 8
+INFO:Django_Logger.roam:Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+INFO:Django_Logger.roam:-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+INFO:Django_Logger.roam:	Searched for: A.D. After Disclosure, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/A.D.%20After%20Disclosure?page=1&pageSize=2 HTTP/1.1" 200 1163
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 78
+INFO:Django_Logger.roam:	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+INFO:Django_Logger.roam:		SearchedAuthor: Dolan, Richard M.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Zabel, Bryce
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+INFO:Django_Logger.roam:		SearchedAuthor: John Chalmers
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Chalmers', 'middle': 'z', 'last': 'John'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Chalmers', 'middle': 'z', 'last': 'John'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+INFO:Django_Logger.roam:	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/America%20Before%20a%20New%20Investigation%20Into%20the%20Mysteries%20of%20the%20Human%20Past%20by%20the%20Bestse?page=1&pageSize=2 HTTP/1.1" 404 60
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: None
+WARNING:Django_Logger.roam:Cannot find: GRAHAM_HANCOCK
+INFO:Django_Logger.roam:-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+INFO:Django_Logger.roam:	Searched for: Anarchism and Other Essays, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Anarchism%20and%20Other%20Essays?page=1&pageSize=2 HTTP/1.1" 200 6021
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 9679
+INFO:Django_Logger.roam:	SearchedBook: Neck Deep and Other Predicaments: Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Monson, Ander
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: Twenty Poems That Could Save America and Other Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Hoagland, Tony
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+INFO:Django_Logger.roam:	Searched for: Atlas Shrugged, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Atlas%20Shrugged?page=1&pageSize=2 HTTP/1.1" 200 3135
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+INFO:Django_Logger.roam:		SearchedAuthor: Netter MD, Frank H.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 1
+INFO:Django_Logger.roam:	SearchedBook: A Brief Atlas Of The Human Body
+INFO:Django_Logger.roam:		SearchedAuthor: Hutchinson
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Matt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Mallatt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Jon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Marieb
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Elaine Nicpon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Nicpon', 'middle': 'z', 'last': 'Elaine'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Nicpon', 'middle': 'z', 'last': 'Elaine'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+
+INFO:Django_Logger.roam:	Searched for: Beyond the Rift, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Beyond%20the%20Rift?page=1&pageSize=2 HTTP/1.1" 200 5272
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: The Twentieth Century And Beyond: A Global History
+INFO:Django_Logger.roam:		SearchedAuthor: Richard D. Goff
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Richard D. Goff	RAW: ['Richard', 'D.', 'Goff']
+INFO:Django_Logger.make_author:Full Name: {'first': 'D.', 'middle': 'Goff', 'last': 'Richard'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'D.', 'middle': 'Goff', 'last': 'Richard'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Walter Moss
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Walter Moss	RAW: ['Walter', 'Moss']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Moss', 'middle': 'z', 'last': 'Walter'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Moss', 'middle': 'z', 'last': 'Walter'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Janice Terry
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Janice Terry	RAW: ['Janice', 'Terry']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Terry', 'middle': 'z', 'last': 'Janice'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Terry', 'middle': 'z', 'last': 'Janice'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: Beyond Belief: Finding the Strength to Come Back
+INFO:Django_Logger.roam:		SearchedAuthor: Hamilton, Josh
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hamilton, Josh	RAW: ['Hamilton,', 'Josh']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+
+INFO:Django_Logger.roam:	Searched for: Collapse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Collapse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Collapse?page=1&pageSize=2 HTTP/1.1" 200 12688
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 2539
+INFO:Django_Logger.roam:	SearchedBook: Bowling Alone: The Collapse and Revival of American Community
+INFO:Django_Logger.roam:		SearchedAuthor: Putnam, Robert D.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Putnam, Robert D.	RAW: ['Putnam,', 'Robert', 'D.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+INFO:Django_Logger.roam:Created Robert Putnam 57
+INFO:Django_Logger.roam:	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse
+INFO:Django_Logger.roam:		SearchedAuthor: Brown, Lester R.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Brown, Lester R.	RAW: ['Brown,', 'Lester', 'R.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+INFO:Django_Logger.roam:Created Lester Brown 58
+INFO:Django_Logger.roam:-----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+
+INFO:Django_Logger.roam:	Searched for: Crystallizing Public Opinion, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Crystallizing%20Public%20Opinion?page=1&pageSize=2 HTTP/1.1" 200 2721
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 2056
+INFO:Django_Logger.roam:	SearchedBook: American Public Opinion (9th Edition)
+INFO:Django_Logger.roam:		SearchedAuthor: Erikson, Robert S.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Erikson, Robert S.	RAW: ['Erikson,', 'Robert', 'S.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+INFO:Django_Logger.roam:Created Robert Erikson 59
+INFO:Django_Logger.roam:		SearchedAuthor: Tedin, Kent L.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Tedin, Kent L.	RAW: ['Tedin,', 'Kent', 'L.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+INFO:Django_Logger.roam:Created Kent Tedin 60
+INFO:Django_Logger.roam:	SearchedBook: Public Opinion: Measuring the American Mind
+INFO:Django_Logger.roam:		SearchedAuthor: Bardes, Barbara A.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Bardes, Barbara A.	RAW: ['Bardes,', 'Barbara', 'A.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+INFO:Django_Logger.roam:Created Barbara Bardes 61
+INFO:Django_Logger.roam:		SearchedAuthor: Oldendick, Robert W.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Oldendick, Robert W.	RAW: ['Oldendick,', 'Robert', 'W.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+INFO:Django_Logger.roam:Created Robert Oldendick 62
+INFO:Django_Logger.roam:-----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+
+INFO:Django_Logger.roam:	Searched for: Dictionary of Symbols, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Dictionary%20of%20Symbols?page=1&pageSize=2 HTTP/1.1" 200 6593
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin)
+INFO:Django_Logger.roam:		SearchedAuthor: Chevalier, Jean
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Chevalier, Jean	RAW: ['Chevalier,', 'Jean']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+INFO:Django_Logger.roam:Created Jean Chevalier 63
+INFO:Django_Logger.roam:		SearchedAuthor: Gheerbrant, Alain
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Gheerbrant, Alain	RAW: ['Gheerbrant,', 'Alain']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+INFO:Django_Logger.roam:Created Alain Gheerbrant 64
+INFO:Django_Logger.roam:	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+INFO:Django_Logger.roam:		SearchedAuthor: Adelson-Goldstein, Jayme
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Adelson-Goldstein, Jayme	RAW: ['Adelson-Goldstein,', 'Jayme']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+INFO:Django_Logger.roam:Created Jayme Adelson-Goldstein 65
+INFO:Django_Logger.roam:		SearchedAuthor: Shapiro, Norma
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Shapiro, Norma	RAW: ['Shapiro,', 'Norma']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+INFO:Django_Logger.roam:Created Norma Shapiro 66
+INFO:Django_Logger.roam:**************************
+BEGIN NEW TEST
+INFO:Django_Logger.roam:Number of books: 4
+INFO:Django_Logger.roam:Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+INFO:Django_Logger.roam:-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+INFO:Django_Logger.roam:	Searched for: A.D. After Disclosure, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/A.D.%20After%20Disclosure?page=1&pageSize=2 HTTP/1.1" 200 1163
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 78
+INFO:Django_Logger.roam:	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+INFO:Django_Logger.roam:		SearchedAuthor: Dolan, Richard M.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Created Richard Dolan 67
+INFO:Django_Logger.roam:		SearchedAuthor: Zabel, Bryce
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+WARNING:Django_Logger.roam:{'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Created Bryce Zabel 68
+INFO:Django_Logger.roam:	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+INFO:Django_Logger.roam:		SearchedAuthor: John Chalmers
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+WARNING:Django_Logger.roam:{'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.roam:Created John Chalmers 69
+INFO:Django_Logger.roam:-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+INFO:Django_Logger.roam:	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/America%20Before%20a%20New%20Investigation%20Into%20the%20Mysteries%20of%20the%20Human%20Past%20by%20the%20Bestse?page=1&pageSize=2 HTTP/1.1" 404 60
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: None
+WARNING:Django_Logger.roam:Cannot find: GRAHAM_HANCOCK
+INFO:Django_Logger.roam:-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+INFO:Django_Logger.roam:	Searched for: Anarchism and Other Essays, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Anarchism%20and%20Other%20Essays?page=1&pageSize=2 HTTP/1.1" 200 6021
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 9679
+INFO:Django_Logger.roam:	SearchedBook: Neck Deep and Other Predicaments: Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Monson, Ander
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+WARNING:Django_Logger.roam:{'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Created Ander Monson 70
+INFO:Django_Logger.roam:	SearchedBook: Twenty Poems That Could Save America and Other Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Hoagland, Tony
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+WARNING:Django_Logger.roam:{'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Created Tony Hoagland 71
+INFO:Django_Logger.roam:-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+INFO:Django_Logger.roam:	Searched for: Atlas Shrugged, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Atlas%20Shrugged?page=1&pageSize=2 HTTP/1.1" 200 3135
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+INFO:Django_Logger.roam:		SearchedAuthor: Netter MD, Frank H.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created z z 72
+INFO:Django_Logger.roam:	SearchedBook: A Brief Atlas Of The Human Body
+INFO:Django_Logger.roam:		SearchedAuthor: Hutchinson
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Hutchinson z 73
+INFO:Django_Logger.roam:		SearchedAuthor: Matt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Matt z 74
+INFO:Django_Logger.roam:		SearchedAuthor: Mallatt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Mallatt z 75
+INFO:Django_Logger.roam:		SearchedAuthor: Jon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Jon z 76
+INFO:Django_Logger.roam:		SearchedAuthor: Marieb
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Marieb z 77
+INFO:Django_Logger.roam:		SearchedAuthor: Elaine Nicpon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+WARNING:Django_Logger.roam:{'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+INFO:Django_Logger.roam:Created Elaine Nicpon 78
+INFO:Django_Logger.roam:**************************
+BEGIN NEW TEST
+INFO:Django_Logger.roam:Number of books: 8
+INFO:Django_Logger.roam:Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+INFO:Django_Logger.roam:-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+INFO:Django_Logger.roam:	Searched for: A.D. After Disclosure, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/A.D.%20After%20Disclosure?page=1&pageSize=2 HTTP/1.1" 200 1163
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 78
+INFO:Django_Logger.roam:	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+INFO:Django_Logger.roam:		SearchedAuthor: Dolan, Richard M.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Zabel, Bryce
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+WARNING:Django_Logger.roam:{'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+INFO:Django_Logger.roam:		SearchedAuthor: John Chalmers
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+WARNING:Django_Logger.roam:{'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+INFO:Django_Logger.roam:	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/America%20Before%20a%20New%20Investigation%20Into%20the%20Mysteries%20of%20the%20Human%20Past%20by%20the%20Bestse?page=1&pageSize=2 HTTP/1.1" 404 60
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: None
+WARNING:Django_Logger.roam:Cannot find: GRAHAM_HANCOCK
+INFO:Django_Logger.roam:-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+INFO:Django_Logger.roam:	Searched for: Anarchism and Other Essays, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Anarchism%20and%20Other%20Essays?page=1&pageSize=2 HTTP/1.1" 200 6021
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 9679
+INFO:Django_Logger.roam:	SearchedBook: Neck Deep and Other Predicaments: Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Monson, Ander
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+WARNING:Django_Logger.roam:{'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: Twenty Poems That Could Save America and Other Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Hoagland, Tony
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+WARNING:Django_Logger.roam:{'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+INFO:Django_Logger.roam:	Searched for: Atlas Shrugged, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Atlas%20Shrugged?page=1&pageSize=2 HTTP/1.1" 200 3135
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+INFO:Django_Logger.roam:		SearchedAuthor: Netter MD, Frank H.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 1
+INFO:Django_Logger.roam:	SearchedBook: A Brief Atlas Of The Human Body
+INFO:Django_Logger.roam:		SearchedAuthor: Hutchinson
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Matt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Mallatt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Jon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Marieb
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Elaine Nicpon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+WARNING:Django_Logger.roam:{'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+
+INFO:Django_Logger.roam:	Searched for: Beyond the Rift, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Beyond%20the%20Rift?page=1&pageSize=2 HTTP/1.1" 200 5272
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: The Twentieth Century And Beyond: A Global History
+INFO:Django_Logger.roam:		SearchedAuthor: Richard D. Goff
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Richard D. Goff	RAW: ['Richard', 'D.', 'Goff']
+INFO:Django_Logger.make_author:Full Name: {'first': 'D.', 'middle': 'Goff', 'last': 'Richard'}
+INFO:Django_Logger.roam:Created D. Richard 79
+INFO:Django_Logger.roam:		SearchedAuthor: Walter Moss
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Walter Moss	RAW: ['Walter', 'Moss']
+WARNING:Django_Logger.roam:{'first': 'Walter', 'middle': 'z', 'last': 'Moss'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Walter', 'middle': 'z', 'last': 'Moss'}
+INFO:Django_Logger.roam:Created Walter Moss 80
+INFO:Django_Logger.roam:		SearchedAuthor: Janice Terry
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Janice Terry	RAW: ['Janice', 'Terry']
+WARNING:Django_Logger.roam:{'first': 'Janice', 'middle': 'z', 'last': 'Terry'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Janice', 'middle': 'z', 'last': 'Terry'}
+INFO:Django_Logger.roam:Created Janice Terry 81
+INFO:Django_Logger.roam:	SearchedBook: Beyond Belief: Finding the Strength to Come Back
+INFO:Django_Logger.roam:		SearchedAuthor: Hamilton, Josh
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hamilton, Josh	RAW: ['Hamilton,', 'Josh']
+WARNING:Django_Logger.roam:{'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+INFO:Django_Logger.roam:Created Josh Hamilton 82
+INFO:Django_Logger.roam:-----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+
+INFO:Django_Logger.roam:	Searched for: Collapse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Collapse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Collapse?page=1&pageSize=2 HTTP/1.1" 200 12688
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 2539
+INFO:Django_Logger.roam:	SearchedBook: Bowling Alone: The Collapse and Revival of American Community
+INFO:Django_Logger.roam:		SearchedAuthor: Putnam, Robert D.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Putnam, Robert D.	RAW: ['Putnam,', 'Robert', 'D.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+INFO:Django_Logger.roam:Created Robert Putnam 83
+INFO:Django_Logger.roam:	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse
+INFO:Django_Logger.roam:		SearchedAuthor: Brown, Lester R.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Brown, Lester R.	RAW: ['Brown,', 'Lester', 'R.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+INFO:Django_Logger.roam:Created Lester Brown 84
+INFO:Django_Logger.roam:-----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+
+INFO:Django_Logger.roam:	Searched for: Crystallizing Public Opinion, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Crystallizing%20Public%20Opinion?page=1&pageSize=2 HTTP/1.1" 200 2721
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 2056
+INFO:Django_Logger.roam:	SearchedBook: American Public Opinion (9th Edition)
+INFO:Django_Logger.roam:		SearchedAuthor: Erikson, Robert S.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Erikson, Robert S.	RAW: ['Erikson,', 'Robert', 'S.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+INFO:Django_Logger.roam:Created Robert Erikson 85
+INFO:Django_Logger.roam:		SearchedAuthor: Tedin, Kent L.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Tedin, Kent L.	RAW: ['Tedin,', 'Kent', 'L.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+INFO:Django_Logger.roam:Created Kent Tedin 86
+INFO:Django_Logger.roam:	SearchedBook: Public Opinion: Measuring the American Mind
+INFO:Django_Logger.roam:		SearchedAuthor: Bardes, Barbara A.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Bardes, Barbara A.	RAW: ['Bardes,', 'Barbara', 'A.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+INFO:Django_Logger.roam:Created Barbara Bardes 87
+INFO:Django_Logger.roam:		SearchedAuthor: Oldendick, Robert W.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Oldendick, Robert W.	RAW: ['Oldendick,', 'Robert', 'W.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+INFO:Django_Logger.roam:Created Robert Oldendick 88
+INFO:Django_Logger.roam:-----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+
+INFO:Django_Logger.roam:	Searched for: Dictionary of Symbols, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Dictionary%20of%20Symbols?page=1&pageSize=2 HTTP/1.1" 200 6593
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin)
+INFO:Django_Logger.roam:		SearchedAuthor: Chevalier, Jean
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Chevalier, Jean	RAW: ['Chevalier,', 'Jean']
+WARNING:Django_Logger.roam:{'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+INFO:Django_Logger.roam:Created Jean Chevalier 89
+INFO:Django_Logger.roam:		SearchedAuthor: Gheerbrant, Alain
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Gheerbrant, Alain	RAW: ['Gheerbrant,', 'Alain']
+WARNING:Django_Logger.roam:{'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+INFO:Django_Logger.roam:Created Alain Gheerbrant 90
+INFO:Django_Logger.roam:	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+INFO:Django_Logger.roam:		SearchedAuthor: Adelson-Goldstein, Jayme
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Adelson-Goldstein, Jayme	RAW: ['Adelson-Goldstein,', 'Jayme']
+WARNING:Django_Logger.roam:{'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+INFO:Django_Logger.roam:Created Jayme Adelson-Goldstein 91
+INFO:Django_Logger.roam:		SearchedAuthor: Shapiro, Norma
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Shapiro, Norma	RAW: ['Shapiro,', 'Norma']
+WARNING:Django_Logger.roam:{'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+INFO:Django_Logger.make_author:Full Name: {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+INFO:Django_Logger.roam:Created Norma Shapiro 92
+INFO:Django_Logger.roam:**************************
+BEGIN NEW TEST
+INFO:Django_Logger.roam:Number of books: 10
+INFO:Django_Logger.roam:Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+INFO:Django_Logger.roam:-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+INFO:Django_Logger.roam:	Searched for: A.D. After Disclosure, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/A.D.%20After%20Disclosure?page=1&pageSize=2 HTTP/1.1" 200 1163
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 78
+INFO:Django_Logger.roam:	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+INFO:Django_Logger.roam:		SearchedAuthor: Dolan, Richard M.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Zabel, Bryce
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+INFO:Django_Logger.roam:		SearchedAuthor: John Chalmers
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+INFO:Django_Logger.make_author:Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+INFO:Django_Logger.roam:	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/America%20Before%20a%20New%20Investigation%20Into%20the%20Mysteries%20of%20the%20Human%20Past%20by%20the%20Bestse?page=1&pageSize=2 HTTP/1.1" 404 60
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: None
+WARNING:Django_Logger.roam:Cannot find: GRAHAM_HANCOCK
+INFO:Django_Logger.roam:-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+INFO:Django_Logger.roam:	Searched for: Anarchism and Other Essays, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Anarchism%20and%20Other%20Essays?page=1&pageSize=2 HTTP/1.1" 200 6021
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 9679
+INFO:Django_Logger.roam:	SearchedBook: Neck Deep and Other Predicaments: Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Monson, Ander
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: Twenty Poems That Could Save America and Other Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Hoagland, Tony
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+INFO:Django_Logger.roam:	Searched for: Atlas Shrugged, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Atlas%20Shrugged?page=1&pageSize=2 HTTP/1.1" 200 3135
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+INFO:Django_Logger.roam:		SearchedAuthor: Netter MD, Frank H.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 1
+INFO:Django_Logger.roam:	SearchedBook: A Brief Atlas Of The Human Body
+INFO:Django_Logger.roam:		SearchedAuthor: Hutchinson
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Matt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Mallatt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Jon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Marieb
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Elaine Nicpon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+
+INFO:Django_Logger.roam:	Searched for: Beyond the Rift, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Beyond%20the%20Rift?page=1&pageSize=2 HTTP/1.1" 200 5272
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: The Twentieth Century And Beyond: A Global History
+INFO:Django_Logger.roam:		SearchedAuthor: Richard D. Goff
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Richard D. Goff	RAW: ['Richard', 'D.', 'Goff']
+INFO:Django_Logger.make_author:Full Name: {'first': 'D.', 'middle': 'Goff', 'last': 'Richard'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'D.', 'middle': 'Goff', 'last': 'Richard'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Walter Moss
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Walter Moss	RAW: ['Walter', 'Moss']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Walter', 'middle': 'z', 'last': 'Moss'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Walter', 'middle': 'z', 'last': 'Moss'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Janice Terry
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Janice Terry	RAW: ['Janice', 'Terry']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Janice', 'middle': 'z', 'last': 'Terry'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Janice', 'middle': 'z', 'last': 'Terry'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: Beyond Belief: Finding the Strength to Come Back
+INFO:Django_Logger.roam:		SearchedAuthor: Hamilton, Josh
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hamilton, Josh	RAW: ['Hamilton,', 'Josh']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+
+INFO:Django_Logger.roam:	Searched for: Collapse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Collapse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Collapse?page=1&pageSize=2 HTTP/1.1" 200 12688
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 2539
+INFO:Django_Logger.roam:	SearchedBook: Bowling Alone: The Collapse and Revival of American Community
+INFO:Django_Logger.roam:		SearchedAuthor: Putnam, Robert D.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Putnam, Robert D.	RAW: ['Putnam,', 'Robert', 'D.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse
+INFO:Django_Logger.roam:		SearchedAuthor: Brown, Lester R.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Brown, Lester R.	RAW: ['Brown,', 'Lester', 'R.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+
+INFO:Django_Logger.roam:	Searched for: Crystallizing Public Opinion, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Crystallizing%20Public%20Opinion?page=1&pageSize=2 HTTP/1.1" 200 2721
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 2056
+INFO:Django_Logger.roam:	SearchedBook: American Public Opinion (9th Edition)
+INFO:Django_Logger.roam:		SearchedAuthor: Erikson, Robert S.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Erikson, Robert S.	RAW: ['Erikson,', 'Robert', 'S.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Tedin, Kent L.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Tedin, Kent L.	RAW: ['Tedin,', 'Kent', 'L.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: Public Opinion: Measuring the American Mind
+INFO:Django_Logger.roam:		SearchedAuthor: Bardes, Barbara A.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Bardes, Barbara A.	RAW: ['Bardes,', 'Barbara', 'A.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Oldendick, Robert W.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Oldendick, Robert W.	RAW: ['Oldendick,', 'Robert', 'W.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+
+INFO:Django_Logger.roam:	Searched for: Dictionary of Symbols, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Dictionary%20of%20Symbols?page=1&pageSize=2 HTTP/1.1" 200 6593
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin)
+INFO:Django_Logger.roam:		SearchedAuthor: Chevalier, Jean
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Chevalier, Jean	RAW: ['Chevalier,', 'Jean']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Gheerbrant, Alain
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Gheerbrant, Alain	RAW: ['Gheerbrant,', 'Alain']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+INFO:Django_Logger.roam:		SearchedAuthor: Adelson-Goldstein, Jayme
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Adelson-Goldstein, Jayme	RAW: ['Adelson-Goldstein,', 'Jayme']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:		SearchedAuthor: Shapiro, Norma
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Shapiro, Norma	RAW: ['Shapiro,', 'Norma']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:-----------------------
+Title: Go
+FileAuthor: Ch'ihun_Cho
+
+INFO:Django_Logger.roam:	Searched for: Go, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Go
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Go?page=1&pageSize=2 HTTP/1.1" 200 9424
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Go! with Office 2013, Volume 1
+INFO:Django_Logger.roam:		SearchedAuthor: Gaskin, Shelley
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Gaskin, Shelley	RAW: ['Gaskin,', 'Shelley']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Shelley', 'middle': 'z', 'last': 'Gaskin'}
+INFO:Django_Logger.roam:Created Shelley Gaskin 93
+INFO:Django_Logger.roam:		SearchedAuthor: Vargas, Alicia
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Vargas, Alicia	RAW: ['Vargas,', 'Alicia']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Alicia', 'middle': 'z', 'last': 'Vargas'}
+INFO:Django_Logger.roam:Created Alicia Vargas 94
+INFO:Django_Logger.roam:		SearchedAuthor: McLellan, Carolyn
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: McLellan, Carolyn	RAW: ['McLellan,', 'Carolyn']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Carolyn', 'middle': 'z', 'last': 'McLellan'}
+INFO:Django_Logger.roam:Created Carolyn McLellan 95
+INFO:Django_Logger.roam:	SearchedBook: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set
+INFO:Django_Logger.roam:		SearchedAuthor: Michael A. Singer
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Michael A. Singer	RAW: ['Michael', 'A.', 'Singer']
+INFO:Django_Logger.make_author:Full Name: {'first': 'A.', 'middle': 'Singer', 'last': 'Michael'}
+INFO:Django_Logger.roam:Created A. Michael 96
+INFO:Django_Logger.roam:		SearchedAuthor: David R. Hawkins MD PhD
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: David R. Hawkins MD PhD	RAW: ['David', 'R.', 'Hawkins', 'MD', 'PhD']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 1
+INFO:Django_Logger.roam:		SearchedAuthor: Marianne Williamson
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Marianne Williamson	RAW: ['Marianne', 'Williamson']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Marianne', 'middle': 'z', 'last': 'Williamson'}
+INFO:Django_Logger.roam:Created Marianne Williamson 97
+INFO:Django_Logger.roam:-----------------------
+Title: Hallucinogenic Plants
+FileAuthor: Richard_Evans_Schultes
+
+INFO:Django_Logger.roam:	Searched for: Hallucinogenic Plants, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Hallucinogenic Plants
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Hallucinogenic%20Plants?page=1&pageSize=2 HTTP/1.1" 200 6500
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Plants and Society
+INFO:Django_Logger.roam:		SearchedAuthor: Levetin, Estelle
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Levetin, Estelle	RAW: ['Levetin,', 'Estelle']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Estelle', 'middle': 'z', 'last': 'Levetin'}
+INFO:Django_Logger.roam:Created Estelle Levetin 98
+INFO:Django_Logger.roam:		SearchedAuthor: McMahon, Karen
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: McMahon, Karen	RAW: ['McMahon,', 'Karen']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Karen', 'middle': 'z', 'last': 'McMahon'}
+INFO:Django_Logger.roam:Created Karen McMahon 99
+INFO:Django_Logger.roam:	SearchedBook: Medical Botany: Plants Affecting Human Health
+INFO:Django_Logger.roam:		SearchedAuthor: Walter Hepworth Lewis
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Walter Hepworth Lewis	RAW: ['Walter', 'Hepworth', 'Lewis']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Hepworth', 'middle': 'Lewis', 'last': 'Walter'}
+INFO:Django_Logger.roam:Created Hepworth Walter 100
+INFO:Django_Logger.roam:		SearchedAuthor: Memory P. F. Elvin-Lewis
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Memory P. F. Elvin-Lewis	RAW: ['Memory', 'P.', 'F.', 'Elvin-Lewis']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 1
