@@ -127,13 +127,32 @@ class Command(BaseCommand):
             pass
             
         def makeBook(result, writers):
+            """ Makes or updates a book model with a list of contributing authors
+
+            Args:
+                result (dict): single book result from ISDB
+                writers (list(Author)): a list of author models to attach to the book
+
+            Returns:
+                newBook: Final book model with updated authors
+            """            
+            self.makeBookLog.info(f'Title: {result.get("title")}')
             
+            # Checks if result.title matches an existing book in db
+            filt = Book.objects.filter(title=result.get('title'))
+            if len(filt) != 0:
+                oldBook = filt[0]
+                self.makeBookLog.warn(f'Filtered {oldBook.title}')
+                for author in writers:
+                    oldBook.author.add(author)
+                return oldBook
+            
+            # If not creates new book
             newBook = Book(
                 title=result.get('title'),
                 # titleLong=result.get('titleLong'),
                 imageLink=result.get('image'),
                 isbn=result.get('isbn'),
-                # author=authorObject,               #! Pass newAuthor into Book model
                 # publishedDate=result.get('date_published')
             )
 
@@ -150,11 +169,12 @@ class Command(BaseCommand):
                 newBook.pageCount = pageCount
             except Exception as e:
                 self.makeBookLog.info('No PageCount')
-            
             newBook.save()
+            
+            # Add the book to all contributing writers
             for author in writers:
                 newBook.author.add(author)
-                self.makeBookLog.info(f'Book: {newBook.title}\tWritten By: {author.last_name}')
+                self.makeBookLog.info(f'Book: {newBook.title}\nWritten By: {author.last_name}')
                 
             return newBook
             
@@ -171,7 +191,7 @@ class Command(BaseCommand):
                 name (str): name from searchedBook
 
             Returns:
-                int: Author.pk (Author's primary key)
+                Author: AUthor object, either existing or created
 
             """  
             
@@ -199,12 +219,17 @@ class Command(BaseCommand):
                     
                     
             elif len(raw) == 3:
-                fullName['last'] = raw[0].replace(',', '')
-                fullName['first'] = raw[1]
-                fullName['middle'] = raw[2]
+                if ',' in raw[0]:
+                    fullName['last'] = raw[0].replace(',', '')
+                    fullName['first'] = raw[1]
+                    fullName['middle'] = raw[2]
+                else:
+                    fullName['first'] = raw[0]
+                    fullName['middle'] = raw[1].replace(',', '')
+                    fullName['last'] = raw[2]
             self.makeAuthorLog.info(f'Full Name: {fullName}')
 
-
+            # get list of existing authors, reverse for bad formatting
             filt = Author.objects.filter(first_name=fullName['first'],
                                         middle_initial=fullName['middle'],
                                         last_name=fullName['last'])
@@ -212,6 +237,8 @@ class Command(BaseCommand):
             revFilt = Author.objects.filter(first_name=fullName['last'],
                                             middle_initial=fullName['middle'],
                                             last_name=fullName['first'])
+            
+            # if overlap return that Author model
             if len(filt) != 0 or len(revFilt) != 0:
                 self.roamLog.info(f'Repeat Filtered {fullName}')
                 self.roamLog.info(f'Filt: {len(filt)}\t RevFilt: {len(revFilt)}')
@@ -224,6 +251,7 @@ class Command(BaseCommand):
                     self.roamLog.info(f'Returned: {oldAuthor.pk}')
                     return oldAuthor
                 
+            # if no overlap return new author
             else:
                 try:
                     newAuthor = Author(first_name=fullName['first'],
@@ -233,6 +261,8 @@ class Command(BaseCommand):
                     pk = newAuthor.pk
                     self.roamLog.info(f'Created {newAuthor.first_name} {newAuthor.last_name} {pk}')
                     return newAuthor
+                
+                # if failed return none
                 except Exception as e:
                     self.roamLog.warn(f'Failed to create{newAuthor.first_name} {newAuthor.last_name}')
                     self.roamLog.error(e)
@@ -299,65 +329,7 @@ class Command(BaseCommand):
         
         log.shutdown()
         
-        # for authorObject in Author.objects.all():
-        #     # Collect all name values 
-        #     fullName = [
-        #     authorObject.first_name,
-        #     authorObject.middle_initial,
-        #     authorObject.last_name,
-        #     ]
-        #     pk = authorObject.pk
-        #     print(fullName)
-        #     searchName = ''
 
-        #     # Only searches authors with <2 'z'
-        #     if fullName.count('z') < 2:
-        #         for i in fullName:
-        #             if i != 'z':
-        #                 searchName += i + ' '
-        #         searchInfo = searchIsbn(searchName, 'author')
-
-        #         try:
-
-        #             # Get each book from author's booklist
-        #             for result in searchInfo.get('books'): 
-        #                 isbnLog.write('--Result--\n')
-        #                 json.dump(result, isbnLog, indent=2)
-        #                 isbnLog.write('----------\n')
-        #                 lang = result.get('language')
-
-        #                 # Gets results that dont have 'lang' or lang= en_US | English
-        #                 if not lang or lang == 'en_US' or lang == 'English':
-        #                     newBook = Book(
-        #                         title=result.get('title'),
-        #                         # titleLong=result.get('titleLong'),
-        #                         imageLink=result.get('image'),
-        #                         isbn=result.get('isbn'),
-        #                         author=authorObject,               #! Pass newAuthor into Book model
-        #                         # publishedDate=result.get('date_published')
-        #                     )
-
-        #                     # check if msrp exists; add
-        #                     try: 
-        #                         msrp = float(result.get('msrp'))
-        #                         newBook.msrp = msrp
-        #                     except Exception as e:
-        #                         isbnLog.write('No MSRP\n')
-
-        #                     # check if pageCount exists: add
-        #                     try:
-        #                         pageCount = int(result.get('pages'))
-        #                         newBook.pageCount = pageCount
-        #                     except Exception as e:
-        #                         isbnLog.write('No PageCount')
-
-        #                     isbnLog.write(f'Book: {newBook.title}\tWritten By: {authorObject.last_name}\nISBN: {newBook.isbn}\n')
-        #                     newBook.save()
-        #         except TypeError as e:
-        #             print(searchName)
-        #         except AttributeError as e:
-        #             print(searchName)
-                
 
 '''
 Doesnt write over author

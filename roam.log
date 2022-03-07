@@ -4849,3 +4849,1443 @@ INFO : Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'} - Dj
 INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:23:29:03s PM
 INFO : Returned: 112 - Django_Logger.roam - 06:23:29:03s PM
 WARNING : Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>] - Django_Logger.roam - 06:23:29:03s PM
+INFO : **************************
+BEGIN NEW TEST - Django_Logger.roam - 06:25:55:03s PM
+INFO : Number of books: 8 - Django_Logger.roam - 06:25:55:03s PM
+INFO : Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json - Django_Logger.roam - 06:25:55:03s PM
+INFO : -----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+ - Django_Logger.roam - 06:25:55:03s PM
+INFO : 	Searched for: A.D. After Disclosure, type: book - Django_Logger.roam - 06:25:55:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure - Django_Logger.roam - 06:25:55:03s PM
+INFO : 	Success - Django_Logger.roam - 06:25:56:03s PM
+INFO : Total Results: 78 - Django_Logger.roam - 06:25:56:03s PM
+INFO : 	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact - Django_Logger.roam - 06:25:56:03s PM
+INFO : 		SearchedAuthor: Dolan, Richard M. - Django_Logger.roam - 06:25:56:03s PM
+INFO : Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'} - Django_Logger.roam - 06:25:56:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:25:56:03s PM
+INFO : Returned: 101 - Django_Logger.roam - 06:25:56:03s PM
+INFO : 		SearchedAuthor: Zabel, Bryce - Django_Logger.roam - 06:25:56:03s PM
+INFO : Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'} - Django_Logger.roam - 06:25:56:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:25:56:03s PM
+INFO : Returned: 102 - Django_Logger.roam - 06:25:56:03s PM
+WARNING : Collab: [<Author: Dolan>, <Author: Zabel>] - Django_Logger.roam - 06:25:56:03s PM
+INFO : 	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882) - Django_Logger.roam - 06:25:56:03s PM
+INFO : 		SearchedAuthor: John Chalmers - Django_Logger.roam - 06:25:56:03s PM
+INFO : Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'} - Django_Logger.roam - 06:25:56:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:25:56:03s PM
+INFO : Returned: 103 - Django_Logger.roam - 06:25:56:03s PM
+WARNING : Collab: [<Author: Chalmers>] - Django_Logger.roam - 06:25:56:03s PM
+INFO : -----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+ - Django_Logger.roam - 06:25:56:03s PM
+INFO : 	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book - Django_Logger.roam - 06:25:56:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse - Django_Logger.roam - 06:25:56:03s PM
+INFO : 	Success - Django_Logger.roam - 06:25:57:03s PM
+INFO : Total Results: None - Django_Logger.roam - 06:25:57:03s PM
+WARNING : Cannot find: GRAHAM_HANCOCK - Django_Logger.roam - 06:25:57:03s PM
+INFO : -----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+ - Django_Logger.roam - 06:25:57:03s PM
+INFO : 	Searched for: Anarchism and Other Essays, type: book - Django_Logger.roam - 06:25:57:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays - Django_Logger.roam - 06:25:57:03s PM
+INFO : 	Success - Django_Logger.roam - 06:25:57:03s PM
+INFO : Total Results: 9679 - Django_Logger.roam - 06:25:57:03s PM
+INFO : 	SearchedBook: Neck Deep and Other Predicaments: Essays - Django_Logger.roam - 06:25:57:03s PM
+INFO : 		SearchedAuthor: Monson, Ander - Django_Logger.roam - 06:25:57:03s PM
+INFO : Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'} - Django_Logger.roam - 06:25:57:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:25:57:03s PM
+INFO : Returned: 104 - Django_Logger.roam - 06:25:57:03s PM
+WARNING : Collab: [<Author: Monson>] - Django_Logger.roam - 06:25:57:03s PM
+INFO : 	SearchedBook: Twenty Poems That Could Save America and Other Essays - Django_Logger.roam - 06:25:57:03s PM
+INFO : 		SearchedAuthor: Hoagland, Tony - Django_Logger.roam - 06:25:57:03s PM
+INFO : Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'} - Django_Logger.roam - 06:25:57:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:25:57:03s PM
+INFO : Returned: 105 - Django_Logger.roam - 06:25:57:03s PM
+WARNING : Collab: [<Author: Hoagland>] - Django_Logger.roam - 06:25:57:03s PM
+INFO : -----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+ - Django_Logger.roam - 06:25:57:03s PM
+INFO : 	Searched for: Atlas Shrugged, type: book - Django_Logger.roam - 06:25:57:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged - Django_Logger.roam - 06:25:57:03s PM
+INFO : 	Success - Django_Logger.roam - 06:25:58:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:25:58:03s PM
+INFO : 	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science) - Django_Logger.roam - 06:25:58:03s PM
+INFO : 		SearchedAuthor: Netter MD, Frank H. - Django_Logger.roam - 06:25:58:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:25:58:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:25:58:03s PM
+INFO : Returned: 106 - Django_Logger.roam - 06:25:58:03s PM
+WARNING : Collab: [<Author: z>] - Django_Logger.roam - 06:25:58:03s PM
+INFO : 	SearchedBook: A Brief Atlas Of The Human Body - Django_Logger.roam - 06:25:58:03s PM
+INFO : 		SearchedAuthor: Hutchinson - Django_Logger.roam - 06:25:58:03s PM
+INFO : Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:25:58:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:25:58:03s PM
+INFO : Returned: 107 - Django_Logger.roam - 06:25:58:03s PM
+INFO : 		SearchedAuthor: Matt - Django_Logger.roam - 06:25:58:03s PM
+INFO : Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:25:58:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:25:58:03s PM
+INFO : Returned: 108 - Django_Logger.roam - 06:25:58:03s PM
+INFO : 		SearchedAuthor: Mallatt - Django_Logger.roam - 06:25:58:03s PM
+INFO : Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:25:58:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:25:58:03s PM
+INFO : Returned: 109 - Django_Logger.roam - 06:25:58:03s PM
+INFO : 		SearchedAuthor: Jon - Django_Logger.roam - 06:25:58:03s PM
+INFO : Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:25:58:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:25:58:03s PM
+INFO : Returned: 110 - Django_Logger.roam - 06:25:58:03s PM
+INFO : 		SearchedAuthor: Marieb - Django_Logger.roam - 06:25:58:03s PM
+INFO : Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:25:58:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:25:58:03s PM
+INFO : Returned: 111 - Django_Logger.roam - 06:25:58:03s PM
+INFO : 		SearchedAuthor: Elaine Nicpon - Django_Logger.roam - 06:25:58:03s PM
+INFO : Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'} - Django_Logger.roam - 06:25:58:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:25:58:03s PM
+INFO : Returned: 112 - Django_Logger.roam - 06:25:58:03s PM
+WARNING : Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>] - Django_Logger.roam - 06:25:58:03s PM
+INFO : -----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+ - Django_Logger.roam - 06:25:58:03s PM
+INFO : 	Searched for: Beyond the Rift, type: book - Django_Logger.roam - 06:25:58:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift - Django_Logger.roam - 06:25:58:03s PM
+INFO : 	Success - Django_Logger.roam - 06:25:58:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:25:58:03s PM
+INFO : 	SearchedBook: The Twentieth Century And Beyond: A Global History - Django_Logger.roam - 06:25:58:03s PM
+INFO : 		SearchedAuthor: Richard D. Goff - Django_Logger.roam - 06:25:58:03s PM
+INFO : Created D. Richard 113 - Django_Logger.roam - 06:25:58:03s PM
+INFO : 		SearchedAuthor: Walter Moss - Django_Logger.roam - 06:25:58:03s PM
+INFO : Created Walter Moss 114 - Django_Logger.roam - 06:25:58:03s PM
+INFO : 		SearchedAuthor: Janice Terry - Django_Logger.roam - 06:25:58:03s PM
+INFO : Created Janice Terry 115 - Django_Logger.roam - 06:25:58:03s PM
+WARNING : Collab: [<Author: Richard>, <Author: Moss>, <Author: Terry>] - Django_Logger.roam - 06:25:58:03s PM
+INFO : 	SearchedBook: Beyond Belief: Finding the Strength to Come Back - Django_Logger.roam - 06:25:58:03s PM
+INFO : 		SearchedAuthor: Hamilton, Josh - Django_Logger.roam - 06:25:58:03s PM
+INFO : Created Josh Hamilton 116 - Django_Logger.roam - 06:25:58:03s PM
+WARNING : Collab: [<Author: Hamilton>] - Django_Logger.roam - 06:25:58:03s PM
+INFO : -----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+ - Django_Logger.roam - 06:25:58:03s PM
+INFO : 	Searched for: Collapse, type: book - Django_Logger.roam - 06:25:58:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Collapse - Django_Logger.roam - 06:25:58:03s PM
+INFO : 	Success - Django_Logger.roam - 06:25:59:03s PM
+INFO : Total Results: 2539 - Django_Logger.roam - 06:25:59:03s PM
+INFO : 	SearchedBook: Bowling Alone: The Collapse and Revival of American Community - Django_Logger.roam - 06:25:59:03s PM
+INFO : 		SearchedAuthor: Putnam, Robert D. - Django_Logger.roam - 06:25:59:03s PM
+INFO : Created Robert Putnam 117 - Django_Logger.roam - 06:25:59:03s PM
+WARNING : Collab: [<Author: Putnam>] - Django_Logger.roam - 06:25:59:03s PM
+INFO : 	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse - Django_Logger.roam - 06:25:59:03s PM
+INFO : 		SearchedAuthor: Brown, Lester R. - Django_Logger.roam - 06:25:59:03s PM
+INFO : Created Lester Brown 118 - Django_Logger.roam - 06:25:59:03s PM
+WARNING : Collab: [<Author: Brown>] - Django_Logger.roam - 06:25:59:03s PM
+INFO : -----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+ - Django_Logger.roam - 06:25:59:03s PM
+INFO : 	Searched for: Crystallizing Public Opinion, type: book - Django_Logger.roam - 06:25:59:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion - Django_Logger.roam - 06:25:59:03s PM
+INFO : 	Success - Django_Logger.roam - 06:25:59:03s PM
+INFO : Total Results: 2056 - Django_Logger.roam - 06:25:59:03s PM
+INFO : 	SearchedBook: American Public Opinion (9th Edition) - Django_Logger.roam - 06:25:59:03s PM
+INFO : 		SearchedAuthor: Erikson, Robert S. - Django_Logger.roam - 06:25:59:03s PM
+INFO : Created Robert Erikson 119 - Django_Logger.roam - 06:25:59:03s PM
+INFO : 		SearchedAuthor: Tedin, Kent L. - Django_Logger.roam - 06:25:59:03s PM
+INFO : Created Kent Tedin 120 - Django_Logger.roam - 06:25:59:03s PM
+WARNING : Collab: [<Author: Erikson>, <Author: Tedin>] - Django_Logger.roam - 06:25:59:03s PM
+INFO : 	SearchedBook: Public Opinion: Measuring the American Mind - Django_Logger.roam - 06:25:59:03s PM
+INFO : 		SearchedAuthor: Bardes, Barbara A. - Django_Logger.roam - 06:25:59:03s PM
+INFO : Created Barbara Bardes 121 - Django_Logger.roam - 06:25:59:03s PM
+INFO : 		SearchedAuthor: Oldendick, Robert W. - Django_Logger.roam - 06:25:59:03s PM
+INFO : Created Robert Oldendick 122 - Django_Logger.roam - 06:25:59:03s PM
+WARNING : Collab: [<Author: Bardes>, <Author: Oldendick>] - Django_Logger.roam - 06:25:59:03s PM
+INFO : -----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+ - Django_Logger.roam - 06:25:59:03s PM
+INFO : 	Searched for: Dictionary of Symbols, type: book - Django_Logger.roam - 06:25:59:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols - Django_Logger.roam - 06:25:59:03s PM
+INFO : 	Success - Django_Logger.roam - 06:26:00:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:26:00:03s PM
+INFO : 	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin) - Django_Logger.roam - 06:26:00:03s PM
+INFO : 		SearchedAuthor: Chevalier, Jean - Django_Logger.roam - 06:26:00:03s PM
+INFO : Created Jean Chevalier 123 - Django_Logger.roam - 06:26:00:03s PM
+INFO : 		SearchedAuthor: Gheerbrant, Alain - Django_Logger.roam - 06:26:00:03s PM
+INFO : Created Alain Gheerbrant 124 - Django_Logger.roam - 06:26:00:03s PM
+WARNING : Collab: [<Author: Chevalier>, <Author: Gheerbrant>] - Django_Logger.roam - 06:26:00:03s PM
+INFO : 	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E) - Django_Logger.roam - 06:26:00:03s PM
+INFO : 		SearchedAuthor: Adelson-Goldstein, Jayme - Django_Logger.roam - 06:26:00:03s PM
+INFO : Created Jayme Adelson-Goldstein 125 - Django_Logger.roam - 06:26:00:03s PM
+INFO : 		SearchedAuthor: Shapiro, Norma - Django_Logger.roam - 06:26:00:03s PM
+INFO : Created Norma Shapiro 126 - Django_Logger.roam - 06:26:00:03s PM
+WARNING : Collab: [<Author: Adelson-Goldstein>, <Author: Shapiro>] - Django_Logger.roam - 06:26:00:03s PM
+INFO : **************************
+BEGIN NEW TEST - Django_Logger.roam - 06:28:51:03s PM
+INFO : Number of books: 10 - Django_Logger.roam - 06:28:51:03s PM
+INFO : Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json - Django_Logger.roam - 06:28:51:03s PM
+INFO : -----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+ - Django_Logger.roam - 06:28:51:03s PM
+INFO : 	Searched for: A.D. After Disclosure, type: book - Django_Logger.roam - 06:28:51:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure - Django_Logger.roam - 06:28:51:03s PM
+INFO : 	Success - Django_Logger.roam - 06:28:52:03s PM
+INFO : Total Results: 78 - Django_Logger.roam - 06:28:52:03s PM
+INFO : 	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact - Django_Logger.roam - 06:28:52:03s PM
+INFO : 		SearchedAuthor: Dolan, Richard M. - Django_Logger.roam - 06:28:52:03s PM
+INFO : Created Richard Dolan 127 - Django_Logger.roam - 06:28:52:03s PM
+INFO : 		SearchedAuthor: Zabel, Bryce - Django_Logger.roam - 06:28:52:03s PM
+INFO : Created Bryce Zabel 128 - Django_Logger.roam - 06:28:52:03s PM
+WARNING : Collab: [<Author: Dolan>, <Author: Zabel>] - Django_Logger.roam - 06:28:52:03s PM
+INFO : 	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882) - Django_Logger.roam - 06:28:52:03s PM
+INFO : 		SearchedAuthor: John Chalmers - Django_Logger.roam - 06:28:52:03s PM
+INFO : Created John Chalmers 129 - Django_Logger.roam - 06:28:52:03s PM
+WARNING : Collab: [<Author: Chalmers>] - Django_Logger.roam - 06:28:52:03s PM
+INFO : -----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+ - Django_Logger.roam - 06:28:52:03s PM
+INFO : 	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book - Django_Logger.roam - 06:28:52:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse - Django_Logger.roam - 06:28:52:03s PM
+INFO : 	Success - Django_Logger.roam - 06:28:53:03s PM
+INFO : Total Results: None - Django_Logger.roam - 06:28:53:03s PM
+WARNING : Cannot find: GRAHAM_HANCOCK - Django_Logger.roam - 06:28:53:03s PM
+INFO : -----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+ - Django_Logger.roam - 06:28:53:03s PM
+INFO : 	Searched for: Anarchism and Other Essays, type: book - Django_Logger.roam - 06:28:53:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays - Django_Logger.roam - 06:28:53:03s PM
+INFO : 	Success - Django_Logger.roam - 06:28:53:03s PM
+INFO : Total Results: 9679 - Django_Logger.roam - 06:28:53:03s PM
+INFO : 	SearchedBook: Neck Deep and Other Predicaments: Essays - Django_Logger.roam - 06:28:53:03s PM
+INFO : 		SearchedAuthor: Monson, Ander - Django_Logger.roam - 06:28:53:03s PM
+INFO : Created Ander Monson 130 - Django_Logger.roam - 06:28:53:03s PM
+WARNING : Collab: [<Author: Monson>] - Django_Logger.roam - 06:28:53:03s PM
+INFO : 	SearchedBook: Twenty Poems That Could Save America and Other Essays - Django_Logger.roam - 06:28:53:03s PM
+INFO : 		SearchedAuthor: Hoagland, Tony - Django_Logger.roam - 06:28:53:03s PM
+INFO : Created Tony Hoagland 131 - Django_Logger.roam - 06:28:53:03s PM
+WARNING : Collab: [<Author: Hoagland>] - Django_Logger.roam - 06:28:53:03s PM
+INFO : -----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+ - Django_Logger.roam - 06:28:53:03s PM
+INFO : 	Searched for: Atlas Shrugged, type: book - Django_Logger.roam - 06:28:53:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged - Django_Logger.roam - 06:28:53:03s PM
+INFO : 	Success - Django_Logger.roam - 06:28:54:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:28:54:03s PM
+INFO : 	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science) - Django_Logger.roam - 06:28:54:03s PM
+INFO : 		SearchedAuthor: Netter MD, Frank H. - Django_Logger.roam - 06:28:54:03s PM
+INFO : Created z z 132 - Django_Logger.roam - 06:28:54:03s PM
+WARNING : Collab: [<Author: z>] - Django_Logger.roam - 06:28:54:03s PM
+INFO : 	SearchedBook: A Brief Atlas Of The Human Body - Django_Logger.roam - 06:28:54:03s PM
+INFO : 		SearchedAuthor: Hutchinson - Django_Logger.roam - 06:28:54:03s PM
+INFO : Created Hutchinson z 133 - Django_Logger.roam - 06:28:54:03s PM
+INFO : 		SearchedAuthor: Matt - Django_Logger.roam - 06:28:54:03s PM
+INFO : Created Matt z 134 - Django_Logger.roam - 06:28:54:03s PM
+INFO : 		SearchedAuthor: Mallatt - Django_Logger.roam - 06:28:54:03s PM
+INFO : Created Mallatt z 135 - Django_Logger.roam - 06:28:54:03s PM
+INFO : 		SearchedAuthor: Jon - Django_Logger.roam - 06:28:54:03s PM
+INFO : Created Jon z 136 - Django_Logger.roam - 06:28:54:03s PM
+INFO : 		SearchedAuthor: Marieb - Django_Logger.roam - 06:28:54:03s PM
+INFO : Created Marieb z 137 - Django_Logger.roam - 06:28:54:03s PM
+INFO : 		SearchedAuthor: Elaine Nicpon - Django_Logger.roam - 06:28:54:03s PM
+INFO : Created Elaine Nicpon 138 - Django_Logger.roam - 06:28:54:03s PM
+WARNING : Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>] - Django_Logger.roam - 06:28:54:03s PM
+INFO : -----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+ - Django_Logger.roam - 06:28:54:03s PM
+INFO : 	Searched for: Beyond the Rift, type: book - Django_Logger.roam - 06:28:54:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift - Django_Logger.roam - 06:28:54:03s PM
+INFO : 	Success - Django_Logger.roam - 06:28:54:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:28:54:03s PM
+INFO : 	SearchedBook: The Twentieth Century And Beyond: A Global History - Django_Logger.roam - 06:28:54:03s PM
+INFO : 		SearchedAuthor: Richard D. Goff - Django_Logger.roam - 06:28:54:03s PM
+INFO : Created Goff Richard 139 - Django_Logger.roam - 06:28:54:03s PM
+INFO : 		SearchedAuthor: Walter Moss - Django_Logger.roam - 06:28:54:03s PM
+INFO : Created Walter Moss 140 - Django_Logger.roam - 06:28:54:03s PM
+INFO : 		SearchedAuthor: Janice Terry - Django_Logger.roam - 06:28:54:03s PM
+INFO : Created Janice Terry 141 - Django_Logger.roam - 06:28:54:03s PM
+WARNING : Collab: [<Author: Richard>, <Author: Moss>, <Author: Terry>] - Django_Logger.roam - 06:28:54:03s PM
+INFO : 	SearchedBook: Beyond Belief: Finding the Strength to Come Back - Django_Logger.roam - 06:28:54:03s PM
+INFO : 		SearchedAuthor: Hamilton, Josh - Django_Logger.roam - 06:28:54:03s PM
+INFO : Created Josh Hamilton 142 - Django_Logger.roam - 06:28:54:03s PM
+WARNING : Collab: [<Author: Hamilton>] - Django_Logger.roam - 06:28:54:03s PM
+INFO : -----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+ - Django_Logger.roam - 06:28:54:03s PM
+INFO : 	Searched for: Collapse, type: book - Django_Logger.roam - 06:28:54:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Collapse - Django_Logger.roam - 06:28:54:03s PM
+INFO : 	Success - Django_Logger.roam - 06:28:54:03s PM
+INFO : Total Results: 2539 - Django_Logger.roam - 06:28:54:03s PM
+INFO : 	SearchedBook: Bowling Alone: The Collapse and Revival of American Community - Django_Logger.roam - 06:28:54:03s PM
+INFO : 		SearchedAuthor: Putnam, Robert D. - Django_Logger.roam - 06:28:54:03s PM
+INFO : Created Robert Putnam 143 - Django_Logger.roam - 06:28:54:03s PM
+WARNING : Collab: [<Author: Putnam>] - Django_Logger.roam - 06:28:54:03s PM
+INFO : 	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse - Django_Logger.roam - 06:28:54:03s PM
+INFO : 		SearchedAuthor: Brown, Lester R. - Django_Logger.roam - 06:28:54:03s PM
+INFO : Created Lester Brown 144 - Django_Logger.roam - 06:28:55:03s PM
+WARNING : Collab: [<Author: Brown>] - Django_Logger.roam - 06:28:55:03s PM
+INFO : -----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+ - Django_Logger.roam - 06:28:55:03s PM
+INFO : 	Searched for: Crystallizing Public Opinion, type: book - Django_Logger.roam - 06:28:55:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion - Django_Logger.roam - 06:28:55:03s PM
+INFO : 	Success - Django_Logger.roam - 06:28:55:03s PM
+INFO : Total Results: 2056 - Django_Logger.roam - 06:28:55:03s PM
+INFO : 	SearchedBook: American Public Opinion (9th Edition) - Django_Logger.roam - 06:28:55:03s PM
+INFO : 		SearchedAuthor: Erikson, Robert S. - Django_Logger.roam - 06:28:55:03s PM
+INFO : Created Robert Erikson 145 - Django_Logger.roam - 06:28:55:03s PM
+INFO : 		SearchedAuthor: Tedin, Kent L. - Django_Logger.roam - 06:28:55:03s PM
+INFO : Created Kent Tedin 146 - Django_Logger.roam - 06:28:55:03s PM
+WARNING : Collab: [<Author: Erikson>, <Author: Tedin>] - Django_Logger.roam - 06:28:55:03s PM
+INFO : 	SearchedBook: Public Opinion: Measuring the American Mind - Django_Logger.roam - 06:28:55:03s PM
+INFO : 		SearchedAuthor: Bardes, Barbara A. - Django_Logger.roam - 06:28:55:03s PM
+INFO : Created Barbara Bardes 147 - Django_Logger.roam - 06:28:55:03s PM
+INFO : 		SearchedAuthor: Oldendick, Robert W. - Django_Logger.roam - 06:28:55:03s PM
+INFO : Created Robert Oldendick 148 - Django_Logger.roam - 06:28:55:03s PM
+WARNING : Collab: [<Author: Bardes>, <Author: Oldendick>] - Django_Logger.roam - 06:28:55:03s PM
+INFO : -----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+ - Django_Logger.roam - 06:28:55:03s PM
+INFO : 	Searched for: Dictionary of Symbols, type: book - Django_Logger.roam - 06:28:55:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols - Django_Logger.roam - 06:28:55:03s PM
+INFO : 	Success - Django_Logger.roam - 06:28:56:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:28:56:03s PM
+INFO : 	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin) - Django_Logger.roam - 06:28:56:03s PM
+INFO : 		SearchedAuthor: Chevalier, Jean - Django_Logger.roam - 06:28:56:03s PM
+INFO : Created Jean Chevalier 149 - Django_Logger.roam - 06:28:56:03s PM
+INFO : 		SearchedAuthor: Gheerbrant, Alain - Django_Logger.roam - 06:28:56:03s PM
+INFO : Created Alain Gheerbrant 150 - Django_Logger.roam - 06:28:56:03s PM
+WARNING : Collab: [<Author: Chevalier>, <Author: Gheerbrant>] - Django_Logger.roam - 06:28:56:03s PM
+INFO : 	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E) - Django_Logger.roam - 06:28:56:03s PM
+INFO : 		SearchedAuthor: Adelson-Goldstein, Jayme - Django_Logger.roam - 06:28:56:03s PM
+INFO : Created Jayme Adelson-Goldstein 151 - Django_Logger.roam - 06:28:56:03s PM
+INFO : 		SearchedAuthor: Shapiro, Norma - Django_Logger.roam - 06:28:56:03s PM
+INFO : Created Norma Shapiro 152 - Django_Logger.roam - 06:28:56:03s PM
+WARNING : Collab: [<Author: Adelson-Goldstein>, <Author: Shapiro>] - Django_Logger.roam - 06:28:56:03s PM
+INFO : -----------------------
+Title: Go
+FileAuthor: Ch'ihun_Cho
+ - Django_Logger.roam - 06:28:56:03s PM
+INFO : 	Searched for: Go, type: book - Django_Logger.roam - 06:28:56:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Go - Django_Logger.roam - 06:28:56:03s PM
+INFO : 	Success - Django_Logger.roam - 06:28:56:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:28:56:03s PM
+INFO : 	SearchedBook: Go! with Office 2013, Volume 1 - Django_Logger.roam - 06:28:56:03s PM
+INFO : 		SearchedAuthor: Gaskin, Shelley - Django_Logger.roam - 06:28:56:03s PM
+INFO : Created Shelley Gaskin 153 - Django_Logger.roam - 06:28:56:03s PM
+INFO : 		SearchedAuthor: Vargas, Alicia - Django_Logger.roam - 06:28:56:03s PM
+INFO : Created Alicia Vargas 154 - Django_Logger.roam - 06:28:56:03s PM
+INFO : 		SearchedAuthor: McLellan, Carolyn - Django_Logger.roam - 06:28:56:03s PM
+INFO : Created Carolyn McLellan 155 - Django_Logger.roam - 06:28:56:03s PM
+WARNING : Collab: [<Author: Gaskin>, <Author: Vargas>, <Author: McLellan>] - Django_Logger.roam - 06:28:56:03s PM
+INFO : 	SearchedBook: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set - Django_Logger.roam - 06:28:56:03s PM
+INFO : 		SearchedAuthor: Michael A. Singer - Django_Logger.roam - 06:28:56:03s PM
+INFO : Created Singer Michael 156 - Django_Logger.roam - 06:28:56:03s PM
+INFO : 		SearchedAuthor: David R. Hawkins MD PhD - Django_Logger.roam - 06:28:56:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:28:56:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:28:56:03s PM
+INFO : Returned: 132 - Django_Logger.roam - 06:28:56:03s PM
+INFO : 		SearchedAuthor: Marianne Williamson - Django_Logger.roam - 06:28:56:03s PM
+INFO : Created Marianne Williamson 157 - Django_Logger.roam - 06:28:56:03s PM
+WARNING : Collab: [<Author: Michael>, <Author: z>, <Author: Williamson>] - Django_Logger.roam - 06:28:56:03s PM
+INFO : -----------------------
+Title: Hallucinogenic Plants
+FileAuthor: Richard_Evans_Schultes
+ - Django_Logger.roam - 06:28:56:03s PM
+INFO : 	Searched for: Hallucinogenic Plants, type: book - Django_Logger.roam - 06:28:56:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Hallucinogenic Plants - Django_Logger.roam - 06:28:56:03s PM
+INFO : 	Success - Django_Logger.roam - 06:28:57:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:28:57:03s PM
+INFO : 	SearchedBook: Plants and Society - Django_Logger.roam - 06:28:57:03s PM
+INFO : 		SearchedAuthor: Levetin, Estelle - Django_Logger.roam - 06:28:57:03s PM
+INFO : Created Estelle Levetin 158 - Django_Logger.roam - 06:28:57:03s PM
+INFO : 		SearchedAuthor: McMahon, Karen - Django_Logger.roam - 06:28:57:03s PM
+INFO : Created Karen McMahon 159 - Django_Logger.roam - 06:28:57:03s PM
+WARNING : Collab: [<Author: Levetin>, <Author: McMahon>] - Django_Logger.roam - 06:28:57:03s PM
+INFO : 	SearchedBook: Medical Botany: Plants Affecting Human Health - Django_Logger.roam - 06:28:57:03s PM
+INFO : 		SearchedAuthor: Walter Hepworth Lewis - Django_Logger.roam - 06:28:57:03s PM
+INFO : Created Lewis Walter 160 - Django_Logger.roam - 06:28:57:03s PM
+INFO : 		SearchedAuthor: Memory P. F. Elvin-Lewis - Django_Logger.roam - 06:28:57:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:28:57:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:28:57:03s PM
+INFO : Returned: 132 - Django_Logger.roam - 06:28:57:03s PM
+WARNING : Collab: [<Author: Walter>, <Author: z>] - Django_Logger.roam - 06:28:57:03s PM
+INFO : **************************
+BEGIN NEW TEST - Django_Logger.roam - 06:30:22:03s PM
+INFO : Number of books: 10 - Django_Logger.roam - 06:30:22:03s PM
+INFO : Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json - Django_Logger.roam - 06:30:22:03s PM
+INFO : -----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+ - Django_Logger.roam - 06:30:22:03s PM
+INFO : 	Searched for: A.D. After Disclosure, type: book - Django_Logger.roam - 06:30:22:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure - Django_Logger.roam - 06:30:22:03s PM
+INFO : 	Success - Django_Logger.roam - 06:30:23:03s PM
+INFO : Total Results: 78 - Django_Logger.roam - 06:30:23:03s PM
+INFO : 	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact - Django_Logger.roam - 06:30:23:03s PM
+INFO : 		SearchedAuthor: Dolan, Richard M. - Django_Logger.roam - 06:30:23:03s PM
+INFO : Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'} - Django_Logger.roam - 06:30:23:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:23:03s PM
+INFO : Returned: 127 - Django_Logger.roam - 06:30:23:03s PM
+INFO : 		SearchedAuthor: Zabel, Bryce - Django_Logger.roam - 06:30:23:03s PM
+INFO : Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'} - Django_Logger.roam - 06:30:23:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:23:03s PM
+INFO : Returned: 128 - Django_Logger.roam - 06:30:23:03s PM
+WARNING : Collab: [<Author: Dolan>, <Author: Zabel>] - Django_Logger.roam - 06:30:23:03s PM
+INFO : 	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882) - Django_Logger.roam - 06:30:23:03s PM
+INFO : 		SearchedAuthor: John Chalmers - Django_Logger.roam - 06:30:23:03s PM
+INFO : Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'} - Django_Logger.roam - 06:30:23:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:23:03s PM
+INFO : Returned: 129 - Django_Logger.roam - 06:30:23:03s PM
+WARNING : Collab: [<Author: Chalmers>] - Django_Logger.roam - 06:30:23:03s PM
+INFO : -----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+ - Django_Logger.roam - 06:30:23:03s PM
+INFO : 	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book - Django_Logger.roam - 06:30:23:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse - Django_Logger.roam - 06:30:23:03s PM
+INFO : 	Success - Django_Logger.roam - 06:30:23:03s PM
+INFO : Total Results: None - Django_Logger.roam - 06:30:23:03s PM
+WARNING : Cannot find: GRAHAM_HANCOCK - Django_Logger.roam - 06:30:23:03s PM
+INFO : -----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+ - Django_Logger.roam - 06:30:23:03s PM
+INFO : 	Searched for: Anarchism and Other Essays, type: book - Django_Logger.roam - 06:30:23:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays - Django_Logger.roam - 06:30:23:03s PM
+INFO : 	Success - Django_Logger.roam - 06:30:24:03s PM
+INFO : Total Results: 9679 - Django_Logger.roam - 06:30:24:03s PM
+INFO : 	SearchedBook: Neck Deep and Other Predicaments: Essays - Django_Logger.roam - 06:30:24:03s PM
+INFO : 		SearchedAuthor: Monson, Ander - Django_Logger.roam - 06:30:24:03s PM
+INFO : Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'} - Django_Logger.roam - 06:30:24:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:24:03s PM
+INFO : Returned: 130 - Django_Logger.roam - 06:30:24:03s PM
+WARNING : Collab: [<Author: Monson>] - Django_Logger.roam - 06:30:24:03s PM
+INFO : 	SearchedBook: Twenty Poems That Could Save America and Other Essays - Django_Logger.roam - 06:30:24:03s PM
+INFO : 		SearchedAuthor: Hoagland, Tony - Django_Logger.roam - 06:30:24:03s PM
+INFO : Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'} - Django_Logger.roam - 06:30:24:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:24:03s PM
+INFO : Returned: 131 - Django_Logger.roam - 06:30:24:03s PM
+WARNING : Collab: [<Author: Hoagland>] - Django_Logger.roam - 06:30:24:03s PM
+INFO : -----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+ - Django_Logger.roam - 06:30:24:03s PM
+INFO : 	Searched for: Atlas Shrugged, type: book - Django_Logger.roam - 06:30:24:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged - Django_Logger.roam - 06:30:24:03s PM
+INFO : 	Success - Django_Logger.roam - 06:30:24:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:30:24:03s PM
+INFO : 	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science) - Django_Logger.roam - 06:30:24:03s PM
+INFO : 		SearchedAuthor: Netter MD, Frank H. - Django_Logger.roam - 06:30:24:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:30:24:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:30:24:03s PM
+INFO : Returned: 132 - Django_Logger.roam - 06:30:24:03s PM
+WARNING : Collab: [<Author: z>] - Django_Logger.roam - 06:30:24:03s PM
+INFO : 	SearchedBook: A Brief Atlas Of The Human Body - Django_Logger.roam - 06:30:24:03s PM
+INFO : 		SearchedAuthor: Hutchinson - Django_Logger.roam - 06:30:24:03s PM
+INFO : Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:30:24:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:24:03s PM
+INFO : Returned: 133 - Django_Logger.roam - 06:30:24:03s PM
+INFO : 		SearchedAuthor: Matt - Django_Logger.roam - 06:30:24:03s PM
+INFO : Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:30:24:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:24:03s PM
+INFO : Returned: 134 - Django_Logger.roam - 06:30:24:03s PM
+INFO : 		SearchedAuthor: Mallatt - Django_Logger.roam - 06:30:24:03s PM
+INFO : Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:30:24:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:24:03s PM
+INFO : Returned: 135 - Django_Logger.roam - 06:30:24:03s PM
+INFO : 		SearchedAuthor: Jon - Django_Logger.roam - 06:30:24:03s PM
+INFO : Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:30:24:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:24:03s PM
+INFO : Returned: 136 - Django_Logger.roam - 06:30:24:03s PM
+INFO : 		SearchedAuthor: Marieb - Django_Logger.roam - 06:30:24:03s PM
+INFO : Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:30:24:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:24:03s PM
+INFO : Returned: 137 - Django_Logger.roam - 06:30:24:03s PM
+INFO : 		SearchedAuthor: Elaine Nicpon - Django_Logger.roam - 06:30:24:03s PM
+INFO : Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'} - Django_Logger.roam - 06:30:24:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:24:03s PM
+INFO : Returned: 138 - Django_Logger.roam - 06:30:24:03s PM
+WARNING : Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>] - Django_Logger.roam - 06:30:24:03s PM
+INFO : -----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+ - Django_Logger.roam - 06:30:24:03s PM
+INFO : 	Searched for: Beyond the Rift, type: book - Django_Logger.roam - 06:30:24:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift - Django_Logger.roam - 06:30:24:03s PM
+INFO : 	Success - Django_Logger.roam - 06:30:25:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	SearchedBook: The Twentieth Century And Beyond: A Global History - Django_Logger.roam - 06:30:25:03s PM
+INFO : 		SearchedAuthor: Richard D. Goff - Django_Logger.roam - 06:30:25:03s PM
+INFO : Repeat Filtered {'first': 'Richard', 'middle': 'D.', 'last': 'Goff'} - Django_Logger.roam - 06:30:25:03s PM
+INFO : Filt: 0	 RevFilt: 1 - Django_Logger.roam - 06:30:25:03s PM
+INFO : Returned: 139 - Django_Logger.roam - 06:30:25:03s PM
+INFO : 		SearchedAuthor: Walter Moss - Django_Logger.roam - 06:30:25:03s PM
+INFO : Repeat Filtered {'first': 'Walter', 'middle': 'z', 'last': 'Moss'} - Django_Logger.roam - 06:30:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:25:03s PM
+INFO : Returned: 140 - Django_Logger.roam - 06:30:25:03s PM
+INFO : 		SearchedAuthor: Janice Terry - Django_Logger.roam - 06:30:25:03s PM
+INFO : Repeat Filtered {'first': 'Janice', 'middle': 'z', 'last': 'Terry'} - Django_Logger.roam - 06:30:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:25:03s PM
+INFO : Returned: 141 - Django_Logger.roam - 06:30:25:03s PM
+WARNING : Collab: [<Author: Richard>, <Author: Moss>, <Author: Terry>] - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	SearchedBook: Beyond Belief: Finding the Strength to Come Back - Django_Logger.roam - 06:30:25:03s PM
+INFO : 		SearchedAuthor: Hamilton, Josh - Django_Logger.roam - 06:30:25:03s PM
+INFO : Repeat Filtered {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'} - Django_Logger.roam - 06:30:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:25:03s PM
+INFO : Returned: 142 - Django_Logger.roam - 06:30:25:03s PM
+WARNING : Collab: [<Author: Hamilton>] - Django_Logger.roam - 06:30:25:03s PM
+INFO : -----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+ - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	Searched for: Collapse, type: book - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Collapse - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	Success - Django_Logger.roam - 06:30:25:03s PM
+INFO : Total Results: 2539 - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	SearchedBook: Bowling Alone: The Collapse and Revival of American Community - Django_Logger.roam - 06:30:25:03s PM
+INFO : 		SearchedAuthor: Putnam, Robert D. - Django_Logger.roam - 06:30:25:03s PM
+INFO : Repeat Filtered {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'} - Django_Logger.roam - 06:30:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:25:03s PM
+INFO : Returned: 143 - Django_Logger.roam - 06:30:25:03s PM
+WARNING : Collab: [<Author: Putnam>] - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse - Django_Logger.roam - 06:30:25:03s PM
+INFO : 		SearchedAuthor: Brown, Lester R. - Django_Logger.roam - 06:30:25:03s PM
+INFO : Repeat Filtered {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'} - Django_Logger.roam - 06:30:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:25:03s PM
+INFO : Returned: 144 - Django_Logger.roam - 06:30:25:03s PM
+WARNING : Collab: [<Author: Brown>] - Django_Logger.roam - 06:30:25:03s PM
+INFO : -----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+ - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	Searched for: Crystallizing Public Opinion, type: book - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	Success - Django_Logger.roam - 06:30:25:03s PM
+INFO : Total Results: 2056 - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	SearchedBook: American Public Opinion (9th Edition) - Django_Logger.roam - 06:30:25:03s PM
+INFO : 		SearchedAuthor: Erikson, Robert S. - Django_Logger.roam - 06:30:25:03s PM
+INFO : Repeat Filtered {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'} - Django_Logger.roam - 06:30:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:25:03s PM
+INFO : Returned: 145 - Django_Logger.roam - 06:30:25:03s PM
+INFO : 		SearchedAuthor: Tedin, Kent L. - Django_Logger.roam - 06:30:25:03s PM
+INFO : Repeat Filtered {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'} - Django_Logger.roam - 06:30:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:25:03s PM
+INFO : Returned: 146 - Django_Logger.roam - 06:30:25:03s PM
+WARNING : Collab: [<Author: Erikson>, <Author: Tedin>] - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	SearchedBook: Public Opinion: Measuring the American Mind - Django_Logger.roam - 06:30:25:03s PM
+INFO : 		SearchedAuthor: Bardes, Barbara A. - Django_Logger.roam - 06:30:25:03s PM
+INFO : Repeat Filtered {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'} - Django_Logger.roam - 06:30:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:25:03s PM
+INFO : Returned: 147 - Django_Logger.roam - 06:30:25:03s PM
+INFO : 		SearchedAuthor: Oldendick, Robert W. - Django_Logger.roam - 06:30:25:03s PM
+INFO : Repeat Filtered {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'} - Django_Logger.roam - 06:30:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:25:03s PM
+INFO : Returned: 148 - Django_Logger.roam - 06:30:25:03s PM
+WARNING : Collab: [<Author: Bardes>, <Author: Oldendick>] - Django_Logger.roam - 06:30:25:03s PM
+INFO : -----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+ - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	Searched for: Dictionary of Symbols, type: book - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols - Django_Logger.roam - 06:30:25:03s PM
+INFO : 	Success - Django_Logger.roam - 06:30:26:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:30:26:03s PM
+INFO : 	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin) - Django_Logger.roam - 06:30:26:03s PM
+INFO : 		SearchedAuthor: Chevalier, Jean - Django_Logger.roam - 06:30:26:03s PM
+INFO : Repeat Filtered {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'} - Django_Logger.roam - 06:30:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:26:03s PM
+INFO : Returned: 149 - Django_Logger.roam - 06:30:26:03s PM
+INFO : 		SearchedAuthor: Gheerbrant, Alain - Django_Logger.roam - 06:30:26:03s PM
+INFO : Repeat Filtered {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'} - Django_Logger.roam - 06:30:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:26:03s PM
+INFO : Returned: 150 - Django_Logger.roam - 06:30:26:03s PM
+WARNING : Collab: [<Author: Chevalier>, <Author: Gheerbrant>] - Django_Logger.roam - 06:30:26:03s PM
+INFO : 	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E) - Django_Logger.roam - 06:30:26:03s PM
+INFO : 		SearchedAuthor: Adelson-Goldstein, Jayme - Django_Logger.roam - 06:30:26:03s PM
+INFO : Repeat Filtered {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'} - Django_Logger.roam - 06:30:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:26:03s PM
+INFO : Returned: 151 - Django_Logger.roam - 06:30:26:03s PM
+INFO : 		SearchedAuthor: Shapiro, Norma - Django_Logger.roam - 06:30:26:03s PM
+INFO : Repeat Filtered {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'} - Django_Logger.roam - 06:30:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:26:03s PM
+INFO : Returned: 152 - Django_Logger.roam - 06:30:26:03s PM
+WARNING : Collab: [<Author: Adelson-Goldstein>, <Author: Shapiro>] - Django_Logger.roam - 06:30:26:03s PM
+INFO : -----------------------
+Title: Go
+FileAuthor: Ch'ihun_Cho
+ - Django_Logger.roam - 06:30:26:03s PM
+INFO : 	Searched for: Go, type: book - Django_Logger.roam - 06:30:26:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Go - Django_Logger.roam - 06:30:26:03s PM
+INFO : 	Success - Django_Logger.roam - 06:30:26:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:30:26:03s PM
+INFO : 	SearchedBook: Go! with Office 2013, Volume 1 - Django_Logger.roam - 06:30:26:03s PM
+INFO : 		SearchedAuthor: Gaskin, Shelley - Django_Logger.roam - 06:30:26:03s PM
+INFO : Repeat Filtered {'first': 'Shelley', 'middle': 'z', 'last': 'Gaskin'} - Django_Logger.roam - 06:30:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:26:03s PM
+INFO : Returned: 153 - Django_Logger.roam - 06:30:26:03s PM
+INFO : 		SearchedAuthor: Vargas, Alicia - Django_Logger.roam - 06:30:26:03s PM
+INFO : Repeat Filtered {'first': 'Alicia', 'middle': 'z', 'last': 'Vargas'} - Django_Logger.roam - 06:30:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:26:03s PM
+INFO : Returned: 154 - Django_Logger.roam - 06:30:26:03s PM
+INFO : 		SearchedAuthor: McLellan, Carolyn - Django_Logger.roam - 06:30:26:03s PM
+INFO : Repeat Filtered {'first': 'Carolyn', 'middle': 'z', 'last': 'McLellan'} - Django_Logger.roam - 06:30:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:26:03s PM
+INFO : Returned: 155 - Django_Logger.roam - 06:30:26:03s PM
+WARNING : Collab: [<Author: Gaskin>, <Author: Vargas>, <Author: McLellan>] - Django_Logger.roam - 06:30:26:03s PM
+INFO : 	SearchedBook: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set - Django_Logger.roam - 06:30:26:03s PM
+INFO : 		SearchedAuthor: Michael A. Singer - Django_Logger.roam - 06:30:26:03s PM
+INFO : Repeat Filtered {'first': 'Michael', 'middle': 'A.', 'last': 'Singer'} - Django_Logger.roam - 06:30:26:03s PM
+INFO : Filt: 0	 RevFilt: 1 - Django_Logger.roam - 06:30:26:03s PM
+INFO : Returned: 156 - Django_Logger.roam - 06:30:26:03s PM
+INFO : 		SearchedAuthor: David R. Hawkins MD PhD - Django_Logger.roam - 06:30:26:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:30:26:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:30:26:03s PM
+INFO : Returned: 132 - Django_Logger.roam - 06:30:26:03s PM
+INFO : 		SearchedAuthor: Marianne Williamson - Django_Logger.roam - 06:30:26:03s PM
+INFO : Repeat Filtered {'first': 'Marianne', 'middle': 'z', 'last': 'Williamson'} - Django_Logger.roam - 06:30:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:26:03s PM
+INFO : Returned: 157 - Django_Logger.roam - 06:30:26:03s PM
+WARNING : Collab: [<Author: Michael>, <Author: z>, <Author: Williamson>] - Django_Logger.roam - 06:30:26:03s PM
+INFO : -----------------------
+Title: Hallucinogenic Plants
+FileAuthor: Richard_Evans_Schultes
+ - Django_Logger.roam - 06:30:26:03s PM
+INFO : 	Searched for: Hallucinogenic Plants, type: book - Django_Logger.roam - 06:30:26:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Hallucinogenic Plants - Django_Logger.roam - 06:30:26:03s PM
+INFO : 	Success - Django_Logger.roam - 06:30:27:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:30:27:03s PM
+INFO : 	SearchedBook: Plants and Society - Django_Logger.roam - 06:30:27:03s PM
+INFO : 		SearchedAuthor: Levetin, Estelle - Django_Logger.roam - 06:30:27:03s PM
+INFO : Repeat Filtered {'first': 'Estelle', 'middle': 'z', 'last': 'Levetin'} - Django_Logger.roam - 06:30:27:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:27:03s PM
+INFO : Returned: 158 - Django_Logger.roam - 06:30:27:03s PM
+INFO : 		SearchedAuthor: McMahon, Karen - Django_Logger.roam - 06:30:27:03s PM
+INFO : Repeat Filtered {'first': 'Karen', 'middle': 'z', 'last': 'McMahon'} - Django_Logger.roam - 06:30:27:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:30:27:03s PM
+INFO : Returned: 159 - Django_Logger.roam - 06:30:27:03s PM
+WARNING : Collab: [<Author: Levetin>, <Author: McMahon>] - Django_Logger.roam - 06:30:27:03s PM
+INFO : 	SearchedBook: Medical Botany: Plants Affecting Human Health - Django_Logger.roam - 06:30:27:03s PM
+INFO : 		SearchedAuthor: Walter Hepworth Lewis - Django_Logger.roam - 06:30:27:03s PM
+INFO : Repeat Filtered {'first': 'Walter', 'middle': 'Hepworth', 'last': 'Lewis'} - Django_Logger.roam - 06:30:27:03s PM
+INFO : Filt: 0	 RevFilt: 1 - Django_Logger.roam - 06:30:27:03s PM
+INFO : Returned: 160 - Django_Logger.roam - 06:30:27:03s PM
+INFO : 		SearchedAuthor: Memory P. F. Elvin-Lewis - Django_Logger.roam - 06:30:27:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:30:27:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:30:27:03s PM
+INFO : Returned: 132 - Django_Logger.roam - 06:30:27:03s PM
+WARNING : Collab: [<Author: Walter>, <Author: z>] - Django_Logger.roam - 06:30:27:03s PM
+INFO : **************************
+BEGIN NEW TEST - Django_Logger.roam - 06:31:48:03s PM
+INFO : Number of books: 10 - Django_Logger.roam - 06:31:48:03s PM
+INFO : Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json - Django_Logger.roam - 06:31:48:03s PM
+INFO : -----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+ - Django_Logger.roam - 06:31:48:03s PM
+INFO : 	Searched for: A.D. After Disclosure, type: book - Django_Logger.roam - 06:31:48:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure - Django_Logger.roam - 06:31:48:03s PM
+INFO : 	Success - Django_Logger.roam - 06:31:48:03s PM
+INFO : Total Results: 78 - Django_Logger.roam - 06:31:48:03s PM
+INFO : 	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact - Django_Logger.roam - 06:31:48:03s PM
+INFO : 		SearchedAuthor: Dolan, Richard M. - Django_Logger.roam - 06:31:48:03s PM
+INFO : Created Richard Dolan 161 - Django_Logger.roam - 06:31:48:03s PM
+INFO : 		SearchedAuthor: Zabel, Bryce - Django_Logger.roam - 06:31:48:03s PM
+INFO : Created Bryce Zabel 162 - Django_Logger.roam - 06:31:48:03s PM
+WARNING : Collab: [<Author: Dolan>, <Author: Zabel>] - Django_Logger.roam - 06:31:48:03s PM
+INFO : 	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882) - Django_Logger.roam - 06:31:48:03s PM
+INFO : 		SearchedAuthor: John Chalmers - Django_Logger.roam - 06:31:48:03s PM
+INFO : Created John Chalmers 163 - Django_Logger.roam - 06:31:48:03s PM
+WARNING : Collab: [<Author: Chalmers>] - Django_Logger.roam - 06:31:48:03s PM
+INFO : -----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+ - Django_Logger.roam - 06:31:48:03s PM
+INFO : 	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book - Django_Logger.roam - 06:31:48:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse - Django_Logger.roam - 06:31:48:03s PM
+INFO : 	Success - Django_Logger.roam - 06:31:49:03s PM
+INFO : Total Results: None - Django_Logger.roam - 06:31:49:03s PM
+WARNING : Cannot find: GRAHAM_HANCOCK - Django_Logger.roam - 06:31:49:03s PM
+INFO : -----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+ - Django_Logger.roam - 06:31:49:03s PM
+INFO : 	Searched for: Anarchism and Other Essays, type: book - Django_Logger.roam - 06:31:49:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays - Django_Logger.roam - 06:31:49:03s PM
+INFO : 	Success - Django_Logger.roam - 06:31:49:03s PM
+INFO : Total Results: 9679 - Django_Logger.roam - 06:31:49:03s PM
+INFO : 	SearchedBook: Neck Deep and Other Predicaments: Essays - Django_Logger.roam - 06:31:49:03s PM
+INFO : 		SearchedAuthor: Monson, Ander - Django_Logger.roam - 06:31:49:03s PM
+INFO : Created Ander Monson 164 - Django_Logger.roam - 06:31:49:03s PM
+WARNING : Collab: [<Author: Monson>] - Django_Logger.roam - 06:31:49:03s PM
+INFO : 	SearchedBook: Twenty Poems That Could Save America and Other Essays - Django_Logger.roam - 06:31:49:03s PM
+INFO : 		SearchedAuthor: Hoagland, Tony - Django_Logger.roam - 06:31:49:03s PM
+INFO : Created Tony Hoagland 165 - Django_Logger.roam - 06:31:49:03s PM
+WARNING : Collab: [<Author: Hoagland>] - Django_Logger.roam - 06:31:49:03s PM
+INFO : -----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+ - Django_Logger.roam - 06:31:49:03s PM
+INFO : 	Searched for: Atlas Shrugged, type: book - Django_Logger.roam - 06:31:49:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged - Django_Logger.roam - 06:31:49:03s PM
+INFO : 	Success - Django_Logger.roam - 06:31:50:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:31:50:03s PM
+INFO : 	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science) - Django_Logger.roam - 06:31:50:03s PM
+INFO : 		SearchedAuthor: Netter MD, Frank H. - Django_Logger.roam - 06:31:50:03s PM
+INFO : Created z z 166 - Django_Logger.roam - 06:31:50:03s PM
+WARNING : Collab: [<Author: z>] - Django_Logger.roam - 06:31:50:03s PM
+INFO : 	SearchedBook: A Brief Atlas Of The Human Body - Django_Logger.roam - 06:31:50:03s PM
+INFO : 		SearchedAuthor: Hutchinson - Django_Logger.roam - 06:31:50:03s PM
+INFO : Created Hutchinson z 167 - Django_Logger.roam - 06:31:50:03s PM
+INFO : 		SearchedAuthor: Matt - Django_Logger.roam - 06:31:50:03s PM
+INFO : Created Matt z 168 - Django_Logger.roam - 06:31:50:03s PM
+INFO : 		SearchedAuthor: Mallatt - Django_Logger.roam - 06:31:50:03s PM
+INFO : Created Mallatt z 169 - Django_Logger.roam - 06:31:50:03s PM
+INFO : 		SearchedAuthor: Jon - Django_Logger.roam - 06:31:50:03s PM
+INFO : Created Jon z 170 - Django_Logger.roam - 06:31:50:03s PM
+INFO : 		SearchedAuthor: Marieb - Django_Logger.roam - 06:31:50:03s PM
+INFO : Created Marieb z 171 - Django_Logger.roam - 06:31:50:03s PM
+INFO : 		SearchedAuthor: Elaine Nicpon - Django_Logger.roam - 06:31:50:03s PM
+INFO : Created Elaine Nicpon 172 - Django_Logger.roam - 06:31:50:03s PM
+WARNING : Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>] - Django_Logger.roam - 06:31:50:03s PM
+INFO : -----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+ - Django_Logger.roam - 06:31:50:03s PM
+INFO : 	Searched for: Beyond the Rift, type: book - Django_Logger.roam - 06:31:50:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift - Django_Logger.roam - 06:31:50:03s PM
+INFO : 	Success - Django_Logger.roam - 06:31:50:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:31:50:03s PM
+INFO : 	SearchedBook: The Twentieth Century And Beyond: A Global History - Django_Logger.roam - 06:31:50:03s PM
+INFO : 		SearchedAuthor: Richard D. Goff - Django_Logger.roam - 06:31:50:03s PM
+INFO : Created Richard Goff 173 - Django_Logger.roam - 06:31:50:03s PM
+INFO : 		SearchedAuthor: Walter Moss - Django_Logger.roam - 06:31:50:03s PM
+INFO : Created Walter Moss 174 - Django_Logger.roam - 06:31:50:03s PM
+INFO : 		SearchedAuthor: Janice Terry - Django_Logger.roam - 06:31:50:03s PM
+INFO : Created Janice Terry 175 - Django_Logger.roam - 06:31:50:03s PM
+WARNING : Collab: [<Author: Goff>, <Author: Moss>, <Author: Terry>] - Django_Logger.roam - 06:31:50:03s PM
+INFO : 	SearchedBook: Beyond Belief: Finding the Strength to Come Back - Django_Logger.roam - 06:31:50:03s PM
+INFO : 		SearchedAuthor: Hamilton, Josh - Django_Logger.roam - 06:31:50:03s PM
+INFO : Created Josh Hamilton 176 - Django_Logger.roam - 06:31:50:03s PM
+WARNING : Collab: [<Author: Hamilton>] - Django_Logger.roam - 06:31:50:03s PM
+INFO : -----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+ - Django_Logger.roam - 06:31:50:03s PM
+INFO : 	Searched for: Collapse, type: book - Django_Logger.roam - 06:31:50:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Collapse - Django_Logger.roam - 06:31:50:03s PM
+INFO : 	Success - Django_Logger.roam - 06:31:51:03s PM
+INFO : Total Results: 2539 - Django_Logger.roam - 06:31:51:03s PM
+INFO : 	SearchedBook: Bowling Alone: The Collapse and Revival of American Community - Django_Logger.roam - 06:31:51:03s PM
+INFO : 		SearchedAuthor: Putnam, Robert D. - Django_Logger.roam - 06:31:51:03s PM
+INFO : Created Robert Putnam 177 - Django_Logger.roam - 06:31:51:03s PM
+WARNING : Collab: [<Author: Putnam>] - Django_Logger.roam - 06:31:51:03s PM
+INFO : 	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse - Django_Logger.roam - 06:31:51:03s PM
+INFO : 		SearchedAuthor: Brown, Lester R. - Django_Logger.roam - 06:31:51:03s PM
+INFO : Created Lester Brown 178 - Django_Logger.roam - 06:31:51:03s PM
+WARNING : Collab: [<Author: Brown>] - Django_Logger.roam - 06:31:51:03s PM
+INFO : -----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+ - Django_Logger.roam - 06:31:51:03s PM
+INFO : 	Searched for: Crystallizing Public Opinion, type: book - Django_Logger.roam - 06:31:51:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion - Django_Logger.roam - 06:31:51:03s PM
+INFO : 	Success - Django_Logger.roam - 06:31:51:03s PM
+INFO : Total Results: 2056 - Django_Logger.roam - 06:31:51:03s PM
+INFO : 	SearchedBook: American Public Opinion (9th Edition) - Django_Logger.roam - 06:31:51:03s PM
+INFO : 		SearchedAuthor: Erikson, Robert S. - Django_Logger.roam - 06:31:51:03s PM
+INFO : Created Robert Erikson 179 - Django_Logger.roam - 06:31:51:03s PM
+INFO : 		SearchedAuthor: Tedin, Kent L. - Django_Logger.roam - 06:31:51:03s PM
+INFO : Created Kent Tedin 180 - Django_Logger.roam - 06:31:51:03s PM
+WARNING : Collab: [<Author: Erikson>, <Author: Tedin>] - Django_Logger.roam - 06:31:51:03s PM
+INFO : 	SearchedBook: Public Opinion: Measuring the American Mind - Django_Logger.roam - 06:31:51:03s PM
+INFO : 		SearchedAuthor: Bardes, Barbara A. - Django_Logger.roam - 06:31:51:03s PM
+INFO : Created Barbara Bardes 181 - Django_Logger.roam - 06:31:51:03s PM
+INFO : 		SearchedAuthor: Oldendick, Robert W. - Django_Logger.roam - 06:31:51:03s PM
+INFO : Created Robert Oldendick 182 - Django_Logger.roam - 06:31:51:03s PM
+WARNING : Collab: [<Author: Bardes>, <Author: Oldendick>] - Django_Logger.roam - 06:31:51:03s PM
+INFO : -----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+ - Django_Logger.roam - 06:31:51:03s PM
+INFO : 	Searched for: Dictionary of Symbols, type: book - Django_Logger.roam - 06:31:51:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols - Django_Logger.roam - 06:31:51:03s PM
+INFO : 	Success - Django_Logger.roam - 06:31:51:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:31:51:03s PM
+INFO : 	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin) - Django_Logger.roam - 06:31:51:03s PM
+INFO : 		SearchedAuthor: Chevalier, Jean - Django_Logger.roam - 06:31:51:03s PM
+INFO : Created Jean Chevalier 183 - Django_Logger.roam - 06:31:51:03s PM
+INFO : 		SearchedAuthor: Gheerbrant, Alain - Django_Logger.roam - 06:31:51:03s PM
+INFO : Created Alain Gheerbrant 184 - Django_Logger.roam - 06:31:51:03s PM
+WARNING : Collab: [<Author: Chevalier>, <Author: Gheerbrant>] - Django_Logger.roam - 06:31:51:03s PM
+INFO : 	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E) - Django_Logger.roam - 06:31:51:03s PM
+INFO : 		SearchedAuthor: Adelson-Goldstein, Jayme - Django_Logger.roam - 06:31:51:03s PM
+INFO : Created Jayme Adelson-Goldstein 185 - Django_Logger.roam - 06:31:52:03s PM
+INFO : 		SearchedAuthor: Shapiro, Norma - Django_Logger.roam - 06:31:52:03s PM
+INFO : Created Norma Shapiro 186 - Django_Logger.roam - 06:31:52:03s PM
+WARNING : Collab: [<Author: Adelson-Goldstein>, <Author: Shapiro>] - Django_Logger.roam - 06:31:52:03s PM
+INFO : -----------------------
+Title: Go
+FileAuthor: Ch'ihun_Cho
+ - Django_Logger.roam - 06:31:52:03s PM
+INFO : 	Searched for: Go, type: book - Django_Logger.roam - 06:31:52:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Go - Django_Logger.roam - 06:31:52:03s PM
+INFO : 	Success - Django_Logger.roam - 06:31:52:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:31:52:03s PM
+INFO : 	SearchedBook: Go! with Office 2013, Volume 1 - Django_Logger.roam - 06:31:52:03s PM
+INFO : 		SearchedAuthor: Gaskin, Shelley - Django_Logger.roam - 06:31:52:03s PM
+INFO : Created Shelley Gaskin 187 - Django_Logger.roam - 06:31:52:03s PM
+INFO : 		SearchedAuthor: Vargas, Alicia - Django_Logger.roam - 06:31:52:03s PM
+INFO : Created Alicia Vargas 188 - Django_Logger.roam - 06:31:52:03s PM
+INFO : 		SearchedAuthor: McLellan, Carolyn - Django_Logger.roam - 06:31:52:03s PM
+INFO : Created Carolyn McLellan 189 - Django_Logger.roam - 06:31:52:03s PM
+WARNING : Collab: [<Author: Gaskin>, <Author: Vargas>, <Author: McLellan>] - Django_Logger.roam - 06:31:52:03s PM
+INFO : 	SearchedBook: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set - Django_Logger.roam - 06:31:52:03s PM
+INFO : 		SearchedAuthor: Michael A. Singer - Django_Logger.roam - 06:31:52:03s PM
+INFO : Created Michael Singer 190 - Django_Logger.roam - 06:31:52:03s PM
+INFO : 		SearchedAuthor: David R. Hawkins MD PhD - Django_Logger.roam - 06:31:52:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:31:52:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:31:52:03s PM
+INFO : Returned: 166 - Django_Logger.roam - 06:31:52:03s PM
+INFO : 		SearchedAuthor: Marianne Williamson - Django_Logger.roam - 06:31:52:03s PM
+INFO : Created Marianne Williamson 191 - Django_Logger.roam - 06:31:52:03s PM
+WARNING : Collab: [<Author: Singer>, <Author: z>, <Author: Williamson>] - Django_Logger.roam - 06:31:52:03s PM
+INFO : -----------------------
+Title: Hallucinogenic Plants
+FileAuthor: Richard_Evans_Schultes
+ - Django_Logger.roam - 06:31:52:03s PM
+INFO : 	Searched for: Hallucinogenic Plants, type: book - Django_Logger.roam - 06:31:52:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Hallucinogenic Plants - Django_Logger.roam - 06:31:52:03s PM
+INFO : 	Success - Django_Logger.roam - 06:31:52:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:31:52:03s PM
+INFO : 	SearchedBook: Plants and Society - Django_Logger.roam - 06:31:52:03s PM
+INFO : 		SearchedAuthor: Levetin, Estelle - Django_Logger.roam - 06:31:52:03s PM
+INFO : Created Estelle Levetin 192 - Django_Logger.roam - 06:31:52:03s PM
+INFO : 		SearchedAuthor: McMahon, Karen - Django_Logger.roam - 06:31:52:03s PM
+INFO : Created Karen McMahon 193 - Django_Logger.roam - 06:31:52:03s PM
+WARNING : Collab: [<Author: Levetin>, <Author: McMahon>] - Django_Logger.roam - 06:31:52:03s PM
+INFO : 	SearchedBook: Medical Botany: Plants Affecting Human Health - Django_Logger.roam - 06:31:52:03s PM
+INFO : 		SearchedAuthor: Walter Hepworth Lewis - Django_Logger.roam - 06:31:52:03s PM
+INFO : Created Walter Lewis 194 - Django_Logger.roam - 06:31:52:03s PM
+INFO : 		SearchedAuthor: Memory P. F. Elvin-Lewis - Django_Logger.roam - 06:31:52:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:31:52:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:31:52:03s PM
+INFO : Returned: 166 - Django_Logger.roam - 06:31:52:03s PM
+WARNING : Collab: [<Author: Lewis>, <Author: z>] - Django_Logger.roam - 06:31:52:03s PM
+INFO : **************************
+BEGIN NEW TEST - Django_Logger.roam - 06:40:06:03s PM
+INFO : Number of books: 10 - Django_Logger.roam - 06:40:06:03s PM
+INFO : Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json - Django_Logger.roam - 06:40:06:03s PM
+INFO : -----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+ - Django_Logger.roam - 06:40:06:03s PM
+INFO : 	Searched for: A.D. After Disclosure, type: book - Django_Logger.roam - 06:40:06:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure - Django_Logger.roam - 06:40:06:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:06:03s PM
+INFO : Total Results: 78 - Django_Logger.roam - 06:40:06:03s PM
+INFO : 	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact - Django_Logger.roam - 06:40:06:03s PM
+INFO : 		SearchedAuthor: Dolan, Richard M. - Django_Logger.roam - 06:40:06:03s PM
+INFO : Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'} - Django_Logger.roam - 06:40:06:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:06:03s PM
+INFO : Returned: 161 - Django_Logger.roam - 06:40:06:03s PM
+INFO : 		SearchedAuthor: Zabel, Bryce - Django_Logger.roam - 06:40:06:03s PM
+INFO : Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'} - Django_Logger.roam - 06:40:07:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:07:03s PM
+INFO : Returned: 162 - Django_Logger.roam - 06:40:07:03s PM
+WARNING : Collab: [<Author: Dolan>, <Author: Zabel>] - Django_Logger.roam - 06:40:07:03s PM
+INFO : 	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882) - Django_Logger.roam - 06:40:07:03s PM
+INFO : 		SearchedAuthor: John Chalmers - Django_Logger.roam - 06:40:07:03s PM
+INFO : Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'} - Django_Logger.roam - 06:40:07:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:07:03s PM
+INFO : Returned: 163 - Django_Logger.roam - 06:40:07:03s PM
+WARNING : Collab: [<Author: Chalmers>] - Django_Logger.roam - 06:40:07:03s PM
+INFO : -----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+ - Django_Logger.roam - 06:40:07:03s PM
+INFO : 	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book - Django_Logger.roam - 06:40:07:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse - Django_Logger.roam - 06:40:07:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:07:03s PM
+INFO : Total Results: None - Django_Logger.roam - 06:40:07:03s PM
+WARNING : Cannot find: GRAHAM_HANCOCK - Django_Logger.roam - 06:40:07:03s PM
+INFO : -----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+ - Django_Logger.roam - 06:40:07:03s PM
+INFO : 	Searched for: Anarchism and Other Essays, type: book - Django_Logger.roam - 06:40:07:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays - Django_Logger.roam - 06:40:07:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:07:03s PM
+INFO : Total Results: 9679 - Django_Logger.roam - 06:40:07:03s PM
+INFO : 	SearchedBook: Neck Deep and Other Predicaments: Essays - Django_Logger.roam - 06:40:07:03s PM
+INFO : 		SearchedAuthor: Monson, Ander - Django_Logger.roam - 06:40:07:03s PM
+INFO : Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'} - Django_Logger.roam - 06:40:07:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:07:03s PM
+INFO : Returned: 164 - Django_Logger.roam - 06:40:07:03s PM
+WARNING : Collab: [<Author: Monson>] - Django_Logger.roam - 06:40:07:03s PM
+INFO : 	SearchedBook: Twenty Poems That Could Save America and Other Essays - Django_Logger.roam - 06:40:07:03s PM
+INFO : 		SearchedAuthor: Hoagland, Tony - Django_Logger.roam - 06:40:07:03s PM
+INFO : Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'} - Django_Logger.roam - 06:40:07:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:07:03s PM
+INFO : Returned: 165 - Django_Logger.roam - 06:40:07:03s PM
+WARNING : Collab: [<Author: Hoagland>] - Django_Logger.roam - 06:40:07:03s PM
+INFO : -----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+ - Django_Logger.roam - 06:40:07:03s PM
+INFO : 	Searched for: Atlas Shrugged, type: book - Django_Logger.roam - 06:40:07:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged - Django_Logger.roam - 06:40:07:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:08:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:40:08:03s PM
+INFO : 	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science) - Django_Logger.roam - 06:40:08:03s PM
+INFO : 		SearchedAuthor: Netter MD, Frank H. - Django_Logger.roam - 06:40:08:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:08:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:40:08:03s PM
+INFO : Returned: 166 - Django_Logger.roam - 06:40:08:03s PM
+WARNING : Collab: [<Author: z>] - Django_Logger.roam - 06:40:08:03s PM
+INFO : 	SearchedBook: A Brief Atlas Of The Human Body - Django_Logger.roam - 06:40:08:03s PM
+INFO : 		SearchedAuthor: Hutchinson - Django_Logger.roam - 06:40:08:03s PM
+INFO : Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:08:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:08:03s PM
+INFO : Returned: 167 - Django_Logger.roam - 06:40:08:03s PM
+INFO : 		SearchedAuthor: Matt - Django_Logger.roam - 06:40:08:03s PM
+INFO : Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:08:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:08:03s PM
+INFO : Returned: 168 - Django_Logger.roam - 06:40:08:03s PM
+INFO : 		SearchedAuthor: Mallatt - Django_Logger.roam - 06:40:08:03s PM
+INFO : Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:08:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:08:03s PM
+INFO : Returned: 169 - Django_Logger.roam - 06:40:08:03s PM
+INFO : 		SearchedAuthor: Jon - Django_Logger.roam - 06:40:08:03s PM
+INFO : Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:08:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:08:03s PM
+INFO : Returned: 170 - Django_Logger.roam - 06:40:08:03s PM
+INFO : 		SearchedAuthor: Marieb - Django_Logger.roam - 06:40:08:03s PM
+INFO : Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:08:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:08:03s PM
+INFO : Returned: 171 - Django_Logger.roam - 06:40:08:03s PM
+INFO : 		SearchedAuthor: Elaine Nicpon - Django_Logger.roam - 06:40:08:03s PM
+INFO : Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'} - Django_Logger.roam - 06:40:08:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:08:03s PM
+INFO : Returned: 172 - Django_Logger.roam - 06:40:08:03s PM
+WARNING : Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>] - Django_Logger.roam - 06:40:08:03s PM
+INFO : -----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+ - Django_Logger.roam - 06:40:08:03s PM
+INFO : 	Searched for: Beyond the Rift, type: book - Django_Logger.roam - 06:40:08:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift - Django_Logger.roam - 06:40:08:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:08:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:40:08:03s PM
+INFO : 	SearchedBook: The Twentieth Century And Beyond: A Global History - Django_Logger.roam - 06:40:08:03s PM
+INFO : 		SearchedAuthor: Richard D. Goff - Django_Logger.roam - 06:40:08:03s PM
+INFO : Repeat Filtered {'first': 'Richard', 'middle': 'D.', 'last': 'Goff'} - Django_Logger.roam - 06:40:08:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:08:03s PM
+INFO : Returned: 173 - Django_Logger.roam - 06:40:08:03s PM
+INFO : 		SearchedAuthor: Walter Moss - Django_Logger.roam - 06:40:08:03s PM
+INFO : Repeat Filtered {'first': 'Walter', 'middle': 'z', 'last': 'Moss'} - Django_Logger.roam - 06:40:08:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:08:03s PM
+INFO : Returned: 174 - Django_Logger.roam - 06:40:08:03s PM
+INFO : 		SearchedAuthor: Janice Terry - Django_Logger.roam - 06:40:08:03s PM
+INFO : Repeat Filtered {'first': 'Janice', 'middle': 'z', 'last': 'Terry'} - Django_Logger.roam - 06:40:08:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:08:03s PM
+INFO : Returned: 175 - Django_Logger.roam - 06:40:08:03s PM
+WARNING : Collab: [<Author: Goff>, <Author: Moss>, <Author: Terry>] - Django_Logger.roam - 06:40:08:03s PM
+INFO : 	SearchedBook: Beyond Belief: Finding the Strength to Come Back - Django_Logger.roam - 06:40:08:03s PM
+INFO : 		SearchedAuthor: Hamilton, Josh - Django_Logger.roam - 06:40:08:03s PM
+INFO : Repeat Filtered {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'} - Django_Logger.roam - 06:40:08:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:08:03s PM
+INFO : Returned: 176 - Django_Logger.roam - 06:40:08:03s PM
+WARNING : Collab: [<Author: Hamilton>] - Django_Logger.roam - 06:40:08:03s PM
+INFO : -----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+ - Django_Logger.roam - 06:40:08:03s PM
+INFO : 	Searched for: Collapse, type: book - Django_Logger.roam - 06:40:08:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Collapse - Django_Logger.roam - 06:40:08:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:09:03s PM
+INFO : Total Results: 2539 - Django_Logger.roam - 06:40:09:03s PM
+INFO : 	SearchedBook: Bowling Alone: The Collapse and Revival of American Community - Django_Logger.roam - 06:40:09:03s PM
+INFO : 		SearchedAuthor: Putnam, Robert D. - Django_Logger.roam - 06:40:09:03s PM
+INFO : Repeat Filtered {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'} - Django_Logger.roam - 06:40:09:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:09:03s PM
+INFO : Returned: 177 - Django_Logger.roam - 06:40:09:03s PM
+WARNING : Collab: [<Author: Putnam>] - Django_Logger.roam - 06:40:09:03s PM
+INFO : 	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse - Django_Logger.roam - 06:40:09:03s PM
+INFO : 		SearchedAuthor: Brown, Lester R. - Django_Logger.roam - 06:40:09:03s PM
+INFO : Repeat Filtered {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'} - Django_Logger.roam - 06:40:09:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:09:03s PM
+INFO : Returned: 178 - Django_Logger.roam - 06:40:09:03s PM
+WARNING : Collab: [<Author: Brown>] - Django_Logger.roam - 06:40:09:03s PM
+INFO : -----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+ - Django_Logger.roam - 06:40:09:03s PM
+INFO : 	Searched for: Crystallizing Public Opinion, type: book - Django_Logger.roam - 06:40:09:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion - Django_Logger.roam - 06:40:09:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:09:03s PM
+INFO : Total Results: 2056 - Django_Logger.roam - 06:40:09:03s PM
+INFO : 	SearchedBook: American Public Opinion (9th Edition) - Django_Logger.roam - 06:40:09:03s PM
+INFO : 		SearchedAuthor: Erikson, Robert S. - Django_Logger.roam - 06:40:09:03s PM
+INFO : Repeat Filtered {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'} - Django_Logger.roam - 06:40:09:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:09:03s PM
+INFO : Returned: 179 - Django_Logger.roam - 06:40:09:03s PM
+INFO : 		SearchedAuthor: Tedin, Kent L. - Django_Logger.roam - 06:40:09:03s PM
+INFO : Repeat Filtered {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'} - Django_Logger.roam - 06:40:09:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:09:03s PM
+INFO : Returned: 180 - Django_Logger.roam - 06:40:09:03s PM
+WARNING : Collab: [<Author: Erikson>, <Author: Tedin>] - Django_Logger.roam - 06:40:09:03s PM
+INFO : 	SearchedBook: Public Opinion: Measuring the American Mind - Django_Logger.roam - 06:40:09:03s PM
+INFO : 		SearchedAuthor: Bardes, Barbara A. - Django_Logger.roam - 06:40:09:03s PM
+INFO : Repeat Filtered {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'} - Django_Logger.roam - 06:40:09:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:09:03s PM
+INFO : Returned: 181 - Django_Logger.roam - 06:40:09:03s PM
+INFO : 		SearchedAuthor: Oldendick, Robert W. - Django_Logger.roam - 06:40:09:03s PM
+INFO : Repeat Filtered {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'} - Django_Logger.roam - 06:40:09:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:09:03s PM
+INFO : Returned: 182 - Django_Logger.roam - 06:40:09:03s PM
+WARNING : Collab: [<Author: Bardes>, <Author: Oldendick>] - Django_Logger.roam - 06:40:09:03s PM
+INFO : -----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+ - Django_Logger.roam - 06:40:09:03s PM
+INFO : 	Searched for: Dictionary of Symbols, type: book - Django_Logger.roam - 06:40:09:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols - Django_Logger.roam - 06:40:09:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:10:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:40:10:03s PM
+INFO : 	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin) - Django_Logger.roam - 06:40:10:03s PM
+INFO : 		SearchedAuthor: Chevalier, Jean - Django_Logger.roam - 06:40:10:03s PM
+INFO : Repeat Filtered {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'} - Django_Logger.roam - 06:40:10:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:10:03s PM
+INFO : Returned: 183 - Django_Logger.roam - 06:40:10:03s PM
+INFO : 		SearchedAuthor: Gheerbrant, Alain - Django_Logger.roam - 06:40:10:03s PM
+INFO : Repeat Filtered {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'} - Django_Logger.roam - 06:40:10:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:10:03s PM
+INFO : Returned: 184 - Django_Logger.roam - 06:40:10:03s PM
+WARNING : Collab: [<Author: Chevalier>, <Author: Gheerbrant>] - Django_Logger.roam - 06:40:10:03s PM
+INFO : 	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E) - Django_Logger.roam - 06:40:10:03s PM
+INFO : 		SearchedAuthor: Adelson-Goldstein, Jayme - Django_Logger.roam - 06:40:10:03s PM
+INFO : Repeat Filtered {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'} - Django_Logger.roam - 06:40:10:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:10:03s PM
+INFO : Returned: 185 - Django_Logger.roam - 06:40:10:03s PM
+INFO : 		SearchedAuthor: Shapiro, Norma - Django_Logger.roam - 06:40:10:03s PM
+INFO : Repeat Filtered {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'} - Django_Logger.roam - 06:40:10:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:10:03s PM
+INFO : Returned: 186 - Django_Logger.roam - 06:40:10:03s PM
+WARNING : Collab: [<Author: Adelson-Goldstein>, <Author: Shapiro>] - Django_Logger.roam - 06:40:10:03s PM
+INFO : -----------------------
+Title: Go
+FileAuthor: Ch'ihun_Cho
+ - Django_Logger.roam - 06:40:10:03s PM
+INFO : 	Searched for: Go, type: book - Django_Logger.roam - 06:40:10:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Go - Django_Logger.roam - 06:40:10:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:10:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:40:10:03s PM
+INFO : 	SearchedBook: Go! with Office 2013, Volume 1 - Django_Logger.roam - 06:40:10:03s PM
+INFO : 		SearchedAuthor: Gaskin, Shelley - Django_Logger.roam - 06:40:10:03s PM
+INFO : Repeat Filtered {'first': 'Shelley', 'middle': 'z', 'last': 'Gaskin'} - Django_Logger.roam - 06:40:10:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:10:03s PM
+INFO : Returned: 187 - Django_Logger.roam - 06:40:10:03s PM
+INFO : 		SearchedAuthor: Vargas, Alicia - Django_Logger.roam - 06:40:10:03s PM
+INFO : Repeat Filtered {'first': 'Alicia', 'middle': 'z', 'last': 'Vargas'} - Django_Logger.roam - 06:40:10:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:10:03s PM
+INFO : Returned: 188 - Django_Logger.roam - 06:40:10:03s PM
+INFO : 		SearchedAuthor: McLellan, Carolyn - Django_Logger.roam - 06:40:10:03s PM
+INFO : Repeat Filtered {'first': 'Carolyn', 'middle': 'z', 'last': 'McLellan'} - Django_Logger.roam - 06:40:10:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:10:03s PM
+INFO : Returned: 189 - Django_Logger.roam - 06:40:10:03s PM
+WARNING : Collab: [<Author: Gaskin>, <Author: Vargas>, <Author: McLellan>] - Django_Logger.roam - 06:40:10:03s PM
+INFO : 	SearchedBook: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set - Django_Logger.roam - 06:40:10:03s PM
+INFO : 		SearchedAuthor: Michael A. Singer - Django_Logger.roam - 06:40:10:03s PM
+INFO : Repeat Filtered {'first': 'Michael', 'middle': 'A.', 'last': 'Singer'} - Django_Logger.roam - 06:40:10:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:10:03s PM
+INFO : Returned: 190 - Django_Logger.roam - 06:40:10:03s PM
+INFO : 		SearchedAuthor: David R. Hawkins MD PhD - Django_Logger.roam - 06:40:10:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:10:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:40:10:03s PM
+INFO : Returned: 166 - Django_Logger.roam - 06:40:10:03s PM
+INFO : 		SearchedAuthor: Marianne Williamson - Django_Logger.roam - 06:40:10:03s PM
+INFO : Repeat Filtered {'first': 'Marianne', 'middle': 'z', 'last': 'Williamson'} - Django_Logger.roam - 06:40:10:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:10:03s PM
+INFO : Returned: 191 - Django_Logger.roam - 06:40:10:03s PM
+WARNING : Collab: [<Author: Singer>, <Author: z>, <Author: Williamson>] - Django_Logger.roam - 06:40:10:03s PM
+INFO : -----------------------
+Title: Hallucinogenic Plants
+FileAuthor: Richard_Evans_Schultes
+ - Django_Logger.roam - 06:40:10:03s PM
+INFO : 	Searched for: Hallucinogenic Plants, type: book - Django_Logger.roam - 06:40:10:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Hallucinogenic Plants - Django_Logger.roam - 06:40:10:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:11:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:40:11:03s PM
+INFO : 	SearchedBook: Plants and Society - Django_Logger.roam - 06:40:11:03s PM
+INFO : 		SearchedAuthor: Levetin, Estelle - Django_Logger.roam - 06:40:11:03s PM
+INFO : Repeat Filtered {'first': 'Estelle', 'middle': 'z', 'last': 'Levetin'} - Django_Logger.roam - 06:40:11:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:11:03s PM
+INFO : Returned: 192 - Django_Logger.roam - 06:40:11:03s PM
+INFO : 		SearchedAuthor: McMahon, Karen - Django_Logger.roam - 06:40:11:03s PM
+INFO : Repeat Filtered {'first': 'Karen', 'middle': 'z', 'last': 'McMahon'} - Django_Logger.roam - 06:40:11:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:11:03s PM
+INFO : Returned: 193 - Django_Logger.roam - 06:40:11:03s PM
+WARNING : Collab: [<Author: Levetin>, <Author: McMahon>] - Django_Logger.roam - 06:40:11:03s PM
+INFO : 	SearchedBook: Medical Botany: Plants Affecting Human Health - Django_Logger.roam - 06:40:11:03s PM
+INFO : 		SearchedAuthor: Walter Hepworth Lewis - Django_Logger.roam - 06:40:11:03s PM
+INFO : Repeat Filtered {'first': 'Walter', 'middle': 'Hepworth', 'last': 'Lewis'} - Django_Logger.roam - 06:40:11:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:11:03s PM
+INFO : Returned: 194 - Django_Logger.roam - 06:40:11:03s PM
+INFO : 		SearchedAuthor: Memory P. F. Elvin-Lewis - Django_Logger.roam - 06:40:11:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:11:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:40:11:03s PM
+INFO : Returned: 166 - Django_Logger.roam - 06:40:11:03s PM
+WARNING : Collab: [<Author: Lewis>, <Author: z>] - Django_Logger.roam - 06:40:11:03s PM
+INFO : **************************
+BEGIN NEW TEST - Django_Logger.roam - 06:40:23:03s PM
+INFO : Number of books: 15 - Django_Logger.roam - 06:40:23:03s PM
+INFO : Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json - Django_Logger.roam - 06:40:23:03s PM
+INFO : -----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+ - Django_Logger.roam - 06:40:23:03s PM
+INFO : 	Searched for: A.D. After Disclosure, type: book - Django_Logger.roam - 06:40:23:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure - Django_Logger.roam - 06:40:23:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:23:03s PM
+INFO : Total Results: 78 - Django_Logger.roam - 06:40:23:03s PM
+INFO : 	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact - Django_Logger.roam - 06:40:23:03s PM
+INFO : 		SearchedAuthor: Dolan, Richard M. - Django_Logger.roam - 06:40:23:03s PM
+INFO : Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'} - Django_Logger.roam - 06:40:23:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:23:03s PM
+INFO : Returned: 161 - Django_Logger.roam - 06:40:23:03s PM
+INFO : 		SearchedAuthor: Zabel, Bryce - Django_Logger.roam - 06:40:23:03s PM
+INFO : Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'} - Django_Logger.roam - 06:40:23:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:23:03s PM
+INFO : Returned: 162 - Django_Logger.roam - 06:40:23:03s PM
+WARNING : Collab: [<Author: Dolan>, <Author: Zabel>] - Django_Logger.roam - 06:40:23:03s PM
+INFO : 	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882) - Django_Logger.roam - 06:40:24:03s PM
+INFO : 		SearchedAuthor: John Chalmers - Django_Logger.roam - 06:40:24:03s PM
+INFO : Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'} - Django_Logger.roam - 06:40:24:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:24:03s PM
+INFO : Returned: 163 - Django_Logger.roam - 06:40:24:03s PM
+WARNING : Collab: [<Author: Chalmers>] - Django_Logger.roam - 06:40:24:03s PM
+INFO : -----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+ - Django_Logger.roam - 06:40:24:03s PM
+INFO : 	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book - Django_Logger.roam - 06:40:24:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse - Django_Logger.roam - 06:40:24:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:24:03s PM
+INFO : Total Results: None - Django_Logger.roam - 06:40:24:03s PM
+WARNING : Cannot find: GRAHAM_HANCOCK - Django_Logger.roam - 06:40:24:03s PM
+INFO : -----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+ - Django_Logger.roam - 06:40:24:03s PM
+INFO : 	Searched for: Anarchism and Other Essays, type: book - Django_Logger.roam - 06:40:24:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays - Django_Logger.roam - 06:40:24:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:24:03s PM
+INFO : Total Results: 9679 - Django_Logger.roam - 06:40:24:03s PM
+INFO : 	SearchedBook: Neck Deep and Other Predicaments: Essays - Django_Logger.roam - 06:40:24:03s PM
+INFO : 		SearchedAuthor: Monson, Ander - Django_Logger.roam - 06:40:24:03s PM
+INFO : Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'} - Django_Logger.roam - 06:40:24:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:24:03s PM
+INFO : Returned: 164 - Django_Logger.roam - 06:40:24:03s PM
+WARNING : Collab: [<Author: Monson>] - Django_Logger.roam - 06:40:25:03s PM
+INFO : 	SearchedBook: Twenty Poems That Could Save America and Other Essays - Django_Logger.roam - 06:40:25:03s PM
+INFO : 		SearchedAuthor: Hoagland, Tony - Django_Logger.roam - 06:40:25:03s PM
+INFO : Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'} - Django_Logger.roam - 06:40:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:25:03s PM
+INFO : Returned: 165 - Django_Logger.roam - 06:40:25:03s PM
+WARNING : Collab: [<Author: Hoagland>] - Django_Logger.roam - 06:40:25:03s PM
+INFO : -----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+ - Django_Logger.roam - 06:40:25:03s PM
+INFO : 	Searched for: Atlas Shrugged, type: book - Django_Logger.roam - 06:40:25:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged - Django_Logger.roam - 06:40:25:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:25:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:40:25:03s PM
+INFO : 	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science) - Django_Logger.roam - 06:40:25:03s PM
+INFO : 		SearchedAuthor: Netter MD, Frank H. - Django_Logger.roam - 06:40:25:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:25:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:40:25:03s PM
+INFO : Returned: 166 - Django_Logger.roam - 06:40:25:03s PM
+WARNING : Collab: [<Author: z>] - Django_Logger.roam - 06:40:25:03s PM
+INFO : 	SearchedBook: A Brief Atlas Of The Human Body - Django_Logger.roam - 06:40:25:03s PM
+INFO : 		SearchedAuthor: Hutchinson - Django_Logger.roam - 06:40:25:03s PM
+INFO : Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:25:03s PM
+INFO : Returned: 167 - Django_Logger.roam - 06:40:25:03s PM
+INFO : 		SearchedAuthor: Matt - Django_Logger.roam - 06:40:25:03s PM
+INFO : Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:25:03s PM
+INFO : Returned: 168 - Django_Logger.roam - 06:40:25:03s PM
+INFO : 		SearchedAuthor: Mallatt - Django_Logger.roam - 06:40:25:03s PM
+INFO : Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:25:03s PM
+INFO : Returned: 169 - Django_Logger.roam - 06:40:25:03s PM
+INFO : 		SearchedAuthor: Jon - Django_Logger.roam - 06:40:25:03s PM
+INFO : Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:25:03s PM
+INFO : Returned: 170 - Django_Logger.roam - 06:40:25:03s PM
+INFO : 		SearchedAuthor: Marieb - Django_Logger.roam - 06:40:25:03s PM
+INFO : Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:25:03s PM
+INFO : Returned: 171 - Django_Logger.roam - 06:40:25:03s PM
+INFO : 		SearchedAuthor: Elaine Nicpon - Django_Logger.roam - 06:40:25:03s PM
+INFO : Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'} - Django_Logger.roam - 06:40:25:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:25:03s PM
+INFO : Returned: 172 - Django_Logger.roam - 06:40:25:03s PM
+WARNING : Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>] - Django_Logger.roam - 06:40:25:03s PM
+INFO : -----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+ - Django_Logger.roam - 06:40:25:03s PM
+INFO : 	Searched for: Beyond the Rift, type: book - Django_Logger.roam - 06:40:25:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift - Django_Logger.roam - 06:40:25:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:26:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:40:26:03s PM
+INFO : 	SearchedBook: The Twentieth Century And Beyond: A Global History - Django_Logger.roam - 06:40:26:03s PM
+INFO : 		SearchedAuthor: Richard D. Goff - Django_Logger.roam - 06:40:26:03s PM
+INFO : Repeat Filtered {'first': 'Richard', 'middle': 'D.', 'last': 'Goff'} - Django_Logger.roam - 06:40:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:26:03s PM
+INFO : Returned: 173 - Django_Logger.roam - 06:40:26:03s PM
+INFO : 		SearchedAuthor: Walter Moss - Django_Logger.roam - 06:40:26:03s PM
+INFO : Repeat Filtered {'first': 'Walter', 'middle': 'z', 'last': 'Moss'} - Django_Logger.roam - 06:40:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:26:03s PM
+INFO : Returned: 174 - Django_Logger.roam - 06:40:26:03s PM
+INFO : 		SearchedAuthor: Janice Terry - Django_Logger.roam - 06:40:26:03s PM
+INFO : Repeat Filtered {'first': 'Janice', 'middle': 'z', 'last': 'Terry'} - Django_Logger.roam - 06:40:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:26:03s PM
+INFO : Returned: 175 - Django_Logger.roam - 06:40:26:03s PM
+WARNING : Collab: [<Author: Goff>, <Author: Moss>, <Author: Terry>] - Django_Logger.roam - 06:40:26:03s PM
+INFO : 	SearchedBook: Beyond Belief: Finding the Strength to Come Back - Django_Logger.roam - 06:40:26:03s PM
+INFO : 		SearchedAuthor: Hamilton, Josh - Django_Logger.roam - 06:40:26:03s PM
+INFO : Repeat Filtered {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'} - Django_Logger.roam - 06:40:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:26:03s PM
+INFO : Returned: 176 - Django_Logger.roam - 06:40:26:03s PM
+WARNING : Collab: [<Author: Hamilton>] - Django_Logger.roam - 06:40:26:03s PM
+INFO : -----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+ - Django_Logger.roam - 06:40:26:03s PM
+INFO : 	Searched for: Collapse, type: book - Django_Logger.roam - 06:40:26:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Collapse - Django_Logger.roam - 06:40:26:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:26:03s PM
+INFO : Total Results: 2539 - Django_Logger.roam - 06:40:26:03s PM
+INFO : 	SearchedBook: Bowling Alone: The Collapse and Revival of American Community - Django_Logger.roam - 06:40:26:03s PM
+INFO : 		SearchedAuthor: Putnam, Robert D. - Django_Logger.roam - 06:40:26:03s PM
+INFO : Repeat Filtered {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'} - Django_Logger.roam - 06:40:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:26:03s PM
+INFO : Returned: 177 - Django_Logger.roam - 06:40:26:03s PM
+WARNING : Collab: [<Author: Putnam>] - Django_Logger.roam - 06:40:26:03s PM
+INFO : 	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse - Django_Logger.roam - 06:40:26:03s PM
+INFO : 		SearchedAuthor: Brown, Lester R. - Django_Logger.roam - 06:40:26:03s PM
+INFO : Repeat Filtered {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'} - Django_Logger.roam - 06:40:26:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:26:03s PM
+INFO : Returned: 178 - Django_Logger.roam - 06:40:26:03s PM
+WARNING : Collab: [<Author: Brown>] - Django_Logger.roam - 06:40:26:03s PM
+INFO : -----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+ - Django_Logger.roam - 06:40:26:03s PM
+INFO : 	Searched for: Crystallizing Public Opinion, type: book - Django_Logger.roam - 06:40:26:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion - Django_Logger.roam - 06:40:26:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:27:03s PM
+INFO : Total Results: 2056 - Django_Logger.roam - 06:40:27:03s PM
+INFO : 	SearchedBook: American Public Opinion (9th Edition) - Django_Logger.roam - 06:40:27:03s PM
+INFO : 		SearchedAuthor: Erikson, Robert S. - Django_Logger.roam - 06:40:27:03s PM
+INFO : Repeat Filtered {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'} - Django_Logger.roam - 06:40:27:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:27:03s PM
+INFO : Returned: 179 - Django_Logger.roam - 06:40:27:03s PM
+INFO : 		SearchedAuthor: Tedin, Kent L. - Django_Logger.roam - 06:40:27:03s PM
+INFO : Repeat Filtered {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'} - Django_Logger.roam - 06:40:27:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:27:03s PM
+INFO : Returned: 180 - Django_Logger.roam - 06:40:27:03s PM
+WARNING : Collab: [<Author: Erikson>, <Author: Tedin>] - Django_Logger.roam - 06:40:27:03s PM
+INFO : 	SearchedBook: Public Opinion: Measuring the American Mind - Django_Logger.roam - 06:40:27:03s PM
+INFO : 		SearchedAuthor: Bardes, Barbara A. - Django_Logger.roam - 06:40:27:03s PM
+INFO : Repeat Filtered {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'} - Django_Logger.roam - 06:40:27:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:27:03s PM
+INFO : Returned: 181 - Django_Logger.roam - 06:40:27:03s PM
+INFO : 		SearchedAuthor: Oldendick, Robert W. - Django_Logger.roam - 06:40:27:03s PM
+INFO : Repeat Filtered {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'} - Django_Logger.roam - 06:40:27:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:27:03s PM
+INFO : Returned: 182 - Django_Logger.roam - 06:40:27:03s PM
+WARNING : Collab: [<Author: Bardes>, <Author: Oldendick>] - Django_Logger.roam - 06:40:27:03s PM
+INFO : -----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+ - Django_Logger.roam - 06:40:27:03s PM
+INFO : 	Searched for: Dictionary of Symbols, type: book - Django_Logger.roam - 06:40:27:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols - Django_Logger.roam - 06:40:27:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:27:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:40:27:03s PM
+INFO : 	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin) - Django_Logger.roam - 06:40:27:03s PM
+INFO : 		SearchedAuthor: Chevalier, Jean - Django_Logger.roam - 06:40:27:03s PM
+INFO : Repeat Filtered {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'} - Django_Logger.roam - 06:40:27:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:27:03s PM
+INFO : Returned: 183 - Django_Logger.roam - 06:40:27:03s PM
+INFO : 		SearchedAuthor: Gheerbrant, Alain - Django_Logger.roam - 06:40:27:03s PM
+INFO : Repeat Filtered {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'} - Django_Logger.roam - 06:40:27:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:27:03s PM
+INFO : Returned: 184 - Django_Logger.roam - 06:40:27:03s PM
+WARNING : Collab: [<Author: Chevalier>, <Author: Gheerbrant>] - Django_Logger.roam - 06:40:27:03s PM
+INFO : 	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E) - Django_Logger.roam - 06:40:27:03s PM
+INFO : 		SearchedAuthor: Adelson-Goldstein, Jayme - Django_Logger.roam - 06:40:27:03s PM
+INFO : Repeat Filtered {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'} - Django_Logger.roam - 06:40:27:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:27:03s PM
+INFO : Returned: 185 - Django_Logger.roam - 06:40:27:03s PM
+INFO : 		SearchedAuthor: Shapiro, Norma - Django_Logger.roam - 06:40:27:03s PM
+INFO : Repeat Filtered {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'} - Django_Logger.roam - 06:40:27:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:27:03s PM
+INFO : Returned: 186 - Django_Logger.roam - 06:40:27:03s PM
+WARNING : Collab: [<Author: Adelson-Goldstein>, <Author: Shapiro>] - Django_Logger.roam - 06:40:27:03s PM
+INFO : -----------------------
+Title: Go
+FileAuthor: Ch'ihun_Cho
+ - Django_Logger.roam - 06:40:27:03s PM
+INFO : 	Searched for: Go, type: book - Django_Logger.roam - 06:40:27:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Go - Django_Logger.roam - 06:40:27:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:28:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:40:28:03s PM
+INFO : 	SearchedBook: Go! with Office 2013, Volume 1 - Django_Logger.roam - 06:40:28:03s PM
+INFO : 		SearchedAuthor: Gaskin, Shelley - Django_Logger.roam - 06:40:28:03s PM
+INFO : Repeat Filtered {'first': 'Shelley', 'middle': 'z', 'last': 'Gaskin'} - Django_Logger.roam - 06:40:28:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:28:03s PM
+INFO : Returned: 187 - Django_Logger.roam - 06:40:28:03s PM
+INFO : 		SearchedAuthor: Vargas, Alicia - Django_Logger.roam - 06:40:28:03s PM
+INFO : Repeat Filtered {'first': 'Alicia', 'middle': 'z', 'last': 'Vargas'} - Django_Logger.roam - 06:40:28:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:28:03s PM
+INFO : Returned: 188 - Django_Logger.roam - 06:40:28:03s PM
+INFO : 		SearchedAuthor: McLellan, Carolyn - Django_Logger.roam - 06:40:28:03s PM
+INFO : Repeat Filtered {'first': 'Carolyn', 'middle': 'z', 'last': 'McLellan'} - Django_Logger.roam - 06:40:28:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:28:03s PM
+INFO : Returned: 189 - Django_Logger.roam - 06:40:28:03s PM
+WARNING : Collab: [<Author: Gaskin>, <Author: Vargas>, <Author: McLellan>] - Django_Logger.roam - 06:40:28:03s PM
+INFO : 	SearchedBook: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set - Django_Logger.roam - 06:40:28:03s PM
+INFO : 		SearchedAuthor: Michael A. Singer - Django_Logger.roam - 06:40:28:03s PM
+INFO : Repeat Filtered {'first': 'Michael', 'middle': 'A.', 'last': 'Singer'} - Django_Logger.roam - 06:40:28:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:28:03s PM
+INFO : Returned: 190 - Django_Logger.roam - 06:40:28:03s PM
+INFO : 		SearchedAuthor: David R. Hawkins MD PhD - Django_Logger.roam - 06:40:28:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:28:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:40:28:03s PM
+INFO : Returned: 166 - Django_Logger.roam - 06:40:28:03s PM
+INFO : 		SearchedAuthor: Marianne Williamson - Django_Logger.roam - 06:40:28:03s PM
+INFO : Repeat Filtered {'first': 'Marianne', 'middle': 'z', 'last': 'Williamson'} - Django_Logger.roam - 06:40:28:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:28:03s PM
+INFO : Returned: 191 - Django_Logger.roam - 06:40:28:03s PM
+WARNING : Collab: [<Author: Singer>, <Author: z>, <Author: Williamson>] - Django_Logger.roam - 06:40:28:03s PM
+INFO : -----------------------
+Title: Hallucinogenic Plants
+FileAuthor: Richard_Evans_Schultes
+ - Django_Logger.roam - 06:40:28:03s PM
+INFO : 	Searched for: Hallucinogenic Plants, type: book - Django_Logger.roam - 06:40:28:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Hallucinogenic Plants - Django_Logger.roam - 06:40:28:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:28:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:40:28:03s PM
+INFO : 	SearchedBook: Plants and Society - Django_Logger.roam - 06:40:28:03s PM
+INFO : 		SearchedAuthor: Levetin, Estelle - Django_Logger.roam - 06:40:28:03s PM
+INFO : Repeat Filtered {'first': 'Estelle', 'middle': 'z', 'last': 'Levetin'} - Django_Logger.roam - 06:40:28:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:28:03s PM
+INFO : Returned: 192 - Django_Logger.roam - 06:40:28:03s PM
+INFO : 		SearchedAuthor: McMahon, Karen - Django_Logger.roam - 06:40:28:03s PM
+INFO : Repeat Filtered {'first': 'Karen', 'middle': 'z', 'last': 'McMahon'} - Django_Logger.roam - 06:40:28:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:28:03s PM
+INFO : Returned: 193 - Django_Logger.roam - 06:40:28:03s PM
+WARNING : Collab: [<Author: Levetin>, <Author: McMahon>] - Django_Logger.roam - 06:40:28:03s PM
+INFO : 	SearchedBook: Medical Botany: Plants Affecting Human Health - Django_Logger.roam - 06:40:28:03s PM
+INFO : 		SearchedAuthor: Walter Hepworth Lewis - Django_Logger.roam - 06:40:28:03s PM
+INFO : Repeat Filtered {'first': 'Walter', 'middle': 'Hepworth', 'last': 'Lewis'} - Django_Logger.roam - 06:40:28:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:28:03s PM
+INFO : Returned: 194 - Django_Logger.roam - 06:40:28:03s PM
+INFO : 		SearchedAuthor: Memory P. F. Elvin-Lewis - Django_Logger.roam - 06:40:28:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:40:28:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:40:28:03s PM
+INFO : Returned: 166 - Django_Logger.roam - 06:40:28:03s PM
+WARNING : Collab: [<Author: Lewis>, <Author: z>] - Django_Logger.roam - 06:40:28:03s PM
+INFO : -----------------------
+Title: Handbook of Native American Mythology
+FileAuthor: Dawn_Elaine_Bastian
+ - Django_Logger.roam - 06:40:28:03s PM
+INFO : 	Searched for: Handbook of Native American Mythology, type: book - Django_Logger.roam - 06:40:28:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Handbook of Native American Mythology - Django_Logger.roam - 06:40:28:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:29:03s PM
+INFO : Total Results: 35 - Django_Logger.roam - 06:40:29:03s PM
+INFO : 	SearchedBook: Native American Mythology in Modern American Literature: Analysis of the Novels "House Made of Dawn" by N. Scott Momaday and "Ceremony" by Leslie Marmon Silko - Django_Logger.roam - 06:40:29:03s PM
+INFO : 		SearchedAuthor: Danchevskaya, Oksana - Django_Logger.roam - 06:40:29:03s PM
+INFO : Created Oksana Danchevskaya 195 - Django_Logger.roam - 06:40:29:03s PM
+WARNING : Collab: [<Author: Danchevskaya>] - Django_Logger.roam - 06:40:29:03s PM
+INFO : 	SearchedBook: Handbook of Native American Literature (Garland Reference Library of the Humanities) - Django_Logger.roam - 06:40:29:03s PM
+WARNING : Collab: [] - Django_Logger.roam - 06:40:29:03s PM
+INFO : -----------------------
+Title: How the Mind Works
+FileAuthor: Steven_Pinker
+ - Django_Logger.roam - 06:40:29:03s PM
+INFO : 	Searched for: How the Mind Works, type: book - Django_Logger.roam - 06:40:29:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/How the Mind Works - Django_Logger.roam - 06:40:29:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:29:03s PM
+INFO : Total Results: 3687 - Django_Logger.roam - 06:40:29:03s PM
+INFO : 	SearchedBook: The Language Instinct: How the Mind Creates Language (P.S.) - Django_Logger.roam - 06:40:29:03s PM
+INFO : 		SearchedAuthor: Pinker, Steven - Django_Logger.roam - 06:40:29:03s PM
+INFO : Created Steven Pinker 196 - Django_Logger.roam - 06:40:29:03s PM
+WARNING : Collab: [<Author: Pinker>] - Django_Logger.roam - 06:40:29:03s PM
+INFO : 	SearchedBook: There Is a God: How the World's Most Notorious Atheist Changed His Mind - Django_Logger.roam - 06:40:29:03s PM
+INFO : 		SearchedAuthor: Flew, Antony - Django_Logger.roam - 06:40:29:03s PM
+INFO : Created Antony Flew 197 - Django_Logger.roam - 06:40:29:03s PM
+WARNING : Collab: [<Author: Flew>] - Django_Logger.roam - 06:40:29:03s PM
+INFO : -----------------------
+Title: Ishmael
+FileAuthor: Daniel_Quinn
+ - Django_Logger.roam - 06:40:29:03s PM
+INFO : 	Searched for: Ishmael, type: book - Django_Logger.roam - 06:40:29:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Ishmael - Django_Logger.roam - 06:40:29:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:30:03s PM
+INFO : Total Results: 443 - Django_Logger.roam - 06:40:30:03s PM
+INFO : 	SearchedBook: My Ishmael (Ishmael Series) - Django_Logger.roam - 06:40:30:03s PM
+INFO : 		SearchedAuthor: Quinn, Daniel - Django_Logger.roam - 06:40:30:03s PM
+INFO : Created Daniel Quinn 198 - Django_Logger.roam - 06:40:30:03s PM
+WARNING : Collab: [<Author: Quinn>] - Django_Logger.roam - 06:40:30:03s PM
+INFO : 	SearchedBook: Ishmael (Turtleback School & Library Binding Edition) - Django_Logger.roam - 06:40:30:03s PM
+INFO : 		SearchedAuthor: Quinn, Daniel - Django_Logger.roam - 06:40:30:03s PM
+INFO : Repeat Filtered {'first': 'Daniel', 'middle': 'z', 'last': 'Quinn'} - Django_Logger.roam - 06:40:30:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:40:30:03s PM
+INFO : Returned: 198 - Django_Logger.roam - 06:40:30:03s PM
+WARNING : Collab: [<Author: Quinn>] - Django_Logger.roam - 06:40:30:03s PM
+INFO : -----------------------
+Title: Conversations with James Baldwin
+FileAuthor: James_Baldwin
+ - Django_Logger.roam - 06:40:30:03s PM
+INFO : 	Searched for: Conversations with James Baldwin, type: book - Django_Logger.roam - 06:40:30:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Conversations with James Baldwin - Django_Logger.roam - 06:40:30:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:30:03s PM
+INFO : Total Results: 50 - Django_Logger.roam - 06:40:30:03s PM
+INFO : 	SearchedBook: James Cameron: Interviews (Conversations with Filmmakers Series) - Django_Logger.roam - 06:40:30:03s PM
+INFO : 		SearchedAuthor: Dunham, Brent - Django_Logger.roam - 06:40:30:03s PM
+INFO : Created Brent Dunham 199 - Django_Logger.roam - 06:40:30:03s PM
+WARNING : Collab: [<Author: Dunham>] - Django_Logger.roam - 06:40:30:03s PM
+INFO : 	SearchedBook: Conversations with James Baldwin (Literary Conversations Series) - Django_Logger.roam - 06:40:30:03s PM
+WARNING : Collab: [] - Django_Logger.roam - 06:40:30:03s PM
+INFO : -----------------------
+Title: Preconditions of Revolution in Early Modern Europe
+FileAuthor: Robert_Forster
+ - Django_Logger.roam - 06:40:30:03s PM
+INFO : 	Searched for: Preconditions of Revolution in Early Modern Europe, type: book - Django_Logger.roam - 06:40:30:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Preconditions of Revolution in Early Modern Europe - Django_Logger.roam - 06:40:30:03s PM
+INFO : 	Success - Django_Logger.roam - 06:40:31:03s PM
+INFO : Total Results: 14 - Django_Logger.roam - 06:40:31:03s PM
+INFO : 	SearchedBook: Preconditions of Revolution in Early Modern Europe (The Johns Hopkins Symposia in Comparative History) - Django_Logger.roam - 06:40:31:03s PM
+INFO : 		SearchedAuthor: Forster, Professor Robert - Django_Logger.roam - 06:40:31:03s PM
+INFO : Created Professor Forster 200 - Django_Logger.roam - 06:40:31:03s PM
+WARNING : Collab: [<Author: Forster>] - Django_Logger.roam - 06:40:31:03s PM
+INFO : 	SearchedBook: The Business of War: Military Enterprise and Military Revolution in Early Modern Europe - Django_Logger.roam - 06:40:31:03s PM
+INFO : 		SearchedAuthor: Parrott, David - Django_Logger.roam - 06:40:31:03s PM
+INFO : Created David Parrott 201 - Django_Logger.roam - 06:40:31:03s PM
+WARNING : Collab: [<Author: Parrott>] - Django_Logger.roam - 06:40:31:03s PM

@@ -2100,3 +2100,2343 @@ Book: A Brief Atlas Of The Human Body	Written By: z
 Book: A Brief Atlas Of The Human Body	Written By: z
 Book: A Brief Atlas Of The Human Body	Written By: z
 Book: A Brief Atlas Of The Human Body	Written By: Nicpon
+**************************
+BEGIN NEW TEST
+Number of books: 8
+Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+	Searched for: A.D. After Disclosure, type: book
+	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+	Success
+Total Results: 78
+	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+		SearchedAuthor: Dolan, Richard M.
+*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Filt: 1	 RevFilt: 0
+Returned: 101
+		SearchedAuthor: Zabel, Bryce
+*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Filt: 1	 RevFilt: 0
+Returned: 102
+Collab: [<Author: Dolan>, <Author: Zabel>]
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Dolan
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Zabel
+	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+		SearchedAuthor: John Chalmers
+*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Filt: 1	 RevFilt: 0
+Returned: 103
+Collab: [<Author: Chalmers>]
+Book: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)	Written By: Chalmers
+-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+	Success
+Total Results: None
+Cannot find: GRAHAM_HANCOCK
+-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+	Searched for: Anarchism and Other Essays, type: book
+	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+	Success
+Total Results: 9679
+	SearchedBook: Neck Deep and Other Predicaments: Essays
+		SearchedAuthor: Monson, Ander
+*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Filt: 1	 RevFilt: 0
+Returned: 104
+Collab: [<Author: Monson>]
+Book: Neck Deep and Other Predicaments: Essays	Written By: Monson
+	SearchedBook: Twenty Poems That Could Save America and Other Essays
+		SearchedAuthor: Hoagland, Tony
+*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Filt: 1	 RevFilt: 0
+Returned: 105
+Collab: [<Author: Hoagland>]
+Book: Twenty Poems That Could Save America and Other Essays	Written By: Hoagland
+-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+	Searched for: Atlas Shrugged, type: book
+	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+	Success
+Total Results: 10000
+	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+		SearchedAuthor: Netter MD, Frank H.
+*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 106
+Collab: [<Author: z>]
+Book: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)	Written By: z
+	SearchedBook: A Brief Atlas Of The Human Body
+		SearchedAuthor: Hutchinson
+*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 107
+		SearchedAuthor: Matt
+*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 108
+		SearchedAuthor: Mallatt
+*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 109
+		SearchedAuthor: Jon
+*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 110
+		SearchedAuthor: Marieb
+*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 111
+		SearchedAuthor: Elaine Nicpon
+*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Filt: 1	 RevFilt: 0
+Returned: 112
+Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>]
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: Nicpon
+-----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+
+	Searched for: Beyond the Rift, type: book
+	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift
+	Success
+Total Results: 10000
+	SearchedBook: The Twentieth Century And Beyond: A Global History
+		SearchedAuthor: Richard D. Goff
+*** BEGIN MAKE AUTHOR ***
+Name: Richard D. Goff	RAW: ['Richard', 'D.', 'Goff']
+Full Name: {'first': 'D.', 'middle': 'Goff', 'last': 'Richard'}
+Created D. Richard 113
+		SearchedAuthor: Walter Moss
+*** BEGIN MAKE AUTHOR ***
+Name: Walter Moss	RAW: ['Walter', 'Moss']
+Full Name: {'first': 'Walter', 'middle': 'z', 'last': 'Moss'}
+Created Walter Moss 114
+		SearchedAuthor: Janice Terry
+*** BEGIN MAKE AUTHOR ***
+Name: Janice Terry	RAW: ['Janice', 'Terry']
+Full Name: {'first': 'Janice', 'middle': 'z', 'last': 'Terry'}
+Created Janice Terry 115
+Collab: [<Author: Richard>, <Author: Moss>, <Author: Terry>]
+No PageCount
+Book: The Twentieth Century And Beyond: A Global History	Written By: Richard
+Book: The Twentieth Century And Beyond: A Global History	Written By: Moss
+Book: The Twentieth Century And Beyond: A Global History	Written By: Terry
+	SearchedBook: Beyond Belief: Finding the Strength to Come Back
+		SearchedAuthor: Hamilton, Josh
+*** BEGIN MAKE AUTHOR ***
+Name: Hamilton, Josh	RAW: ['Hamilton,', 'Josh']
+Full Name: {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+Created Josh Hamilton 116
+Collab: [<Author: Hamilton>]
+Book: Beyond Belief: Finding the Strength to Come Back	Written By: Hamilton
+-----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+
+	Searched for: Collapse, type: book
+	SearchUrl: https://api2.isbndb.com/books/Collapse
+	Success
+Total Results: 2539
+	SearchedBook: Bowling Alone: The Collapse and Revival of American Community
+		SearchedAuthor: Putnam, Robert D.
+*** BEGIN MAKE AUTHOR ***
+Name: Putnam, Robert D.	RAW: ['Putnam,', 'Robert', 'D.']
+Full Name: {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+Created Robert Putnam 117
+Collab: [<Author: Putnam>]
+Book: Bowling Alone: The Collapse and Revival of American Community	Written By: Putnam
+	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse
+		SearchedAuthor: Brown, Lester R.
+*** BEGIN MAKE AUTHOR ***
+Name: Brown, Lester R.	RAW: ['Brown,', 'Lester', 'R.']
+Full Name: {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+Created Lester Brown 118
+Collab: [<Author: Brown>]
+Book: World on the Edge: How to Prevent Environmental and Economic Collapse	Written By: Brown
+-----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+
+	Searched for: Crystallizing Public Opinion, type: book
+	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion
+	Success
+Total Results: 2056
+	SearchedBook: American Public Opinion (9th Edition)
+		SearchedAuthor: Erikson, Robert S.
+*** BEGIN MAKE AUTHOR ***
+Name: Erikson, Robert S.	RAW: ['Erikson,', 'Robert', 'S.']
+Full Name: {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+Created Robert Erikson 119
+		SearchedAuthor: Tedin, Kent L.
+*** BEGIN MAKE AUTHOR ***
+Name: Tedin, Kent L.	RAW: ['Tedin,', 'Kent', 'L.']
+Full Name: {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+Created Kent Tedin 120
+Collab: [<Author: Erikson>, <Author: Tedin>]
+No MSRP
+
+Book: American Public Opinion (9th Edition)	Written By: Erikson
+Book: American Public Opinion (9th Edition)	Written By: Tedin
+	SearchedBook: Public Opinion: Measuring the American Mind
+		SearchedAuthor: Bardes, Barbara A.
+*** BEGIN MAKE AUTHOR ***
+Name: Bardes, Barbara A.	RAW: ['Bardes,', 'Barbara', 'A.']
+Full Name: {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+Created Barbara Bardes 121
+		SearchedAuthor: Oldendick, Robert W.
+*** BEGIN MAKE AUTHOR ***
+Name: Oldendick, Robert W.	RAW: ['Oldendick,', 'Robert', 'W.']
+Full Name: {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+Created Robert Oldendick 122
+Collab: [<Author: Bardes>, <Author: Oldendick>]
+No MSRP
+
+Book: Public Opinion: Measuring the American Mind	Written By: Bardes
+Book: Public Opinion: Measuring the American Mind	Written By: Oldendick
+-----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+
+	Searched for: Dictionary of Symbols, type: book
+	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols
+	Success
+Total Results: 10000
+	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin)
+		SearchedAuthor: Chevalier, Jean
+*** BEGIN MAKE AUTHOR ***
+Name: Chevalier, Jean	RAW: ['Chevalier,', 'Jean']
+Full Name: {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+Created Jean Chevalier 123
+		SearchedAuthor: Gheerbrant, Alain
+*** BEGIN MAKE AUTHOR ***
+Name: Gheerbrant, Alain	RAW: ['Gheerbrant,', 'Alain']
+Full Name: {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+Created Alain Gheerbrant 124
+Collab: [<Author: Chevalier>, <Author: Gheerbrant>]
+Book: The Penguin Dictionary of Symbols (Dictionary, Penguin)	Written By: Chevalier
+Book: The Penguin Dictionary of Symbols (Dictionary, Penguin)	Written By: Gheerbrant
+	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+		SearchedAuthor: Adelson-Goldstein, Jayme
+*** BEGIN MAKE AUTHOR ***
+Name: Adelson-Goldstein, Jayme	RAW: ['Adelson-Goldstein,', 'Jayme']
+Full Name: {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+Created Jayme Adelson-Goldstein 125
+		SearchedAuthor: Shapiro, Norma
+*** BEGIN MAKE AUTHOR ***
+Name: Shapiro, Norma	RAW: ['Shapiro,', 'Norma']
+Full Name: {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+Created Norma Shapiro 126
+Collab: [<Author: Adelson-Goldstein>, <Author: Shapiro>]
+Book: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)	Written By: Adelson-Goldstein
+Book: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)	Written By: Shapiro
+**************************
+BEGIN NEW TEST
+Number of books: 10
+Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+	Searched for: A.D. After Disclosure, type: book
+	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+	Success
+Total Results: 78
+	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+		SearchedAuthor: Dolan, Richard M.
+*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Created Richard Dolan 127
+		SearchedAuthor: Zabel, Bryce
+*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Created Bryce Zabel 128
+Collab: [<Author: Dolan>, <Author: Zabel>]
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Dolan
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Zabel
+	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+		SearchedAuthor: John Chalmers
+*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Created John Chalmers 129
+Collab: [<Author: Chalmers>]
+Book: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)	Written By: Chalmers
+-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+	Success
+Total Results: None
+Cannot find: GRAHAM_HANCOCK
+-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+	Searched for: Anarchism and Other Essays, type: book
+	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+	Success
+Total Results: 9679
+	SearchedBook: Neck Deep and Other Predicaments: Essays
+		SearchedAuthor: Monson, Ander
+*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Created Ander Monson 130
+Collab: [<Author: Monson>]
+Book: Neck Deep and Other Predicaments: Essays	Written By: Monson
+	SearchedBook: Twenty Poems That Could Save America and Other Essays
+		SearchedAuthor: Hoagland, Tony
+*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Created Tony Hoagland 131
+Collab: [<Author: Hoagland>]
+Book: Twenty Poems That Could Save America and Other Essays	Written By: Hoagland
+-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+	Searched for: Atlas Shrugged, type: book
+	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+	Success
+Total Results: 10000
+	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+		SearchedAuthor: Netter MD, Frank H.
+*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Created z z 132
+Collab: [<Author: z>]
+Book: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)	Written By: z
+	SearchedBook: A Brief Atlas Of The Human Body
+		SearchedAuthor: Hutchinson
+*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Created Hutchinson z 133
+		SearchedAuthor: Matt
+*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Created Matt z 134
+		SearchedAuthor: Mallatt
+*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Created Mallatt z 135
+		SearchedAuthor: Jon
+*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Created Jon z 136
+		SearchedAuthor: Marieb
+*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Created Marieb z 137
+		SearchedAuthor: Elaine Nicpon
+*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Created Elaine Nicpon 138
+Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>]
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: Nicpon
+-----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+
+	Searched for: Beyond the Rift, type: book
+	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift
+	Success
+Total Results: 10000
+	SearchedBook: The Twentieth Century And Beyond: A Global History
+		SearchedAuthor: Richard D. Goff
+*** BEGIN MAKE AUTHOR ***
+Name: Richard D. Goff	RAW: ['Richard', 'D.', 'Goff']
+Full Name: {'first': 'Goff', 'middle': 'D.', 'last': 'Richard'}
+Created Goff Richard 139
+		SearchedAuthor: Walter Moss
+*** BEGIN MAKE AUTHOR ***
+Name: Walter Moss	RAW: ['Walter', 'Moss']
+Full Name: {'first': 'Walter', 'middle': 'z', 'last': 'Moss'}
+Created Walter Moss 140
+		SearchedAuthor: Janice Terry
+*** BEGIN MAKE AUTHOR ***
+Name: Janice Terry	RAW: ['Janice', 'Terry']
+Full Name: {'first': 'Janice', 'middle': 'z', 'last': 'Terry'}
+Created Janice Terry 141
+Collab: [<Author: Richard>, <Author: Moss>, <Author: Terry>]
+No PageCount
+Book: The Twentieth Century And Beyond: A Global History	Written By: Richard
+Book: The Twentieth Century And Beyond: A Global History	Written By: Moss
+Book: The Twentieth Century And Beyond: A Global History	Written By: Terry
+	SearchedBook: Beyond Belief: Finding the Strength to Come Back
+		SearchedAuthor: Hamilton, Josh
+*** BEGIN MAKE AUTHOR ***
+Name: Hamilton, Josh	RAW: ['Hamilton,', 'Josh']
+Full Name: {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+Created Josh Hamilton 142
+Collab: [<Author: Hamilton>]
+Book: Beyond Belief: Finding the Strength to Come Back	Written By: Hamilton
+-----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+
+	Searched for: Collapse, type: book
+	SearchUrl: https://api2.isbndb.com/books/Collapse
+	Success
+Total Results: 2539
+	SearchedBook: Bowling Alone: The Collapse and Revival of American Community
+		SearchedAuthor: Putnam, Robert D.
+*** BEGIN MAKE AUTHOR ***
+Name: Putnam, Robert D.	RAW: ['Putnam,', 'Robert', 'D.']
+Full Name: {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+Created Robert Putnam 143
+Collab: [<Author: Putnam>]
+Book: Bowling Alone: The Collapse and Revival of American Community	Written By: Putnam
+	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse
+		SearchedAuthor: Brown, Lester R.
+*** BEGIN MAKE AUTHOR ***
+Name: Brown, Lester R.	RAW: ['Brown,', 'Lester', 'R.']
+Full Name: {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+Created Lester Brown 144
+Collab: [<Author: Brown>]
+Book: World on the Edge: How to Prevent Environmental and Economic Collapse	Written By: Brown
+-----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+
+	Searched for: Crystallizing Public Opinion, type: book
+	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion
+	Success
+Total Results: 2056
+	SearchedBook: American Public Opinion (9th Edition)
+		SearchedAuthor: Erikson, Robert S.
+*** BEGIN MAKE AUTHOR ***
+Name: Erikson, Robert S.	RAW: ['Erikson,', 'Robert', 'S.']
+Full Name: {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+Created Robert Erikson 145
+		SearchedAuthor: Tedin, Kent L.
+*** BEGIN MAKE AUTHOR ***
+Name: Tedin, Kent L.	RAW: ['Tedin,', 'Kent', 'L.']
+Full Name: {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+Created Kent Tedin 146
+Collab: [<Author: Erikson>, <Author: Tedin>]
+No MSRP
+
+Book: American Public Opinion (9th Edition)	Written By: Erikson
+Book: American Public Opinion (9th Edition)	Written By: Tedin
+	SearchedBook: Public Opinion: Measuring the American Mind
+		SearchedAuthor: Bardes, Barbara A.
+*** BEGIN MAKE AUTHOR ***
+Name: Bardes, Barbara A.	RAW: ['Bardes,', 'Barbara', 'A.']
+Full Name: {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+Created Barbara Bardes 147
+		SearchedAuthor: Oldendick, Robert W.
+*** BEGIN MAKE AUTHOR ***
+Name: Oldendick, Robert W.	RAW: ['Oldendick,', 'Robert', 'W.']
+Full Name: {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+Created Robert Oldendick 148
+Collab: [<Author: Bardes>, <Author: Oldendick>]
+No MSRP
+
+Book: Public Opinion: Measuring the American Mind	Written By: Bardes
+Book: Public Opinion: Measuring the American Mind	Written By: Oldendick
+-----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+
+	Searched for: Dictionary of Symbols, type: book
+	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols
+	Success
+Total Results: 10000
+	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin)
+		SearchedAuthor: Chevalier, Jean
+*** BEGIN MAKE AUTHOR ***
+Name: Chevalier, Jean	RAW: ['Chevalier,', 'Jean']
+Full Name: {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+Created Jean Chevalier 149
+		SearchedAuthor: Gheerbrant, Alain
+*** BEGIN MAKE AUTHOR ***
+Name: Gheerbrant, Alain	RAW: ['Gheerbrant,', 'Alain']
+Full Name: {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+Created Alain Gheerbrant 150
+Collab: [<Author: Chevalier>, <Author: Gheerbrant>]
+Book: The Penguin Dictionary of Symbols (Dictionary, Penguin)	Written By: Chevalier
+Book: The Penguin Dictionary of Symbols (Dictionary, Penguin)	Written By: Gheerbrant
+	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+		SearchedAuthor: Adelson-Goldstein, Jayme
+*** BEGIN MAKE AUTHOR ***
+Name: Adelson-Goldstein, Jayme	RAW: ['Adelson-Goldstein,', 'Jayme']
+Full Name: {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+Created Jayme Adelson-Goldstein 151
+		SearchedAuthor: Shapiro, Norma
+*** BEGIN MAKE AUTHOR ***
+Name: Shapiro, Norma	RAW: ['Shapiro,', 'Norma']
+Full Name: {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+Created Norma Shapiro 152
+Collab: [<Author: Adelson-Goldstein>, <Author: Shapiro>]
+Book: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)	Written By: Adelson-Goldstein
+Book: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)	Written By: Shapiro
+-----------------------
+Title: Go
+FileAuthor: Ch'ihun_Cho
+
+	Searched for: Go, type: book
+	SearchUrl: https://api2.isbndb.com/books/Go
+	Success
+Total Results: 10000
+	SearchedBook: Go! with Office 2013, Volume 1
+		SearchedAuthor: Gaskin, Shelley
+*** BEGIN MAKE AUTHOR ***
+Name: Gaskin, Shelley	RAW: ['Gaskin,', 'Shelley']
+Full Name: {'first': 'Shelley', 'middle': 'z', 'last': 'Gaskin'}
+Created Shelley Gaskin 153
+		SearchedAuthor: Vargas, Alicia
+*** BEGIN MAKE AUTHOR ***
+Name: Vargas, Alicia	RAW: ['Vargas,', 'Alicia']
+Full Name: {'first': 'Alicia', 'middle': 'z', 'last': 'Vargas'}
+Created Alicia Vargas 154
+		SearchedAuthor: McLellan, Carolyn
+*** BEGIN MAKE AUTHOR ***
+Name: McLellan, Carolyn	RAW: ['McLellan,', 'Carolyn']
+Full Name: {'first': 'Carolyn', 'middle': 'z', 'last': 'McLellan'}
+Created Carolyn McLellan 155
+Collab: [<Author: Gaskin>, <Author: Vargas>, <Author: McLellan>]
+Book: Go! with Office 2013, Volume 1	Written By: Gaskin
+Book: Go! with Office 2013, Volume 1	Written By: Vargas
+Book: Go! with Office 2013, Volume 1	Written By: McLellan
+	SearchedBook: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set
+		SearchedAuthor: Michael A. Singer
+*** BEGIN MAKE AUTHOR ***
+Name: Michael A. Singer	RAW: ['Michael', 'A.', 'Singer']
+Full Name: {'first': 'Singer', 'middle': 'A.', 'last': 'Michael'}
+Created Singer Michael 156
+		SearchedAuthor: David R. Hawkins MD PhD
+*** BEGIN MAKE AUTHOR ***
+Name: David R. Hawkins MD PhD	RAW: ['David', 'R.', 'Hawkins', 'MD', 'PhD']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 132
+		SearchedAuthor: Marianne Williamson
+*** BEGIN MAKE AUTHOR ***
+Name: Marianne Williamson	RAW: ['Marianne', 'Williamson']
+Full Name: {'first': 'Marianne', 'middle': 'z', 'last': 'Williamson'}
+Created Marianne Williamson 157
+Collab: [<Author: Michael>, <Author: z>, <Author: Williamson>]
+Book: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set	Written By: Michael
+Book: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set	Written By: z
+Book: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set	Written By: Williamson
+-----------------------
+Title: Hallucinogenic Plants
+FileAuthor: Richard_Evans_Schultes
+
+	Searched for: Hallucinogenic Plants, type: book
+	SearchUrl: https://api2.isbndb.com/books/Hallucinogenic Plants
+	Success
+Total Results: 10000
+	SearchedBook: Plants and Society
+		SearchedAuthor: Levetin, Estelle
+*** BEGIN MAKE AUTHOR ***
+Name: Levetin, Estelle	RAW: ['Levetin,', 'Estelle']
+Full Name: {'first': 'Estelle', 'middle': 'z', 'last': 'Levetin'}
+Created Estelle Levetin 158
+		SearchedAuthor: McMahon, Karen
+*** BEGIN MAKE AUTHOR ***
+Name: McMahon, Karen	RAW: ['McMahon,', 'Karen']
+Full Name: {'first': 'Karen', 'middle': 'z', 'last': 'McMahon'}
+Created Karen McMahon 159
+Collab: [<Author: Levetin>, <Author: McMahon>]
+Book: Plants and Society	Written By: Levetin
+Book: Plants and Society	Written By: McMahon
+	SearchedBook: Medical Botany: Plants Affecting Human Health
+		SearchedAuthor: Walter Hepworth Lewis
+*** BEGIN MAKE AUTHOR ***
+Name: Walter Hepworth Lewis	RAW: ['Walter', 'Hepworth', 'Lewis']
+Full Name: {'first': 'Lewis', 'middle': 'Hepworth', 'last': 'Walter'}
+Created Lewis Walter 160
+		SearchedAuthor: Memory P. F. Elvin-Lewis
+*** BEGIN MAKE AUTHOR ***
+Name: Memory P. F. Elvin-Lewis	RAW: ['Memory', 'P.', 'F.', 'Elvin-Lewis']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 132
+Collab: [<Author: Walter>, <Author: z>]
+Book: Medical Botany: Plants Affecting Human Health	Written By: Walter
+Book: Medical Botany: Plants Affecting Human Health	Written By: z
+**************************
+BEGIN NEW TEST
+Number of books: 10
+Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+	Searched for: A.D. After Disclosure, type: book
+	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+	Success
+Total Results: 78
+	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+		SearchedAuthor: Dolan, Richard M.
+*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Filt: 1	 RevFilt: 0
+Returned: 127
+		SearchedAuthor: Zabel, Bryce
+*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Filt: 1	 RevFilt: 0
+Returned: 128
+Collab: [<Author: Dolan>, <Author: Zabel>]
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Dolan
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Zabel
+	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+		SearchedAuthor: John Chalmers
+*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Filt: 1	 RevFilt: 0
+Returned: 129
+Collab: [<Author: Chalmers>]
+Book: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)	Written By: Chalmers
+-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+	Success
+Total Results: None
+Cannot find: GRAHAM_HANCOCK
+-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+	Searched for: Anarchism and Other Essays, type: book
+	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+	Success
+Total Results: 9679
+	SearchedBook: Neck Deep and Other Predicaments: Essays
+		SearchedAuthor: Monson, Ander
+*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Filt: 1	 RevFilt: 0
+Returned: 130
+Collab: [<Author: Monson>]
+Book: Neck Deep and Other Predicaments: Essays	Written By: Monson
+	SearchedBook: Twenty Poems That Could Save America and Other Essays
+		SearchedAuthor: Hoagland, Tony
+*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Filt: 1	 RevFilt: 0
+Returned: 131
+Collab: [<Author: Hoagland>]
+Book: Twenty Poems That Could Save America and Other Essays	Written By: Hoagland
+-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+	Searched for: Atlas Shrugged, type: book
+	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+	Success
+Total Results: 10000
+	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+		SearchedAuthor: Netter MD, Frank H.
+*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 132
+Collab: [<Author: z>]
+Book: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)	Written By: z
+	SearchedBook: A Brief Atlas Of The Human Body
+		SearchedAuthor: Hutchinson
+*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 133
+		SearchedAuthor: Matt
+*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 134
+		SearchedAuthor: Mallatt
+*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 135
+		SearchedAuthor: Jon
+*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 136
+		SearchedAuthor: Marieb
+*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 137
+		SearchedAuthor: Elaine Nicpon
+*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Filt: 1	 RevFilt: 0
+Returned: 138
+Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>]
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: Nicpon
+-----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+
+	Searched for: Beyond the Rift, type: book
+	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift
+	Success
+Total Results: 10000
+	SearchedBook: The Twentieth Century And Beyond: A Global History
+		SearchedAuthor: Richard D. Goff
+*** BEGIN MAKE AUTHOR ***
+Name: Richard D. Goff	RAW: ['Richard', 'D.', 'Goff']
+Full Name: {'first': 'Richard', 'middle': 'D.', 'last': 'Goff'}
+Repeat Filtered {'first': 'Richard', 'middle': 'D.', 'last': 'Goff'}
+Filt: 0	 RevFilt: 1
+Returned: 139
+		SearchedAuthor: Walter Moss
+*** BEGIN MAKE AUTHOR ***
+Name: Walter Moss	RAW: ['Walter', 'Moss']
+Full Name: {'first': 'Walter', 'middle': 'z', 'last': 'Moss'}
+Repeat Filtered {'first': 'Walter', 'middle': 'z', 'last': 'Moss'}
+Filt: 1	 RevFilt: 0
+Returned: 140
+		SearchedAuthor: Janice Terry
+*** BEGIN MAKE AUTHOR ***
+Name: Janice Terry	RAW: ['Janice', 'Terry']
+Full Name: {'first': 'Janice', 'middle': 'z', 'last': 'Terry'}
+Repeat Filtered {'first': 'Janice', 'middle': 'z', 'last': 'Terry'}
+Filt: 1	 RevFilt: 0
+Returned: 141
+Collab: [<Author: Richard>, <Author: Moss>, <Author: Terry>]
+No PageCount
+Book: The Twentieth Century And Beyond: A Global History	Written By: Richard
+Book: The Twentieth Century And Beyond: A Global History	Written By: Moss
+Book: The Twentieth Century And Beyond: A Global History	Written By: Terry
+	SearchedBook: Beyond Belief: Finding the Strength to Come Back
+		SearchedAuthor: Hamilton, Josh
+*** BEGIN MAKE AUTHOR ***
+Name: Hamilton, Josh	RAW: ['Hamilton,', 'Josh']
+Full Name: {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+Repeat Filtered {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+Filt: 1	 RevFilt: 0
+Returned: 142
+Collab: [<Author: Hamilton>]
+Book: Beyond Belief: Finding the Strength to Come Back	Written By: Hamilton
+-----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+
+	Searched for: Collapse, type: book
+	SearchUrl: https://api2.isbndb.com/books/Collapse
+	Success
+Total Results: 2539
+	SearchedBook: Bowling Alone: The Collapse and Revival of American Community
+		SearchedAuthor: Putnam, Robert D.
+*** BEGIN MAKE AUTHOR ***
+Name: Putnam, Robert D.	RAW: ['Putnam,', 'Robert', 'D.']
+Full Name: {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+Repeat Filtered {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+Filt: 1	 RevFilt: 0
+Returned: 143
+Collab: [<Author: Putnam>]
+Book: Bowling Alone: The Collapse and Revival of American Community	Written By: Putnam
+	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse
+		SearchedAuthor: Brown, Lester R.
+*** BEGIN MAKE AUTHOR ***
+Name: Brown, Lester R.	RAW: ['Brown,', 'Lester', 'R.']
+Full Name: {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+Repeat Filtered {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+Filt: 1	 RevFilt: 0
+Returned: 144
+Collab: [<Author: Brown>]
+Book: World on the Edge: How to Prevent Environmental and Economic Collapse	Written By: Brown
+-----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+
+	Searched for: Crystallizing Public Opinion, type: book
+	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion
+	Success
+Total Results: 2056
+	SearchedBook: American Public Opinion (9th Edition)
+		SearchedAuthor: Erikson, Robert S.
+*** BEGIN MAKE AUTHOR ***
+Name: Erikson, Robert S.	RAW: ['Erikson,', 'Robert', 'S.']
+Full Name: {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+Repeat Filtered {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+Filt: 1	 RevFilt: 0
+Returned: 145
+		SearchedAuthor: Tedin, Kent L.
+*** BEGIN MAKE AUTHOR ***
+Name: Tedin, Kent L.	RAW: ['Tedin,', 'Kent', 'L.']
+Full Name: {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+Repeat Filtered {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+Filt: 1	 RevFilt: 0
+Returned: 146
+Collab: [<Author: Erikson>, <Author: Tedin>]
+No MSRP
+
+Book: American Public Opinion (9th Edition)	Written By: Erikson
+Book: American Public Opinion (9th Edition)	Written By: Tedin
+	SearchedBook: Public Opinion: Measuring the American Mind
+		SearchedAuthor: Bardes, Barbara A.
+*** BEGIN MAKE AUTHOR ***
+Name: Bardes, Barbara A.	RAW: ['Bardes,', 'Barbara', 'A.']
+Full Name: {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+Repeat Filtered {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+Filt: 1	 RevFilt: 0
+Returned: 147
+		SearchedAuthor: Oldendick, Robert W.
+*** BEGIN MAKE AUTHOR ***
+Name: Oldendick, Robert W.	RAW: ['Oldendick,', 'Robert', 'W.']
+Full Name: {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+Repeat Filtered {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+Filt: 1	 RevFilt: 0
+Returned: 148
+Collab: [<Author: Bardes>, <Author: Oldendick>]
+No MSRP
+
+Book: Public Opinion: Measuring the American Mind	Written By: Bardes
+Book: Public Opinion: Measuring the American Mind	Written By: Oldendick
+-----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+
+	Searched for: Dictionary of Symbols, type: book
+	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols
+	Success
+Total Results: 10000
+	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin)
+		SearchedAuthor: Chevalier, Jean
+*** BEGIN MAKE AUTHOR ***
+Name: Chevalier, Jean	RAW: ['Chevalier,', 'Jean']
+Full Name: {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+Repeat Filtered {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+Filt: 1	 RevFilt: 0
+Returned: 149
+		SearchedAuthor: Gheerbrant, Alain
+*** BEGIN MAKE AUTHOR ***
+Name: Gheerbrant, Alain	RAW: ['Gheerbrant,', 'Alain']
+Full Name: {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+Repeat Filtered {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+Filt: 1	 RevFilt: 0
+Returned: 150
+Collab: [<Author: Chevalier>, <Author: Gheerbrant>]
+Book: The Penguin Dictionary of Symbols (Dictionary, Penguin)	Written By: Chevalier
+Book: The Penguin Dictionary of Symbols (Dictionary, Penguin)	Written By: Gheerbrant
+	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+		SearchedAuthor: Adelson-Goldstein, Jayme
+*** BEGIN MAKE AUTHOR ***
+Name: Adelson-Goldstein, Jayme	RAW: ['Adelson-Goldstein,', 'Jayme']
+Full Name: {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+Repeat Filtered {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+Filt: 1	 RevFilt: 0
+Returned: 151
+		SearchedAuthor: Shapiro, Norma
+*** BEGIN MAKE AUTHOR ***
+Name: Shapiro, Norma	RAW: ['Shapiro,', 'Norma']
+Full Name: {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+Repeat Filtered {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+Filt: 1	 RevFilt: 0
+Returned: 152
+Collab: [<Author: Adelson-Goldstein>, <Author: Shapiro>]
+Book: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)	Written By: Adelson-Goldstein
+Book: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)	Written By: Shapiro
+-----------------------
+Title: Go
+FileAuthor: Ch'ihun_Cho
+
+	Searched for: Go, type: book
+	SearchUrl: https://api2.isbndb.com/books/Go
+	Success
+Total Results: 10000
+	SearchedBook: Go! with Office 2013, Volume 1
+		SearchedAuthor: Gaskin, Shelley
+*** BEGIN MAKE AUTHOR ***
+Name: Gaskin, Shelley	RAW: ['Gaskin,', 'Shelley']
+Full Name: {'first': 'Shelley', 'middle': 'z', 'last': 'Gaskin'}
+Repeat Filtered {'first': 'Shelley', 'middle': 'z', 'last': 'Gaskin'}
+Filt: 1	 RevFilt: 0
+Returned: 153
+		SearchedAuthor: Vargas, Alicia
+*** BEGIN MAKE AUTHOR ***
+Name: Vargas, Alicia	RAW: ['Vargas,', 'Alicia']
+Full Name: {'first': 'Alicia', 'middle': 'z', 'last': 'Vargas'}
+Repeat Filtered {'first': 'Alicia', 'middle': 'z', 'last': 'Vargas'}
+Filt: 1	 RevFilt: 0
+Returned: 154
+		SearchedAuthor: McLellan, Carolyn
+*** BEGIN MAKE AUTHOR ***
+Name: McLellan, Carolyn	RAW: ['McLellan,', 'Carolyn']
+Full Name: {'first': 'Carolyn', 'middle': 'z', 'last': 'McLellan'}
+Repeat Filtered {'first': 'Carolyn', 'middle': 'z', 'last': 'McLellan'}
+Filt: 1	 RevFilt: 0
+Returned: 155
+Collab: [<Author: Gaskin>, <Author: Vargas>, <Author: McLellan>]
+Book: Go! with Office 2013, Volume 1	Written By: Gaskin
+Book: Go! with Office 2013, Volume 1	Written By: Vargas
+Book: Go! with Office 2013, Volume 1	Written By: McLellan
+	SearchedBook: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set
+		SearchedAuthor: Michael A. Singer
+*** BEGIN MAKE AUTHOR ***
+Name: Michael A. Singer	RAW: ['Michael', 'A.', 'Singer']
+Full Name: {'first': 'Michael', 'middle': 'A.', 'last': 'Singer'}
+Repeat Filtered {'first': 'Michael', 'middle': 'A.', 'last': 'Singer'}
+Filt: 0	 RevFilt: 1
+Returned: 156
+		SearchedAuthor: David R. Hawkins MD PhD
+*** BEGIN MAKE AUTHOR ***
+Name: David R. Hawkins MD PhD	RAW: ['David', 'R.', 'Hawkins', 'MD', 'PhD']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 132
+		SearchedAuthor: Marianne Williamson
+*** BEGIN MAKE AUTHOR ***
+Name: Marianne Williamson	RAW: ['Marianne', 'Williamson']
+Full Name: {'first': 'Marianne', 'middle': 'z', 'last': 'Williamson'}
+Repeat Filtered {'first': 'Marianne', 'middle': 'z', 'last': 'Williamson'}
+Filt: 1	 RevFilt: 0
+Returned: 157
+Collab: [<Author: Michael>, <Author: z>, <Author: Williamson>]
+Book: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set	Written By: Michael
+Book: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set	Written By: z
+Book: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set	Written By: Williamson
+-----------------------
+Title: Hallucinogenic Plants
+FileAuthor: Richard_Evans_Schultes
+
+	Searched for: Hallucinogenic Plants, type: book
+	SearchUrl: https://api2.isbndb.com/books/Hallucinogenic Plants
+	Success
+Total Results: 10000
+	SearchedBook: Plants and Society
+		SearchedAuthor: Levetin, Estelle
+*** BEGIN MAKE AUTHOR ***
+Name: Levetin, Estelle	RAW: ['Levetin,', 'Estelle']
+Full Name: {'first': 'Estelle', 'middle': 'z', 'last': 'Levetin'}
+Repeat Filtered {'first': 'Estelle', 'middle': 'z', 'last': 'Levetin'}
+Filt: 1	 RevFilt: 0
+Returned: 158
+		SearchedAuthor: McMahon, Karen
+*** BEGIN MAKE AUTHOR ***
+Name: McMahon, Karen	RAW: ['McMahon,', 'Karen']
+Full Name: {'first': 'Karen', 'middle': 'z', 'last': 'McMahon'}
+Repeat Filtered {'first': 'Karen', 'middle': 'z', 'last': 'McMahon'}
+Filt: 1	 RevFilt: 0
+Returned: 159
+Collab: [<Author: Levetin>, <Author: McMahon>]
+Book: Plants and Society	Written By: Levetin
+Book: Plants and Society	Written By: McMahon
+	SearchedBook: Medical Botany: Plants Affecting Human Health
+		SearchedAuthor: Walter Hepworth Lewis
+*** BEGIN MAKE AUTHOR ***
+Name: Walter Hepworth Lewis	RAW: ['Walter', 'Hepworth', 'Lewis']
+Full Name: {'first': 'Walter', 'middle': 'Hepworth', 'last': 'Lewis'}
+Repeat Filtered {'first': 'Walter', 'middle': 'Hepworth', 'last': 'Lewis'}
+Filt: 0	 RevFilt: 1
+Returned: 160
+		SearchedAuthor: Memory P. F. Elvin-Lewis
+*** BEGIN MAKE AUTHOR ***
+Name: Memory P. F. Elvin-Lewis	RAW: ['Memory', 'P.', 'F.', 'Elvin-Lewis']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 132
+Collab: [<Author: Walter>, <Author: z>]
+Book: Medical Botany: Plants Affecting Human Health	Written By: Walter
+Book: Medical Botany: Plants Affecting Human Health	Written By: z
+**************************
+BEGIN NEW TEST
+Number of books: 10
+Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+	Searched for: A.D. After Disclosure, type: book
+	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+	Success
+Total Results: 78
+	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+		SearchedAuthor: Dolan, Richard M.
+*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Created Richard Dolan 161
+		SearchedAuthor: Zabel, Bryce
+*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Created Bryce Zabel 162
+Collab: [<Author: Dolan>, <Author: Zabel>]
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Dolan
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Zabel
+	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+		SearchedAuthor: John Chalmers
+*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Created John Chalmers 163
+Collab: [<Author: Chalmers>]
+Book: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)	Written By: Chalmers
+-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+	Success
+Total Results: None
+Cannot find: GRAHAM_HANCOCK
+-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+	Searched for: Anarchism and Other Essays, type: book
+	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+	Success
+Total Results: 9679
+	SearchedBook: Neck Deep and Other Predicaments: Essays
+		SearchedAuthor: Monson, Ander
+*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Created Ander Monson 164
+Collab: [<Author: Monson>]
+Book: Neck Deep and Other Predicaments: Essays	Written By: Monson
+	SearchedBook: Twenty Poems That Could Save America and Other Essays
+		SearchedAuthor: Hoagland, Tony
+*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Created Tony Hoagland 165
+Collab: [<Author: Hoagland>]
+Book: Twenty Poems That Could Save America and Other Essays	Written By: Hoagland
+-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+	Searched for: Atlas Shrugged, type: book
+	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+	Success
+Total Results: 10000
+	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+		SearchedAuthor: Netter MD, Frank H.
+*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Created z z 166
+Collab: [<Author: z>]
+Book: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)	Written By: z
+	SearchedBook: A Brief Atlas Of The Human Body
+		SearchedAuthor: Hutchinson
+*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Created Hutchinson z 167
+		SearchedAuthor: Matt
+*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Created Matt z 168
+		SearchedAuthor: Mallatt
+*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Created Mallatt z 169
+		SearchedAuthor: Jon
+*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Created Jon z 170
+		SearchedAuthor: Marieb
+*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Created Marieb z 171
+		SearchedAuthor: Elaine Nicpon
+*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Created Elaine Nicpon 172
+Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>]
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: Nicpon
+-----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+
+	Searched for: Beyond the Rift, type: book
+	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift
+	Success
+Total Results: 10000
+	SearchedBook: The Twentieth Century And Beyond: A Global History
+		SearchedAuthor: Richard D. Goff
+*** BEGIN MAKE AUTHOR ***
+Name: Richard D. Goff	RAW: ['Richard', 'D.', 'Goff']
+Full Name: {'first': 'Richard', 'middle': 'D.', 'last': 'Goff'}
+Created Richard Goff 173
+		SearchedAuthor: Walter Moss
+*** BEGIN MAKE AUTHOR ***
+Name: Walter Moss	RAW: ['Walter', 'Moss']
+Full Name: {'first': 'Walter', 'middle': 'z', 'last': 'Moss'}
+Created Walter Moss 174
+		SearchedAuthor: Janice Terry
+*** BEGIN MAKE AUTHOR ***
+Name: Janice Terry	RAW: ['Janice', 'Terry']
+Full Name: {'first': 'Janice', 'middle': 'z', 'last': 'Terry'}
+Created Janice Terry 175
+Collab: [<Author: Goff>, <Author: Moss>, <Author: Terry>]
+No PageCount
+Book: The Twentieth Century And Beyond: A Global History	Written By: Goff
+Book: The Twentieth Century And Beyond: A Global History	Written By: Moss
+Book: The Twentieth Century And Beyond: A Global History	Written By: Terry
+	SearchedBook: Beyond Belief: Finding the Strength to Come Back
+		SearchedAuthor: Hamilton, Josh
+*** BEGIN MAKE AUTHOR ***
+Name: Hamilton, Josh	RAW: ['Hamilton,', 'Josh']
+Full Name: {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+Created Josh Hamilton 176
+Collab: [<Author: Hamilton>]
+Book: Beyond Belief: Finding the Strength to Come Back	Written By: Hamilton
+-----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+
+	Searched for: Collapse, type: book
+	SearchUrl: https://api2.isbndb.com/books/Collapse
+	Success
+Total Results: 2539
+	SearchedBook: Bowling Alone: The Collapse and Revival of American Community
+		SearchedAuthor: Putnam, Robert D.
+*** BEGIN MAKE AUTHOR ***
+Name: Putnam, Robert D.	RAW: ['Putnam,', 'Robert', 'D.']
+Full Name: {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+Created Robert Putnam 177
+Collab: [<Author: Putnam>]
+Book: Bowling Alone: The Collapse and Revival of American Community	Written By: Putnam
+	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse
+		SearchedAuthor: Brown, Lester R.
+*** BEGIN MAKE AUTHOR ***
+Name: Brown, Lester R.	RAW: ['Brown,', 'Lester', 'R.']
+Full Name: {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+Created Lester Brown 178
+Collab: [<Author: Brown>]
+Book: World on the Edge: How to Prevent Environmental and Economic Collapse	Written By: Brown
+-----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+
+	Searched for: Crystallizing Public Opinion, type: book
+	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion
+	Success
+Total Results: 2056
+	SearchedBook: American Public Opinion (9th Edition)
+		SearchedAuthor: Erikson, Robert S.
+*** BEGIN MAKE AUTHOR ***
+Name: Erikson, Robert S.	RAW: ['Erikson,', 'Robert', 'S.']
+Full Name: {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+Created Robert Erikson 179
+		SearchedAuthor: Tedin, Kent L.
+*** BEGIN MAKE AUTHOR ***
+Name: Tedin, Kent L.	RAW: ['Tedin,', 'Kent', 'L.']
+Full Name: {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+Created Kent Tedin 180
+Collab: [<Author: Erikson>, <Author: Tedin>]
+No MSRP
+
+Book: American Public Opinion (9th Edition)	Written By: Erikson
+Book: American Public Opinion (9th Edition)	Written By: Tedin
+	SearchedBook: Public Opinion: Measuring the American Mind
+		SearchedAuthor: Bardes, Barbara A.
+*** BEGIN MAKE AUTHOR ***
+Name: Bardes, Barbara A.	RAW: ['Bardes,', 'Barbara', 'A.']
+Full Name: {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+Created Barbara Bardes 181
+		SearchedAuthor: Oldendick, Robert W.
+*** BEGIN MAKE AUTHOR ***
+Name: Oldendick, Robert W.	RAW: ['Oldendick,', 'Robert', 'W.']
+Full Name: {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+Created Robert Oldendick 182
+Collab: [<Author: Bardes>, <Author: Oldendick>]
+No MSRP
+
+Book: Public Opinion: Measuring the American Mind	Written By: Bardes
+Book: Public Opinion: Measuring the American Mind	Written By: Oldendick
+-----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+
+	Searched for: Dictionary of Symbols, type: book
+	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols
+	Success
+Total Results: 10000
+	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin)
+		SearchedAuthor: Chevalier, Jean
+*** BEGIN MAKE AUTHOR ***
+Name: Chevalier, Jean	RAW: ['Chevalier,', 'Jean']
+Full Name: {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+Created Jean Chevalier 183
+		SearchedAuthor: Gheerbrant, Alain
+*** BEGIN MAKE AUTHOR ***
+Name: Gheerbrant, Alain	RAW: ['Gheerbrant,', 'Alain']
+Full Name: {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+Created Alain Gheerbrant 184
+Collab: [<Author: Chevalier>, <Author: Gheerbrant>]
+Book: The Penguin Dictionary of Symbols (Dictionary, Penguin)	Written By: Chevalier
+Book: The Penguin Dictionary of Symbols (Dictionary, Penguin)	Written By: Gheerbrant
+	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+		SearchedAuthor: Adelson-Goldstein, Jayme
+*** BEGIN MAKE AUTHOR ***
+Name: Adelson-Goldstein, Jayme	RAW: ['Adelson-Goldstein,', 'Jayme']
+Full Name: {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+Created Jayme Adelson-Goldstein 185
+		SearchedAuthor: Shapiro, Norma
+*** BEGIN MAKE AUTHOR ***
+Name: Shapiro, Norma	RAW: ['Shapiro,', 'Norma']
+Full Name: {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+Created Norma Shapiro 186
+Collab: [<Author: Adelson-Goldstein>, <Author: Shapiro>]
+Book: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)	Written By: Adelson-Goldstein
+Book: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)	Written By: Shapiro
+-----------------------
+Title: Go
+FileAuthor: Ch'ihun_Cho
+
+	Searched for: Go, type: book
+	SearchUrl: https://api2.isbndb.com/books/Go
+	Success
+Total Results: 10000
+	SearchedBook: Go! with Office 2013, Volume 1
+		SearchedAuthor: Gaskin, Shelley
+*** BEGIN MAKE AUTHOR ***
+Name: Gaskin, Shelley	RAW: ['Gaskin,', 'Shelley']
+Full Name: {'first': 'Shelley', 'middle': 'z', 'last': 'Gaskin'}
+Created Shelley Gaskin 187
+		SearchedAuthor: Vargas, Alicia
+*** BEGIN MAKE AUTHOR ***
+Name: Vargas, Alicia	RAW: ['Vargas,', 'Alicia']
+Full Name: {'first': 'Alicia', 'middle': 'z', 'last': 'Vargas'}
+Created Alicia Vargas 188
+		SearchedAuthor: McLellan, Carolyn
+*** BEGIN MAKE AUTHOR ***
+Name: McLellan, Carolyn	RAW: ['McLellan,', 'Carolyn']
+Full Name: {'first': 'Carolyn', 'middle': 'z', 'last': 'McLellan'}
+Created Carolyn McLellan 189
+Collab: [<Author: Gaskin>, <Author: Vargas>, <Author: McLellan>]
+Book: Go! with Office 2013, Volume 1	Written By: Gaskin
+Book: Go! with Office 2013, Volume 1	Written By: Vargas
+Book: Go! with Office 2013, Volume 1	Written By: McLellan
+	SearchedBook: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set
+		SearchedAuthor: Michael A. Singer
+*** BEGIN MAKE AUTHOR ***
+Name: Michael A. Singer	RAW: ['Michael', 'A.', 'Singer']
+Full Name: {'first': 'Michael', 'middle': 'A.', 'last': 'Singer'}
+Created Michael Singer 190
+		SearchedAuthor: David R. Hawkins MD PhD
+*** BEGIN MAKE AUTHOR ***
+Name: David R. Hawkins MD PhD	RAW: ['David', 'R.', 'Hawkins', 'MD', 'PhD']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 166
+		SearchedAuthor: Marianne Williamson
+*** BEGIN MAKE AUTHOR ***
+Name: Marianne Williamson	RAW: ['Marianne', 'Williamson']
+Full Name: {'first': 'Marianne', 'middle': 'z', 'last': 'Williamson'}
+Created Marianne Williamson 191
+Collab: [<Author: Singer>, <Author: z>, <Author: Williamson>]
+Book: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set	Written By: Singer
+Book: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set	Written By: z
+Book: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set	Written By: Williamson
+-----------------------
+Title: Hallucinogenic Plants
+FileAuthor: Richard_Evans_Schultes
+
+	Searched for: Hallucinogenic Plants, type: book
+	SearchUrl: https://api2.isbndb.com/books/Hallucinogenic Plants
+	Success
+Total Results: 10000
+	SearchedBook: Plants and Society
+		SearchedAuthor: Levetin, Estelle
+*** BEGIN MAKE AUTHOR ***
+Name: Levetin, Estelle	RAW: ['Levetin,', 'Estelle']
+Full Name: {'first': 'Estelle', 'middle': 'z', 'last': 'Levetin'}
+Created Estelle Levetin 192
+		SearchedAuthor: McMahon, Karen
+*** BEGIN MAKE AUTHOR ***
+Name: McMahon, Karen	RAW: ['McMahon,', 'Karen']
+Full Name: {'first': 'Karen', 'middle': 'z', 'last': 'McMahon'}
+Created Karen McMahon 193
+Collab: [<Author: Levetin>, <Author: McMahon>]
+Book: Plants and Society	Written By: Levetin
+Book: Plants and Society	Written By: McMahon
+	SearchedBook: Medical Botany: Plants Affecting Human Health
+		SearchedAuthor: Walter Hepworth Lewis
+*** BEGIN MAKE AUTHOR ***
+Name: Walter Hepworth Lewis	RAW: ['Walter', 'Hepworth', 'Lewis']
+Full Name: {'first': 'Walter', 'middle': 'Hepworth', 'last': 'Lewis'}
+Created Walter Lewis 194
+		SearchedAuthor: Memory P. F. Elvin-Lewis
+*** BEGIN MAKE AUTHOR ***
+Name: Memory P. F. Elvin-Lewis	RAW: ['Memory', 'P.', 'F.', 'Elvin-Lewis']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 166
+Collab: [<Author: Lewis>, <Author: z>]
+Book: Medical Botany: Plants Affecting Human Health	Written By: Lewis
+Book: Medical Botany: Plants Affecting Human Health	Written By: z
+**************************
+BEGIN NEW TEST
+Number of books: 10
+Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+	Searched for: A.D. After Disclosure, type: book
+	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+	Success
+Total Results: 78
+	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+		SearchedAuthor: Dolan, Richard M.
+*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Filt: 1	 RevFilt: 0
+Returned: 161
+		SearchedAuthor: Zabel, Bryce
+*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Filt: 1	 RevFilt: 0
+Returned: 162
+Collab: [<Author: Dolan>, <Author: Zabel>]
+Title: A.D. After Disclosure: The People's Guide to Life After Contact
+Filtered A.D. After Disclosure: The People's Guide to Life After Contact
+	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+		SearchedAuthor: John Chalmers
+*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Filt: 1	 RevFilt: 0
+Returned: 163
+Collab: [<Author: Chalmers>]
+Title: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+Filtered An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+	Success
+Total Results: None
+Cannot find: GRAHAM_HANCOCK
+-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+	Searched for: Anarchism and Other Essays, type: book
+	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+	Success
+Total Results: 9679
+	SearchedBook: Neck Deep and Other Predicaments: Essays
+		SearchedAuthor: Monson, Ander
+*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Filt: 1	 RevFilt: 0
+Returned: 164
+Collab: [<Author: Monson>]
+Title: Neck Deep and Other Predicaments: Essays
+Filtered Neck Deep and Other Predicaments: Essays
+	SearchedBook: Twenty Poems That Could Save America and Other Essays
+		SearchedAuthor: Hoagland, Tony
+*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Filt: 1	 RevFilt: 0
+Returned: 165
+Collab: [<Author: Hoagland>]
+Title: Twenty Poems That Could Save America and Other Essays
+Filtered Twenty Poems That Could Save America and Other Essays
+-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+	Searched for: Atlas Shrugged, type: book
+	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+	Success
+Total Results: 10000
+	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+		SearchedAuthor: Netter MD, Frank H.
+*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 166
+Collab: [<Author: z>]
+Title: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+Filtered Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+	SearchedBook: A Brief Atlas Of The Human Body
+		SearchedAuthor: Hutchinson
+*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 167
+		SearchedAuthor: Matt
+*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 168
+		SearchedAuthor: Mallatt
+*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 169
+		SearchedAuthor: Jon
+*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 170
+		SearchedAuthor: Marieb
+*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 171
+		SearchedAuthor: Elaine Nicpon
+*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Filt: 1	 RevFilt: 0
+Returned: 172
+Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>]
+Title: A Brief Atlas Of The Human Body
+Filtered A Brief Atlas Of The Human Body
+-----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+
+	Searched for: Beyond the Rift, type: book
+	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift
+	Success
+Total Results: 10000
+	SearchedBook: The Twentieth Century And Beyond: A Global History
+		SearchedAuthor: Richard D. Goff
+*** BEGIN MAKE AUTHOR ***
+Name: Richard D. Goff	RAW: ['Richard', 'D.', 'Goff']
+Full Name: {'first': 'Richard', 'middle': 'D.', 'last': 'Goff'}
+Repeat Filtered {'first': 'Richard', 'middle': 'D.', 'last': 'Goff'}
+Filt: 1	 RevFilt: 0
+Returned: 173
+		SearchedAuthor: Walter Moss
+*** BEGIN MAKE AUTHOR ***
+Name: Walter Moss	RAW: ['Walter', 'Moss']
+Full Name: {'first': 'Walter', 'middle': 'z', 'last': 'Moss'}
+Repeat Filtered {'first': 'Walter', 'middle': 'z', 'last': 'Moss'}
+Filt: 1	 RevFilt: 0
+Returned: 174
+		SearchedAuthor: Janice Terry
+*** BEGIN MAKE AUTHOR ***
+Name: Janice Terry	RAW: ['Janice', 'Terry']
+Full Name: {'first': 'Janice', 'middle': 'z', 'last': 'Terry'}
+Repeat Filtered {'first': 'Janice', 'middle': 'z', 'last': 'Terry'}
+Filt: 1	 RevFilt: 0
+Returned: 175
+Collab: [<Author: Goff>, <Author: Moss>, <Author: Terry>]
+Title: The Twentieth Century And Beyond: A Global History
+Filtered The Twentieth Century And Beyond: A Global History
+	SearchedBook: Beyond Belief: Finding the Strength to Come Back
+		SearchedAuthor: Hamilton, Josh
+*** BEGIN MAKE AUTHOR ***
+Name: Hamilton, Josh	RAW: ['Hamilton,', 'Josh']
+Full Name: {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+Repeat Filtered {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+Filt: 1	 RevFilt: 0
+Returned: 176
+Collab: [<Author: Hamilton>]
+Title: Beyond Belief: Finding the Strength to Come Back
+Filtered Beyond Belief: Finding the Strength to Come Back
+-----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+
+	Searched for: Collapse, type: book
+	SearchUrl: https://api2.isbndb.com/books/Collapse
+	Success
+Total Results: 2539
+	SearchedBook: Bowling Alone: The Collapse and Revival of American Community
+		SearchedAuthor: Putnam, Robert D.
+*** BEGIN MAKE AUTHOR ***
+Name: Putnam, Robert D.	RAW: ['Putnam,', 'Robert', 'D.']
+Full Name: {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+Repeat Filtered {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+Filt: 1	 RevFilt: 0
+Returned: 177
+Collab: [<Author: Putnam>]
+Title: Bowling Alone: The Collapse and Revival of American Community
+Filtered Bowling Alone: The Collapse and Revival of American Community
+	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse
+		SearchedAuthor: Brown, Lester R.
+*** BEGIN MAKE AUTHOR ***
+Name: Brown, Lester R.	RAW: ['Brown,', 'Lester', 'R.']
+Full Name: {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+Repeat Filtered {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+Filt: 1	 RevFilt: 0
+Returned: 178
+Collab: [<Author: Brown>]
+Title: World on the Edge: How to Prevent Environmental and Economic Collapse
+Filtered World on the Edge: How to Prevent Environmental and Economic Collapse
+-----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+
+	Searched for: Crystallizing Public Opinion, type: book
+	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion
+	Success
+Total Results: 2056
+	SearchedBook: American Public Opinion (9th Edition)
+		SearchedAuthor: Erikson, Robert S.
+*** BEGIN MAKE AUTHOR ***
+Name: Erikson, Robert S.	RAW: ['Erikson,', 'Robert', 'S.']
+Full Name: {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+Repeat Filtered {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+Filt: 1	 RevFilt: 0
+Returned: 179
+		SearchedAuthor: Tedin, Kent L.
+*** BEGIN MAKE AUTHOR ***
+Name: Tedin, Kent L.	RAW: ['Tedin,', 'Kent', 'L.']
+Full Name: {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+Repeat Filtered {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+Filt: 1	 RevFilt: 0
+Returned: 180
+Collab: [<Author: Erikson>, <Author: Tedin>]
+Title: American Public Opinion (9th Edition)
+Filtered American Public Opinion (9th Edition)
+	SearchedBook: Public Opinion: Measuring the American Mind
+		SearchedAuthor: Bardes, Barbara A.
+*** BEGIN MAKE AUTHOR ***
+Name: Bardes, Barbara A.	RAW: ['Bardes,', 'Barbara', 'A.']
+Full Name: {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+Repeat Filtered {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+Filt: 1	 RevFilt: 0
+Returned: 181
+		SearchedAuthor: Oldendick, Robert W.
+*** BEGIN MAKE AUTHOR ***
+Name: Oldendick, Robert W.	RAW: ['Oldendick,', 'Robert', 'W.']
+Full Name: {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+Repeat Filtered {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+Filt: 1	 RevFilt: 0
+Returned: 182
+Collab: [<Author: Bardes>, <Author: Oldendick>]
+Title: Public Opinion: Measuring the American Mind
+Filtered Public Opinion: Measuring the American Mind
+-----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+
+	Searched for: Dictionary of Symbols, type: book
+	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols
+	Success
+Total Results: 10000
+	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin)
+		SearchedAuthor: Chevalier, Jean
+*** BEGIN MAKE AUTHOR ***
+Name: Chevalier, Jean	RAW: ['Chevalier,', 'Jean']
+Full Name: {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+Repeat Filtered {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+Filt: 1	 RevFilt: 0
+Returned: 183
+		SearchedAuthor: Gheerbrant, Alain
+*** BEGIN MAKE AUTHOR ***
+Name: Gheerbrant, Alain	RAW: ['Gheerbrant,', 'Alain']
+Full Name: {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+Repeat Filtered {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+Filt: 1	 RevFilt: 0
+Returned: 184
+Collab: [<Author: Chevalier>, <Author: Gheerbrant>]
+Title: The Penguin Dictionary of Symbols (Dictionary, Penguin)
+Filtered The Penguin Dictionary of Symbols (Dictionary, Penguin)
+	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+		SearchedAuthor: Adelson-Goldstein, Jayme
+*** BEGIN MAKE AUTHOR ***
+Name: Adelson-Goldstein, Jayme	RAW: ['Adelson-Goldstein,', 'Jayme']
+Full Name: {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+Repeat Filtered {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+Filt: 1	 RevFilt: 0
+Returned: 185
+		SearchedAuthor: Shapiro, Norma
+*** BEGIN MAKE AUTHOR ***
+Name: Shapiro, Norma	RAW: ['Shapiro,', 'Norma']
+Full Name: {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+Repeat Filtered {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+Filt: 1	 RevFilt: 0
+Returned: 186
+Collab: [<Author: Adelson-Goldstein>, <Author: Shapiro>]
+Title: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+Filtered Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+-----------------------
+Title: Go
+FileAuthor: Ch'ihun_Cho
+
+	Searched for: Go, type: book
+	SearchUrl: https://api2.isbndb.com/books/Go
+	Success
+Total Results: 10000
+	SearchedBook: Go! with Office 2013, Volume 1
+		SearchedAuthor: Gaskin, Shelley
+*** BEGIN MAKE AUTHOR ***
+Name: Gaskin, Shelley	RAW: ['Gaskin,', 'Shelley']
+Full Name: {'first': 'Shelley', 'middle': 'z', 'last': 'Gaskin'}
+Repeat Filtered {'first': 'Shelley', 'middle': 'z', 'last': 'Gaskin'}
+Filt: 1	 RevFilt: 0
+Returned: 187
+		SearchedAuthor: Vargas, Alicia
+*** BEGIN MAKE AUTHOR ***
+Name: Vargas, Alicia	RAW: ['Vargas,', 'Alicia']
+Full Name: {'first': 'Alicia', 'middle': 'z', 'last': 'Vargas'}
+Repeat Filtered {'first': 'Alicia', 'middle': 'z', 'last': 'Vargas'}
+Filt: 1	 RevFilt: 0
+Returned: 188
+		SearchedAuthor: McLellan, Carolyn
+*** BEGIN MAKE AUTHOR ***
+Name: McLellan, Carolyn	RAW: ['McLellan,', 'Carolyn']
+Full Name: {'first': 'Carolyn', 'middle': 'z', 'last': 'McLellan'}
+Repeat Filtered {'first': 'Carolyn', 'middle': 'z', 'last': 'McLellan'}
+Filt: 1	 RevFilt: 0
+Returned: 189
+Collab: [<Author: Gaskin>, <Author: Vargas>, <Author: McLellan>]
+Title: Go! with Office 2013, Volume 1
+Filtered Go! with Office 2013, Volume 1
+	SearchedBook: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set
+		SearchedAuthor: Michael A. Singer
+*** BEGIN MAKE AUTHOR ***
+Name: Michael A. Singer	RAW: ['Michael', 'A.', 'Singer']
+Full Name: {'first': 'Michael', 'middle': 'A.', 'last': 'Singer'}
+Repeat Filtered {'first': 'Michael', 'middle': 'A.', 'last': 'Singer'}
+Filt: 1	 RevFilt: 0
+Returned: 190
+		SearchedAuthor: David R. Hawkins MD PhD
+*** BEGIN MAKE AUTHOR ***
+Name: David R. Hawkins MD PhD	RAW: ['David', 'R.', 'Hawkins', 'MD', 'PhD']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 166
+		SearchedAuthor: Marianne Williamson
+*** BEGIN MAKE AUTHOR ***
+Name: Marianne Williamson	RAW: ['Marianne', 'Williamson']
+Full Name: {'first': 'Marianne', 'middle': 'z', 'last': 'Williamson'}
+Repeat Filtered {'first': 'Marianne', 'middle': 'z', 'last': 'Williamson'}
+Filt: 1	 RevFilt: 0
+Returned: 191
+Collab: [<Author: Singer>, <Author: z>, <Author: Williamson>]
+Title: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set
+Filtered A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set
+-----------------------
+Title: Hallucinogenic Plants
+FileAuthor: Richard_Evans_Schultes
+
+	Searched for: Hallucinogenic Plants, type: book
+	SearchUrl: https://api2.isbndb.com/books/Hallucinogenic Plants
+	Success
+Total Results: 10000
+	SearchedBook: Plants and Society
+		SearchedAuthor: Levetin, Estelle
+*** BEGIN MAKE AUTHOR ***
+Name: Levetin, Estelle	RAW: ['Levetin,', 'Estelle']
+Full Name: {'first': 'Estelle', 'middle': 'z', 'last': 'Levetin'}
+Repeat Filtered {'first': 'Estelle', 'middle': 'z', 'last': 'Levetin'}
+Filt: 1	 RevFilt: 0
+Returned: 192
+		SearchedAuthor: McMahon, Karen
+*** BEGIN MAKE AUTHOR ***
+Name: McMahon, Karen	RAW: ['McMahon,', 'Karen']
+Full Name: {'first': 'Karen', 'middle': 'z', 'last': 'McMahon'}
+Repeat Filtered {'first': 'Karen', 'middle': 'z', 'last': 'McMahon'}
+Filt: 1	 RevFilt: 0
+Returned: 193
+Collab: [<Author: Levetin>, <Author: McMahon>]
+Title: Plants and Society
+Filtered Plants and Society
+	SearchedBook: Medical Botany: Plants Affecting Human Health
+		SearchedAuthor: Walter Hepworth Lewis
+*** BEGIN MAKE AUTHOR ***
+Name: Walter Hepworth Lewis	RAW: ['Walter', 'Hepworth', 'Lewis']
+Full Name: {'first': 'Walter', 'middle': 'Hepworth', 'last': 'Lewis'}
+Repeat Filtered {'first': 'Walter', 'middle': 'Hepworth', 'last': 'Lewis'}
+Filt: 1	 RevFilt: 0
+Returned: 194
+		SearchedAuthor: Memory P. F. Elvin-Lewis
+*** BEGIN MAKE AUTHOR ***
+Name: Memory P. F. Elvin-Lewis	RAW: ['Memory', 'P.', 'F.', 'Elvin-Lewis']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 166
+Collab: [<Author: Lewis>, <Author: z>]
+Title: Medical Botany: Plants Affecting Human Health
+Filtered Medical Botany: Plants Affecting Human Health
+**************************
+BEGIN NEW TEST
+Number of books: 15
+Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+	Searched for: A.D. After Disclosure, type: book
+	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+	Success
+Total Results: 78
+	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+		SearchedAuthor: Dolan, Richard M.
+*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Filt: 1	 RevFilt: 0
+Returned: 161
+		SearchedAuthor: Zabel, Bryce
+*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Filt: 1	 RevFilt: 0
+Returned: 162
+Collab: [<Author: Dolan>, <Author: Zabel>]
+Title: A.D. After Disclosure: The People's Guide to Life After Contact
+Filtered A.D. After Disclosure: The People's Guide to Life After Contact
+	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+		SearchedAuthor: John Chalmers
+*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Filt: 1	 RevFilt: 0
+Returned: 163
+Collab: [<Author: Chalmers>]
+Title: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+Filtered An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+	Success
+Total Results: None
+Cannot find: GRAHAM_HANCOCK
+-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+	Searched for: Anarchism and Other Essays, type: book
+	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+	Success
+Total Results: 9679
+	SearchedBook: Neck Deep and Other Predicaments: Essays
+		SearchedAuthor: Monson, Ander
+*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Filt: 1	 RevFilt: 0
+Returned: 164
+Collab: [<Author: Monson>]
+Title: Neck Deep and Other Predicaments: Essays
+Filtered Neck Deep and Other Predicaments: Essays
+	SearchedBook: Twenty Poems That Could Save America and Other Essays
+		SearchedAuthor: Hoagland, Tony
+*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Filt: 1	 RevFilt: 0
+Returned: 165
+Collab: [<Author: Hoagland>]
+Title: Twenty Poems That Could Save America and Other Essays
+Filtered Twenty Poems That Could Save America and Other Essays
+-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+	Searched for: Atlas Shrugged, type: book
+	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+	Success
+Total Results: 10000
+	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+		SearchedAuthor: Netter MD, Frank H.
+*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 166
+Collab: [<Author: z>]
+Title: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+Filtered Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+	SearchedBook: A Brief Atlas Of The Human Body
+		SearchedAuthor: Hutchinson
+*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 167
+		SearchedAuthor: Matt
+*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 168
+		SearchedAuthor: Mallatt
+*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 169
+		SearchedAuthor: Jon
+*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 170
+		SearchedAuthor: Marieb
+*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 171
+		SearchedAuthor: Elaine Nicpon
+*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Filt: 1	 RevFilt: 0
+Returned: 172
+Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>]
+Title: A Brief Atlas Of The Human Body
+Filtered A Brief Atlas Of The Human Body
+-----------------------
+Title: Beyond the Rift
+FileAuthor: Peter_Watts
+
+	Searched for: Beyond the Rift, type: book
+	SearchUrl: https://api2.isbndb.com/books/Beyond the Rift
+	Success
+Total Results: 10000
+	SearchedBook: The Twentieth Century And Beyond: A Global History
+		SearchedAuthor: Richard D. Goff
+*** BEGIN MAKE AUTHOR ***
+Name: Richard D. Goff	RAW: ['Richard', 'D.', 'Goff']
+Full Name: {'first': 'Richard', 'middle': 'D.', 'last': 'Goff'}
+Repeat Filtered {'first': 'Richard', 'middle': 'D.', 'last': 'Goff'}
+Filt: 1	 RevFilt: 0
+Returned: 173
+		SearchedAuthor: Walter Moss
+*** BEGIN MAKE AUTHOR ***
+Name: Walter Moss	RAW: ['Walter', 'Moss']
+Full Name: {'first': 'Walter', 'middle': 'z', 'last': 'Moss'}
+Repeat Filtered {'first': 'Walter', 'middle': 'z', 'last': 'Moss'}
+Filt: 1	 RevFilt: 0
+Returned: 174
+		SearchedAuthor: Janice Terry
+*** BEGIN MAKE AUTHOR ***
+Name: Janice Terry	RAW: ['Janice', 'Terry']
+Full Name: {'first': 'Janice', 'middle': 'z', 'last': 'Terry'}
+Repeat Filtered {'first': 'Janice', 'middle': 'z', 'last': 'Terry'}
+Filt: 1	 RevFilt: 0
+Returned: 175
+Collab: [<Author: Goff>, <Author: Moss>, <Author: Terry>]
+Title: The Twentieth Century And Beyond: A Global History
+Filtered The Twentieth Century And Beyond: A Global History
+	SearchedBook: Beyond Belief: Finding the Strength to Come Back
+		SearchedAuthor: Hamilton, Josh
+*** BEGIN MAKE AUTHOR ***
+Name: Hamilton, Josh	RAW: ['Hamilton,', 'Josh']
+Full Name: {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+Repeat Filtered {'first': 'Josh', 'middle': 'z', 'last': 'Hamilton'}
+Filt: 1	 RevFilt: 0
+Returned: 176
+Collab: [<Author: Hamilton>]
+Title: Beyond Belief: Finding the Strength to Come Back
+Filtered Beyond Belief: Finding the Strength to Come Back
+-----------------------
+Title: Collapse
+FileAuthor: Jared_Diamond
+
+	Searched for: Collapse, type: book
+	SearchUrl: https://api2.isbndb.com/books/Collapse
+	Success
+Total Results: 2539
+	SearchedBook: Bowling Alone: The Collapse and Revival of American Community
+		SearchedAuthor: Putnam, Robert D.
+*** BEGIN MAKE AUTHOR ***
+Name: Putnam, Robert D.	RAW: ['Putnam,', 'Robert', 'D.']
+Full Name: {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+Repeat Filtered {'first': 'Robert', 'middle': 'D.', 'last': 'Putnam'}
+Filt: 1	 RevFilt: 0
+Returned: 177
+Collab: [<Author: Putnam>]
+Title: Bowling Alone: The Collapse and Revival of American Community
+Filtered Bowling Alone: The Collapse and Revival of American Community
+	SearchedBook: World on the Edge: How to Prevent Environmental and Economic Collapse
+		SearchedAuthor: Brown, Lester R.
+*** BEGIN MAKE AUTHOR ***
+Name: Brown, Lester R.	RAW: ['Brown,', 'Lester', 'R.']
+Full Name: {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+Repeat Filtered {'first': 'Lester', 'middle': 'R.', 'last': 'Brown'}
+Filt: 1	 RevFilt: 0
+Returned: 178
+Collab: [<Author: Brown>]
+Title: World on the Edge: How to Prevent Environmental and Economic Collapse
+Filtered World on the Edge: How to Prevent Environmental and Economic Collapse
+-----------------------
+Title: Crystallizing Public Opinion
+FileAuthor: Edward_L_Bernays
+
+	Searched for: Crystallizing Public Opinion, type: book
+	SearchUrl: https://api2.isbndb.com/books/Crystallizing Public Opinion
+	Success
+Total Results: 2056
+	SearchedBook: American Public Opinion (9th Edition)
+		SearchedAuthor: Erikson, Robert S.
+*** BEGIN MAKE AUTHOR ***
+Name: Erikson, Robert S.	RAW: ['Erikson,', 'Robert', 'S.']
+Full Name: {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+Repeat Filtered {'first': 'Robert', 'middle': 'S.', 'last': 'Erikson'}
+Filt: 1	 RevFilt: 0
+Returned: 179
+		SearchedAuthor: Tedin, Kent L.
+*** BEGIN MAKE AUTHOR ***
+Name: Tedin, Kent L.	RAW: ['Tedin,', 'Kent', 'L.']
+Full Name: {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+Repeat Filtered {'first': 'Kent', 'middle': 'L.', 'last': 'Tedin'}
+Filt: 1	 RevFilt: 0
+Returned: 180
+Collab: [<Author: Erikson>, <Author: Tedin>]
+Title: American Public Opinion (9th Edition)
+Filtered American Public Opinion (9th Edition)
+	SearchedBook: Public Opinion: Measuring the American Mind
+		SearchedAuthor: Bardes, Barbara A.
+*** BEGIN MAKE AUTHOR ***
+Name: Bardes, Barbara A.	RAW: ['Bardes,', 'Barbara', 'A.']
+Full Name: {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+Repeat Filtered {'first': 'Barbara', 'middle': 'A.', 'last': 'Bardes'}
+Filt: 1	 RevFilt: 0
+Returned: 181
+		SearchedAuthor: Oldendick, Robert W.
+*** BEGIN MAKE AUTHOR ***
+Name: Oldendick, Robert W.	RAW: ['Oldendick,', 'Robert', 'W.']
+Full Name: {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+Repeat Filtered {'first': 'Robert', 'middle': 'W.', 'last': 'Oldendick'}
+Filt: 1	 RevFilt: 0
+Returned: 182
+Collab: [<Author: Bardes>, <Author: Oldendick>]
+Title: Public Opinion: Measuring the American Mind
+Filtered Public Opinion: Measuring the American Mind
+-----------------------
+Title: Dictionary of Symbols
+FileAuthor: Carl_G_Liungman
+
+	Searched for: Dictionary of Symbols, type: book
+	SearchUrl: https://api2.isbndb.com/books/Dictionary of Symbols
+	Success
+Total Results: 10000
+	SearchedBook: The Penguin Dictionary of Symbols (Dictionary, Penguin)
+		SearchedAuthor: Chevalier, Jean
+*** BEGIN MAKE AUTHOR ***
+Name: Chevalier, Jean	RAW: ['Chevalier,', 'Jean']
+Full Name: {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+Repeat Filtered {'first': 'Jean', 'middle': 'z', 'last': 'Chevalier'}
+Filt: 1	 RevFilt: 0
+Returned: 183
+		SearchedAuthor: Gheerbrant, Alain
+*** BEGIN MAKE AUTHOR ***
+Name: Gheerbrant, Alain	RAW: ['Gheerbrant,', 'Alain']
+Full Name: {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+Repeat Filtered {'first': 'Alain', 'middle': 'z', 'last': 'Gheerbrant'}
+Filt: 1	 RevFilt: 0
+Returned: 184
+Collab: [<Author: Chevalier>, <Author: Gheerbrant>]
+Title: The Penguin Dictionary of Symbols (Dictionary, Penguin)
+Filtered The Penguin Dictionary of Symbols (Dictionary, Penguin)
+	SearchedBook: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+		SearchedAuthor: Adelson-Goldstein, Jayme
+*** BEGIN MAKE AUTHOR ***
+Name: Adelson-Goldstein, Jayme	RAW: ['Adelson-Goldstein,', 'Jayme']
+Full Name: {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+Repeat Filtered {'first': 'Jayme', 'middle': 'z', 'last': 'Adelson-Goldstein'}
+Filt: 1	 RevFilt: 0
+Returned: 185
+		SearchedAuthor: Shapiro, Norma
+*** BEGIN MAKE AUTHOR ***
+Name: Shapiro, Norma	RAW: ['Shapiro,', 'Norma']
+Full Name: {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+Repeat Filtered {'first': 'Norma', 'middle': 'z', 'last': 'Shapiro'}
+Filt: 1	 RevFilt: 0
+Returned: 186
+Collab: [<Author: Adelson-Goldstein>, <Author: Shapiro>]
+Title: Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+Filtered Oxford Picture Dictionary English-Spanish: Bilingual Dictionary for Spanish speaking teenage and adult students of English (Oxford Picture Dictionary 2E)
+-----------------------
+Title: Go
+FileAuthor: Ch'ihun_Cho
+
+	Searched for: Go, type: book
+	SearchUrl: https://api2.isbndb.com/books/Go
+	Success
+Total Results: 10000
+	SearchedBook: Go! with Office 2013, Volume 1
+		SearchedAuthor: Gaskin, Shelley
+*** BEGIN MAKE AUTHOR ***
+Name: Gaskin, Shelley	RAW: ['Gaskin,', 'Shelley']
+Full Name: {'first': 'Shelley', 'middle': 'z', 'last': 'Gaskin'}
+Repeat Filtered {'first': 'Shelley', 'middle': 'z', 'last': 'Gaskin'}
+Filt: 1	 RevFilt: 0
+Returned: 187
+		SearchedAuthor: Vargas, Alicia
+*** BEGIN MAKE AUTHOR ***
+Name: Vargas, Alicia	RAW: ['Vargas,', 'Alicia']
+Full Name: {'first': 'Alicia', 'middle': 'z', 'last': 'Vargas'}
+Repeat Filtered {'first': 'Alicia', 'middle': 'z', 'last': 'Vargas'}
+Filt: 1	 RevFilt: 0
+Returned: 188
+		SearchedAuthor: McLellan, Carolyn
+*** BEGIN MAKE AUTHOR ***
+Name: McLellan, Carolyn	RAW: ['McLellan,', 'Carolyn']
+Full Name: {'first': 'Carolyn', 'middle': 'z', 'last': 'McLellan'}
+Repeat Filtered {'first': 'Carolyn', 'middle': 'z', 'last': 'McLellan'}
+Filt: 1	 RevFilt: 0
+Returned: 189
+Collab: [<Author: Gaskin>, <Author: Vargas>, <Author: McLellan>]
+Title: Go! with Office 2013, Volume 1
+Filtered Go! with Office 2013, Volume 1
+	SearchedBook: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set
+		SearchedAuthor: Michael A. Singer
+*** BEGIN MAKE AUTHOR ***
+Name: Michael A. Singer	RAW: ['Michael', 'A.', 'Singer']
+Full Name: {'first': 'Michael', 'middle': 'A.', 'last': 'Singer'}
+Repeat Filtered {'first': 'Michael', 'middle': 'A.', 'last': 'Singer'}
+Filt: 1	 RevFilt: 0
+Returned: 190
+		SearchedAuthor: David R. Hawkins MD PhD
+*** BEGIN MAKE AUTHOR ***
+Name: David R. Hawkins MD PhD	RAW: ['David', 'R.', 'Hawkins', 'MD', 'PhD']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 166
+		SearchedAuthor: Marianne Williamson
+*** BEGIN MAKE AUTHOR ***
+Name: Marianne Williamson	RAW: ['Marianne', 'Williamson']
+Full Name: {'first': 'Marianne', 'middle': 'z', 'last': 'Williamson'}
+Repeat Filtered {'first': 'Marianne', 'middle': 'z', 'last': 'Williamson'}
+Filt: 1	 RevFilt: 0
+Returned: 191
+Collab: [<Author: Singer>, <Author: z>, <Author: Williamson>]
+Title: A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set
+Filtered A Return to Love, Untethered Soul, Letting Go, Surrender Experiment 4 Books Collection Set
+-----------------------
+Title: Hallucinogenic Plants
+FileAuthor: Richard_Evans_Schultes
+
+	Searched for: Hallucinogenic Plants, type: book
+	SearchUrl: https://api2.isbndb.com/books/Hallucinogenic Plants
+	Success
+Total Results: 10000
+	SearchedBook: Plants and Society
+		SearchedAuthor: Levetin, Estelle
+*** BEGIN MAKE AUTHOR ***
+Name: Levetin, Estelle	RAW: ['Levetin,', 'Estelle']
+Full Name: {'first': 'Estelle', 'middle': 'z', 'last': 'Levetin'}
+Repeat Filtered {'first': 'Estelle', 'middle': 'z', 'last': 'Levetin'}
+Filt: 1	 RevFilt: 0
+Returned: 192
+		SearchedAuthor: McMahon, Karen
+*** BEGIN MAKE AUTHOR ***
+Name: McMahon, Karen	RAW: ['McMahon,', 'Karen']
+Full Name: {'first': 'Karen', 'middle': 'z', 'last': 'McMahon'}
+Repeat Filtered {'first': 'Karen', 'middle': 'z', 'last': 'McMahon'}
+Filt: 1	 RevFilt: 0
+Returned: 193
+Collab: [<Author: Levetin>, <Author: McMahon>]
+Title: Plants and Society
+Filtered Plants and Society
+	SearchedBook: Medical Botany: Plants Affecting Human Health
+		SearchedAuthor: Walter Hepworth Lewis
+*** BEGIN MAKE AUTHOR ***
+Name: Walter Hepworth Lewis	RAW: ['Walter', 'Hepworth', 'Lewis']
+Full Name: {'first': 'Walter', 'middle': 'Hepworth', 'last': 'Lewis'}
+Repeat Filtered {'first': 'Walter', 'middle': 'Hepworth', 'last': 'Lewis'}
+Filt: 1	 RevFilt: 0
+Returned: 194
+		SearchedAuthor: Memory P. F. Elvin-Lewis
+*** BEGIN MAKE AUTHOR ***
+Name: Memory P. F. Elvin-Lewis	RAW: ['Memory', 'P.', 'F.', 'Elvin-Lewis']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 166
+Collab: [<Author: Lewis>, <Author: z>]
+Title: Medical Botany: Plants Affecting Human Health
+Filtered Medical Botany: Plants Affecting Human Health
+-----------------------
+Title: Handbook of Native American Mythology
+FileAuthor: Dawn_Elaine_Bastian
+
+	Searched for: Handbook of Native American Mythology, type: book
+	SearchUrl: https://api2.isbndb.com/books/Handbook of Native American Mythology
+	Success
+Total Results: 35
+	SearchedBook: Native American Mythology in Modern American Literature: Analysis of the Novels "House Made of Dawn" by N. Scott Momaday and "Ceremony" by Leslie Marmon Silko
+		SearchedAuthor: Danchevskaya, Oksana
+*** BEGIN MAKE AUTHOR ***
+Name: Danchevskaya, Oksana	RAW: ['Danchevskaya,', 'Oksana']
+Full Name: {'first': 'Oksana', 'middle': 'z', 'last': 'Danchevskaya'}
+Created Oksana Danchevskaya 195
+Collab: [<Author: Danchevskaya>]
+Title: Native American Mythology in Modern American Literature: Analysis of the Novels "House Made of Dawn" by N. Scott Momaday and "Ceremony" by Leslie Marmon Silko
+No MSRP
+
+Book: Native American Mythology in Modern American Literature: Analysis of the Novels "House Made of Dawn" by N. Scott Momaday and "Ceremony" by Leslie Marmon Silko
+Written By: Danchevskaya
+	SearchedBook: Handbook of Native American Literature (Garland Reference Library of the Humanities)
+Collab: []
+Title: Handbook of Native American Literature (Garland Reference Library of the Humanities)
+-----------------------
+Title: How the Mind Works
+FileAuthor: Steven_Pinker
+
+	Searched for: How the Mind Works, type: book
+	SearchUrl: https://api2.isbndb.com/books/How the Mind Works
+	Success
+Total Results: 3687
+	SearchedBook: The Language Instinct: How the Mind Creates Language (P.S.)
+		SearchedAuthor: Pinker, Steven
+*** BEGIN MAKE AUTHOR ***
+Name: Pinker, Steven	RAW: ['Pinker,', 'Steven']
+Full Name: {'first': 'Steven', 'middle': 'z', 'last': 'Pinker'}
+Created Steven Pinker 196
+Collab: [<Author: Pinker>]
+Title: The Language Instinct: How the Mind Creates Language (P.S.)
+Book: The Language Instinct: How the Mind Creates Language (P.S.)
+Written By: Pinker
+	SearchedBook: There Is a God: How the World's Most Notorious Atheist Changed His Mind
+		SearchedAuthor: Flew, Antony
+*** BEGIN MAKE AUTHOR ***
+Name: Flew, Antony	RAW: ['Flew,', 'Antony']
+Full Name: {'first': 'Antony', 'middle': 'z', 'last': 'Flew'}
+Created Antony Flew 197
+Collab: [<Author: Flew>]
+Title: There Is a God: How the World's Most Notorious Atheist Changed His Mind
+Book: There Is a God: How the World's Most Notorious Atheist Changed His Mind
+Written By: Flew
+-----------------------
+Title: Ishmael
+FileAuthor: Daniel_Quinn
+
+	Searched for: Ishmael, type: book
+	SearchUrl: https://api2.isbndb.com/books/Ishmael
+	Success
+Total Results: 443
+	SearchedBook: My Ishmael (Ishmael Series)
+		SearchedAuthor: Quinn, Daniel
+*** BEGIN MAKE AUTHOR ***
+Name: Quinn, Daniel	RAW: ['Quinn,', 'Daniel']
+Full Name: {'first': 'Daniel', 'middle': 'z', 'last': 'Quinn'}
+Created Daniel Quinn 198
+Collab: [<Author: Quinn>]
+Title: My Ishmael (Ishmael Series)
+Book: My Ishmael (Ishmael Series)
+Written By: Quinn
+	SearchedBook: Ishmael (Turtleback School & Library Binding Edition)
+		SearchedAuthor: Quinn, Daniel
+*** BEGIN MAKE AUTHOR ***
+Name: Quinn, Daniel	RAW: ['Quinn,', 'Daniel']
+Full Name: {'first': 'Daniel', 'middle': 'z', 'last': 'Quinn'}
+Repeat Filtered {'first': 'Daniel', 'middle': 'z', 'last': 'Quinn'}
+Filt: 1	 RevFilt: 0
+Returned: 198
+Collab: [<Author: Quinn>]
+Title: Ishmael (Turtleback School & Library Binding Edition)
+Book: Ishmael (Turtleback School & Library Binding Edition)
+Written By: Quinn
+-----------------------
+Title: Conversations with James Baldwin
+FileAuthor: James_Baldwin
+
+	Searched for: Conversations with James Baldwin, type: book
+	SearchUrl: https://api2.isbndb.com/books/Conversations with James Baldwin
+	Success
+Total Results: 50
+	SearchedBook: James Cameron: Interviews (Conversations with Filmmakers Series)
+		SearchedAuthor: Dunham, Brent
+*** BEGIN MAKE AUTHOR ***
+Name: Dunham, Brent	RAW: ['Dunham,', 'Brent']
+Full Name: {'first': 'Brent', 'middle': 'z', 'last': 'Dunham'}
+Created Brent Dunham 199
+Collab: [<Author: Dunham>]
+Title: James Cameron: Interviews (Conversations with Filmmakers Series)
+Book: James Cameron: Interviews (Conversations with Filmmakers Series)
+Written By: Dunham
+	SearchedBook: Conversations with James Baldwin (Literary Conversations Series)
+Collab: []
+Title: Conversations with James Baldwin (Literary Conversations Series)
+-----------------------
+Title: Preconditions of Revolution in Early Modern Europe
+FileAuthor: Robert_Forster
+
+	Searched for: Preconditions of Revolution in Early Modern Europe, type: book
+	SearchUrl: https://api2.isbndb.com/books/Preconditions of Revolution in Early Modern Europe
+	Success
+Total Results: 14
+	SearchedBook: Preconditions of Revolution in Early Modern Europe (The Johns Hopkins Symposia in Comparative History)
+		SearchedAuthor: Forster, Professor Robert
+*** BEGIN MAKE AUTHOR ***
+Name: Forster, Professor Robert	RAW: ['Forster,', 'Professor', 'Robert']
+Full Name: {'first': 'Professor', 'middle': 'Robert', 'last': 'Forster'}
+Created Professor Forster 200
+Collab: [<Author: Forster>]
+Title: Preconditions of Revolution in Early Modern Europe (The Johns Hopkins Symposia in Comparative History)
+No MSRP
+
+Book: Preconditions of Revolution in Early Modern Europe (The Johns Hopkins Symposia in Comparative History)
+Written By: Forster
+	SearchedBook: The Business of War: Military Enterprise and Military Revolution in Early Modern Europe
+		SearchedAuthor: Parrott, David
+*** BEGIN MAKE AUTHOR ***
+Name: Parrott, David	RAW: ['Parrott,', 'David']
+Full Name: {'first': 'David', 'middle': 'z', 'last': 'Parrott'}
+Created David Parrott 201
+Collab: [<Author: Parrott>]
+Title: The Business of War: Military Enterprise and Military Revolution in Early Modern Europe
+No MSRP
+
+Book: The Business of War: Military Enterprise and Military Revolution in Early Modern Europe
+Written By: Parrott
