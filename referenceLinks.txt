@@ -1,0 +1,5 @@
+# Many to many relationship
+https://docs.djangoproject.com/en/4.0/topics/db/examples/many_to_many/
+
+# Many to One
+https://docs.djangoproject.com/en/4.0/topics/db/examples/many_to_one/
