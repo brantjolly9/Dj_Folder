@@ -1,0 +1,21 @@
+{% extends 'builder/Sample_Layout.html' %}
+
+{% block content %}
+<div class="card">
+    <div class="container">
+        <h4 class="Author-Name">{{ author.first_name }}</h4>
+        <h4 class="Author-Name">{{ author.last_name }}</h4>
+        <h4 class="Author-name">{{ author.pk }}</h4>
+        <p>Author</p>
+    </div>
+</div>
+
+<ul>
+    <div class="author">
+        <li class="first_name">{{ author.first_name }}</li>
+        <li class="last_name">{{ detail }}</li>
+        <li><a href="{% url 'author_detail' pk=author.pk %}">{{ auth.first_name }}</a></li>
+        <p>Read Me</p>
+    </div>
+</ul>
+{% endblock %}

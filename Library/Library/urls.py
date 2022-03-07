@@ -18,5 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('Library/', include('Library_Browser.urls')),       # Using include() bcs Library Browser is an app 
+    path('', include('Library_Browser.urls')),       # Using include() bcs Library Browser is an app 
+    
 ]

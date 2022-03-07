@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        {% load static %}
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Base</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href={% static 'css/Author_home.css' %}>
+        <link rel="stylesheet" href={% static 'css/main.css' %}>
+    </head>
+    <body>
+        <nav>
+            <ul class="navList">
+                    
+              <li><a href="/signup">Sign Up</a></li>
+                        
+              <li><a href="/authors">Authors</a></li>
+                        
+              <li><a href="/bear">Bear</a></li>
+                        
+              <li><a href="/admin">Admin</a></li>
+                        
+              <li><a href="/testimonials">Testimonials</a></li>
+           
+            </ul>
+        </nav>
+   
+        <div class="card-container">
+            <ul>
+                {% for auth in dataset %}
+                <div class="card">
+                    <a href="{% url 'author_detail' pk=auth.pk %}">
+                        <img class="author-profile-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclipground.com%2Fimages%2Fclipart-profile-6.jpg&f=1&nofb=1", height="50", width="50">
+                    </a>
+                    <div class="container">
+                        <h4 class="Author-Name">{{ auth.first_name }}</h4>
+                        <h4 class="Author-Name">{{ auth.last_name }}</h4>
+                        <p>Author</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div>
+            <form action="" method="POST">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <input type="submit" value="Submit">
+              </form>
+        </div>
+
+    </body>
+</html>

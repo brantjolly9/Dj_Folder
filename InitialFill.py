@@ -2,7 +2,7 @@ import sys
 sys.path.append('..')
 from Django_Logger import DjangoLogger
 from django.core.management.base import BaseCommand
-from builder.models import Book, Author
+from Library.Library_Browser.models import Book, Author
 
 
 import os

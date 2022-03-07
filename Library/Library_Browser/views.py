@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def authors_home():
-
+    
     pass
 
 def author_detail():

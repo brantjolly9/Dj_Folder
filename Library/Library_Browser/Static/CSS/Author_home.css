@@ -1,0 +1,46 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4% 8% 0 rgba(0,0,0,0.2);
+    position: inherit;
+    /* transition: 0.3s; */
+    font-size: 100%;
+    background-color:darkcyan;
+    width: 10em;
+    float: left;
+    margin: 1em;
+    align-items: right;
+    border:1px black dotted;
+    border-radius: 5px; /* 5px rounded corners */
+}
+
+.Author-Name{
+    background-color: beige;
+    /* text-align: right; */
+}
+
+  /* On mouse-over, add a deeper shadow */
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+  /* Add some padding inside the card container */
+.container {
+padding: 2px 16px;
+text-align: right;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+border-radius: 10px 10px 10px 10px;
+}
+
+.card-container{
+  background-color: black;
+  
+  height: 75%;
+  margin-left: 20%;
+  margin-right: 2%;
+  border: 1px black solid;
+  padding: 1%;
+  position: absolute;
+}
