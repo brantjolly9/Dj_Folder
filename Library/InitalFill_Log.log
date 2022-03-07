@@ -1677,3 +1677,568 @@ Name: Memory P. F. Elvin-Lewis	RAW: ['Memory', 'P.', 'F.', 'Elvin-Lewis']
 INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
 INFO:Django_Logger.roam:Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
 INFO:Django_Logger.roam:Filt: 1	 RevFilt: 1
+INFO:Django_Logger.roam:**************************
+BEGIN NEW TEST
+INFO:Django_Logger.roam:Number of books: 3
+INFO:Django_Logger.roam:Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+INFO:Django_Logger.roam:-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+INFO:Django_Logger.roam:	Searched for: A.D. After Disclosure, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/A.D.%20After%20Disclosure?page=1&pageSize=2 HTTP/1.1" 200 1163
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 78
+INFO:Django_Logger.roam:	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+INFO:Django_Logger.roam:		SearchedAuthor: Dolan, Richard M.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 67
+INFO:Django_Logger.roam:		SearchedAuthor: Zabel, Bryce
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 68
+WARNING:Django_Logger.roam:Collab: [<Author: Dolan>, <Author: Zabel>]
+INFO:Django_Logger.make_book:Lang: en
+INFO:Django_Logger.roam:	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+INFO:Django_Logger.roam:		SearchedAuthor: John Chalmers
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+INFO:Django_Logger.make_author:Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 69
+WARNING:Django_Logger.roam:Collab: [<Author: Chalmers>]
+INFO:Django_Logger.make_book:Lang: en
+INFO:Django_Logger.roam:-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+INFO:Django_Logger.roam:	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/America%20Before%20a%20New%20Investigation%20Into%20the%20Mysteries%20of%20the%20Human%20Past%20by%20the%20Bestse?page=1&pageSize=2 HTTP/1.1" 404 60
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: None
+WARNING:Django_Logger.roam:Cannot find: GRAHAM_HANCOCK
+INFO:Django_Logger.roam:-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+INFO:Django_Logger.roam:	Searched for: Anarchism and Other Essays, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Anarchism%20and%20Other%20Essays?page=1&pageSize=2 HTTP/1.1" 200 6021
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 9679
+INFO:Django_Logger.roam:	SearchedBook: Neck Deep and Other Predicaments: Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Monson, Ander
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 70
+WARNING:Django_Logger.roam:Collab: [<Author: Monson>]
+INFO:Django_Logger.make_book:Lang: en
+INFO:Django_Logger.roam:	SearchedBook: Twenty Poems That Could Save America and Other Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Hoagland, Tony
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 71
+WARNING:Django_Logger.roam:Collab: [<Author: Hoagland>]
+INFO:Django_Logger.make_book:Lang: en
+INFO:Django_Logger.roam:**************************
+BEGIN NEW TEST
+INFO:Django_Logger.roam:Number of books: 4
+INFO:Django_Logger.roam:Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+INFO:Django_Logger.roam:-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+INFO:Django_Logger.roam:	Searched for: A.D. After Disclosure, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/A.D.%20After%20Disclosure?page=1&pageSize=2 HTTP/1.1" 200 1163
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 78
+INFO:Django_Logger.roam:	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+INFO:Django_Logger.roam:		SearchedAuthor: Dolan, Richard M.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 67
+INFO:Django_Logger.roam:		SearchedAuthor: Zabel, Bryce
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 68
+WARNING:Django_Logger.roam:Collab: [<Author: Dolan>, <Author: Zabel>]
+INFO:Django_Logger.make_book:Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Dolan
+ISBN: 0967799538
+
+INFO:Django_Logger.make_book:Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Zabel
+ISBN: 0967799538
+
+INFO:Django_Logger.roam:	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+INFO:Django_Logger.roam:		SearchedAuthor: John Chalmers
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+INFO:Django_Logger.make_author:Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 69
+WARNING:Django_Logger.roam:Collab: [<Author: Chalmers>]
+INFO:Django_Logger.make_book:Book: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)	Written By: Chalmers
+ISBN: 1165309572
+
+INFO:Django_Logger.roam:-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+INFO:Django_Logger.roam:	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/America%20Before%20a%20New%20Investigation%20Into%20the%20Mysteries%20of%20the%20Human%20Past%20by%20the%20Bestse?page=1&pageSize=2 HTTP/1.1" 404 60
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: None
+WARNING:Django_Logger.roam:Cannot find: GRAHAM_HANCOCK
+INFO:Django_Logger.roam:-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+INFO:Django_Logger.roam:	Searched for: Anarchism and Other Essays, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Anarchism%20and%20Other%20Essays?page=1&pageSize=2 HTTP/1.1" 200 6021
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 9679
+INFO:Django_Logger.roam:	SearchedBook: Neck Deep and Other Predicaments: Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Monson, Ander
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 70
+WARNING:Django_Logger.roam:Collab: [<Author: Monson>]
+INFO:Django_Logger.make_book:Book: Neck Deep and Other Predicaments: Essays	Written By: Monson
+ISBN: 1555974597
+
+INFO:Django_Logger.roam:	SearchedBook: Twenty Poems That Could Save America and Other Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Hoagland, Tony
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 71
+WARNING:Django_Logger.roam:Collab: [<Author: Hoagland>]
+INFO:Django_Logger.make_book:Book: Twenty Poems That Could Save America and Other Essays	Written By: Hoagland
+ISBN: 1555976948
+
+INFO:Django_Logger.roam:-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+INFO:Django_Logger.roam:	Searched for: Atlas Shrugged, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Atlas%20Shrugged?page=1&pageSize=2 HTTP/1.1" 200 3135
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+INFO:Django_Logger.roam:		SearchedAuthor: Netter MD, Frank H.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 1
+INFO:Django_Logger.roam:Returned: 72
+WARNING:Django_Logger.roam:Collab: [<Author: z>]
+INFO:Django_Logger.make_book:Book: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)	Written By: z
+ISBN: 1455704180
+
+INFO:Django_Logger.roam:	SearchedBook: A Brief Atlas Of The Human Body
+INFO:Django_Logger.roam:		SearchedAuthor: Hutchinson
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 73
+INFO:Django_Logger.roam:		SearchedAuthor: Matt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 74
+INFO:Django_Logger.roam:		SearchedAuthor: Mallatt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 75
+INFO:Django_Logger.roam:		SearchedAuthor: Jon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 76
+INFO:Django_Logger.roam:		SearchedAuthor: Marieb
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 77
+INFO:Django_Logger.roam:		SearchedAuthor: Elaine Nicpon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 78
+WARNING:Django_Logger.roam:Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>]
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: Nicpon
+ISBN: 032166261x
+
+INFO:Django_Logger.roam:**************************
+BEGIN NEW TEST
+INFO:Django_Logger.roam:Number of books: 4
+INFO:Django_Logger.roam:Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+INFO:Django_Logger.roam:-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+INFO:Django_Logger.roam:	Searched for: A.D. After Disclosure, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/A.D.%20After%20Disclosure?page=1&pageSize=2 HTTP/1.1" 200 1163
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 78
+INFO:Django_Logger.roam:	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+INFO:Django_Logger.roam:		SearchedAuthor: Dolan, Richard M.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Created Richard Dolan 101
+INFO:Django_Logger.roam:		SearchedAuthor: Zabel, Bryce
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Created Bryce Zabel 102
+WARNING:Django_Logger.roam:Collab: [<Author: Dolan>, <Author: Zabel>]
+INFO:Django_Logger.make_book:Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Dolan
+ISBN: 0967799538
+
+INFO:Django_Logger.make_book:Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Zabel
+ISBN: 0967799538
+
+INFO:Django_Logger.roam:	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+INFO:Django_Logger.roam:		SearchedAuthor: John Chalmers
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+INFO:Django_Logger.make_author:Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.roam:Created John Chalmers 103
+WARNING:Django_Logger.roam:Collab: [<Author: Chalmers>]
+INFO:Django_Logger.make_book:Book: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)	Written By: Chalmers
+ISBN: 1165309572
+
+INFO:Django_Logger.roam:-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+INFO:Django_Logger.roam:	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/America%20Before%20a%20New%20Investigation%20Into%20the%20Mysteries%20of%20the%20Human%20Past%20by%20the%20Bestse?page=1&pageSize=2 HTTP/1.1" 404 60
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: None
+WARNING:Django_Logger.roam:Cannot find: GRAHAM_HANCOCK
+INFO:Django_Logger.roam:-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+INFO:Django_Logger.roam:	Searched for: Anarchism and Other Essays, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Anarchism%20and%20Other%20Essays?page=1&pageSize=2 HTTP/1.1" 200 6021
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 9679
+INFO:Django_Logger.roam:	SearchedBook: Neck Deep and Other Predicaments: Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Monson, Ander
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Created Ander Monson 104
+WARNING:Django_Logger.roam:Collab: [<Author: Monson>]
+INFO:Django_Logger.make_book:Book: Neck Deep and Other Predicaments: Essays	Written By: Monson
+ISBN: 1555974597
+
+INFO:Django_Logger.roam:	SearchedBook: Twenty Poems That Could Save America and Other Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Hoagland, Tony
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Created Tony Hoagland 105
+WARNING:Django_Logger.roam:Collab: [<Author: Hoagland>]
+INFO:Django_Logger.make_book:Book: Twenty Poems That Could Save America and Other Essays	Written By: Hoagland
+ISBN: 1555976948
+
+INFO:Django_Logger.roam:-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+INFO:Django_Logger.roam:	Searched for: Atlas Shrugged, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Atlas%20Shrugged?page=1&pageSize=2 HTTP/1.1" 200 3135
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+INFO:Django_Logger.roam:		SearchedAuthor: Netter MD, Frank H.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created z z 106
+WARNING:Django_Logger.roam:Collab: [<Author: z>]
+INFO:Django_Logger.make_book:Book: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)	Written By: z
+ISBN: 1455704180
+
+INFO:Django_Logger.roam:	SearchedBook: A Brief Atlas Of The Human Body
+INFO:Django_Logger.roam:		SearchedAuthor: Hutchinson
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Hutchinson z 107
+INFO:Django_Logger.roam:		SearchedAuthor: Matt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Matt z 108
+INFO:Django_Logger.roam:		SearchedAuthor: Mallatt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Mallatt z 109
+INFO:Django_Logger.roam:		SearchedAuthor: Jon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Jon z 110
+INFO:Django_Logger.roam:		SearchedAuthor: Marieb
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Created Marieb z 111
+INFO:Django_Logger.roam:		SearchedAuthor: Elaine Nicpon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+INFO:Django_Logger.roam:Created Elaine Nicpon 112
+WARNING:Django_Logger.roam:Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>]
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: Nicpon
+ISBN: 032166261x
+
+INFO:Django_Logger.roam:**************************
+BEGIN NEW TEST
+INFO:Django_Logger.roam:Number of books: 4
+INFO:Django_Logger.roam:Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+INFO:Django_Logger.roam:-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+INFO:Django_Logger.roam:	Searched for: A.D. After Disclosure, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/A.D.%20After%20Disclosure?page=1&pageSize=2 HTTP/1.1" 200 1163
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 78
+INFO:Django_Logger.roam:	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+INFO:Django_Logger.roam:		SearchedAuthor: Dolan, Richard M.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 101
+INFO:Django_Logger.roam:		SearchedAuthor: Zabel, Bryce
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 102
+WARNING:Django_Logger.roam:Collab: [<Author: Dolan>, <Author: Zabel>]
+INFO:Django_Logger.make_book:Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Dolan
+INFO:Django_Logger.make_book:Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Zabel
+INFO:Django_Logger.roam:	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+INFO:Django_Logger.roam:		SearchedAuthor: John Chalmers
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+INFO:Django_Logger.make_author:Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 103
+WARNING:Django_Logger.roam:Collab: [<Author: Chalmers>]
+INFO:Django_Logger.make_book:Book: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)	Written By: Chalmers
+INFO:Django_Logger.roam:-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+INFO:Django_Logger.roam:	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/America%20Before%20a%20New%20Investigation%20Into%20the%20Mysteries%20of%20the%20Human%20Past%20by%20the%20Bestse?page=1&pageSize=2 HTTP/1.1" 404 60
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: None
+WARNING:Django_Logger.roam:Cannot find: GRAHAM_HANCOCK
+INFO:Django_Logger.roam:-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+INFO:Django_Logger.roam:	Searched for: Anarchism and Other Essays, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Anarchism%20and%20Other%20Essays?page=1&pageSize=2 HTTP/1.1" 200 6021
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 9679
+INFO:Django_Logger.roam:	SearchedBook: Neck Deep and Other Predicaments: Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Monson, Ander
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 104
+WARNING:Django_Logger.roam:Collab: [<Author: Monson>]
+INFO:Django_Logger.make_book:Book: Neck Deep and Other Predicaments: Essays	Written By: Monson
+INFO:Django_Logger.roam:	SearchedBook: Twenty Poems That Could Save America and Other Essays
+INFO:Django_Logger.roam:		SearchedAuthor: Hoagland, Tony
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 105
+WARNING:Django_Logger.roam:Collab: [<Author: Hoagland>]
+INFO:Django_Logger.make_book:Book: Twenty Poems That Could Save America and Other Essays	Written By: Hoagland
+INFO:Django_Logger.roam:-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+INFO:Django_Logger.roam:	Searched for: Atlas Shrugged, type: book
+INFO:Django_Logger.roam:	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api2.isbndb.com:443
+DEBUG:urllib3.connectionpool:https://api2.isbndb.com:443 "GET /books/Atlas%20Shrugged?page=1&pageSize=2 HTTP/1.1" 200 3135
+INFO:Django_Logger.roam:	Success
+INFO:Django_Logger.roam:Total Results: 10000
+INFO:Django_Logger.roam:	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+INFO:Django_Logger.roam:		SearchedAuthor: Netter MD, Frank H.
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+INFO:Django_Logger.make_author:Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 1
+INFO:Django_Logger.roam:Returned: 106
+WARNING:Django_Logger.roam:Collab: [<Author: z>]
+INFO:Django_Logger.make_book:Book: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)	Written By: z
+INFO:Django_Logger.roam:	SearchedBook: A Brief Atlas Of The Human Body
+INFO:Django_Logger.roam:		SearchedAuthor: Hutchinson
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 107
+INFO:Django_Logger.roam:		SearchedAuthor: Matt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 108
+INFO:Django_Logger.roam:		SearchedAuthor: Mallatt
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 109
+INFO:Django_Logger.roam:		SearchedAuthor: Jon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 110
+INFO:Django_Logger.roam:		SearchedAuthor: Marieb
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 111
+INFO:Django_Logger.roam:		SearchedAuthor: Elaine Nicpon
+INFO:Django_Logger.make_author:*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+INFO:Django_Logger.make_author:Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+INFO:Django_Logger.roam:Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+INFO:Django_Logger.roam:Filt: 1	 RevFilt: 0
+INFO:Django_Logger.roam:Returned: 112
+WARNING:Django_Logger.roam:Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>]
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: z
+INFO:Django_Logger.make_book:Book: A Brief Atlas Of The Human Body	Written By: Nicpon

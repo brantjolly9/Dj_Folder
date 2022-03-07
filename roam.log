@@ -4525,3 +4525,327 @@ INFO : Created Hepworth Walter 100 - Django_Logger.roam - 04:52:20:03s PM
 INFO : 		SearchedAuthor: Memory P. F. Elvin-Lewis - Django_Logger.roam - 04:52:20:03s PM
 INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 04:52:20:03s PM
 INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 04:52:20:03s PM
+INFO : **************************
+BEGIN NEW TEST - Django_Logger.roam - 06:18:10:03s PM
+INFO : Number of books: 3 - Django_Logger.roam - 06:18:10:03s PM
+INFO : Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json - Django_Logger.roam - 06:18:10:03s PM
+INFO : -----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+ - Django_Logger.roam - 06:18:10:03s PM
+INFO : 	Searched for: A.D. After Disclosure, type: book - Django_Logger.roam - 06:18:10:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure - Django_Logger.roam - 06:18:10:03s PM
+INFO : 	Success - Django_Logger.roam - 06:18:11:03s PM
+INFO : Total Results: 78 - Django_Logger.roam - 06:18:11:03s PM
+INFO : 	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact - Django_Logger.roam - 06:18:11:03s PM
+INFO : 		SearchedAuthor: Dolan, Richard M. - Django_Logger.roam - 06:18:11:03s PM
+INFO : Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'} - Django_Logger.roam - 06:18:11:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:18:11:03s PM
+INFO : Returned: 67 - Django_Logger.roam - 06:18:11:03s PM
+INFO : 		SearchedAuthor: Zabel, Bryce - Django_Logger.roam - 06:18:11:03s PM
+INFO : Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'} - Django_Logger.roam - 06:18:11:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:18:11:03s PM
+INFO : Returned: 68 - Django_Logger.roam - 06:18:11:03s PM
+WARNING : Collab: [<Author: Dolan>, <Author: Zabel>] - Django_Logger.roam - 06:18:11:03s PM
+INFO : 	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882) - Django_Logger.roam - 06:18:11:03s PM
+INFO : 		SearchedAuthor: John Chalmers - Django_Logger.roam - 06:18:11:03s PM
+INFO : Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'} - Django_Logger.roam - 06:18:11:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:18:11:03s PM
+INFO : Returned: 69 - Django_Logger.roam - 06:18:11:03s PM
+WARNING : Collab: [<Author: Chalmers>] - Django_Logger.roam - 06:18:11:03s PM
+INFO : -----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+ - Django_Logger.roam - 06:18:11:03s PM
+INFO : 	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book - Django_Logger.roam - 06:18:11:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse - Django_Logger.roam - 06:18:11:03s PM
+INFO : 	Success - Django_Logger.roam - 06:18:11:03s PM
+INFO : Total Results: None - Django_Logger.roam - 06:18:11:03s PM
+WARNING : Cannot find: GRAHAM_HANCOCK - Django_Logger.roam - 06:18:11:03s PM
+INFO : -----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+ - Django_Logger.roam - 06:18:11:03s PM
+INFO : 	Searched for: Anarchism and Other Essays, type: book - Django_Logger.roam - 06:18:11:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays - Django_Logger.roam - 06:18:11:03s PM
+INFO : 	Success - Django_Logger.roam - 06:18:12:03s PM
+INFO : Total Results: 9679 - Django_Logger.roam - 06:18:12:03s PM
+INFO : 	SearchedBook: Neck Deep and Other Predicaments: Essays - Django_Logger.roam - 06:18:12:03s PM
+INFO : 		SearchedAuthor: Monson, Ander - Django_Logger.roam - 06:18:12:03s PM
+INFO : Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'} - Django_Logger.roam - 06:18:12:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:18:12:03s PM
+INFO : Returned: 70 - Django_Logger.roam - 06:18:12:03s PM
+WARNING : Collab: [<Author: Monson>] - Django_Logger.roam - 06:18:12:03s PM
+INFO : 	SearchedBook: Twenty Poems That Could Save America and Other Essays - Django_Logger.roam - 06:18:12:03s PM
+INFO : 		SearchedAuthor: Hoagland, Tony - Django_Logger.roam - 06:18:12:03s PM
+INFO : Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'} - Django_Logger.roam - 06:18:12:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:18:12:03s PM
+INFO : Returned: 71 - Django_Logger.roam - 06:18:12:03s PM
+WARNING : Collab: [<Author: Hoagland>] - Django_Logger.roam - 06:18:12:03s PM
+INFO : **************************
+BEGIN NEW TEST - Django_Logger.roam - 06:20:05:03s PM
+INFO : Number of books: 4 - Django_Logger.roam - 06:20:05:03s PM
+INFO : Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json - Django_Logger.roam - 06:20:05:03s PM
+INFO : -----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+ - Django_Logger.roam - 06:20:05:03s PM
+INFO : 	Searched for: A.D. After Disclosure, type: book - Django_Logger.roam - 06:20:05:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure - Django_Logger.roam - 06:20:05:03s PM
+INFO : 	Success - Django_Logger.roam - 06:20:07:03s PM
+INFO : Total Results: 78 - Django_Logger.roam - 06:20:07:03s PM
+INFO : 	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact - Django_Logger.roam - 06:20:07:03s PM
+INFO : 		SearchedAuthor: Dolan, Richard M. - Django_Logger.roam - 06:20:07:03s PM
+INFO : Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'} - Django_Logger.roam - 06:20:07:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:20:07:03s PM
+INFO : Returned: 67 - Django_Logger.roam - 06:20:07:03s PM
+INFO : 		SearchedAuthor: Zabel, Bryce - Django_Logger.roam - 06:20:07:03s PM
+INFO : Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'} - Django_Logger.roam - 06:20:07:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:20:07:03s PM
+INFO : Returned: 68 - Django_Logger.roam - 06:20:07:03s PM
+WARNING : Collab: [<Author: Dolan>, <Author: Zabel>] - Django_Logger.roam - 06:20:07:03s PM
+INFO : 	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882) - Django_Logger.roam - 06:20:07:03s PM
+INFO : 		SearchedAuthor: John Chalmers - Django_Logger.roam - 06:20:07:03s PM
+INFO : Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'} - Django_Logger.roam - 06:20:07:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:20:07:03s PM
+INFO : Returned: 69 - Django_Logger.roam - 06:20:07:03s PM
+WARNING : Collab: [<Author: Chalmers>] - Django_Logger.roam - 06:20:07:03s PM
+INFO : -----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+ - Django_Logger.roam - 06:20:07:03s PM
+INFO : 	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book - Django_Logger.roam - 06:20:07:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse - Django_Logger.roam - 06:20:07:03s PM
+INFO : 	Success - Django_Logger.roam - 06:20:08:03s PM
+INFO : Total Results: None - Django_Logger.roam - 06:20:08:03s PM
+WARNING : Cannot find: GRAHAM_HANCOCK - Django_Logger.roam - 06:20:08:03s PM
+INFO : -----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+ - Django_Logger.roam - 06:20:08:03s PM
+INFO : 	Searched for: Anarchism and Other Essays, type: book - Django_Logger.roam - 06:20:08:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays - Django_Logger.roam - 06:20:08:03s PM
+INFO : 	Success - Django_Logger.roam - 06:20:08:03s PM
+INFO : Total Results: 9679 - Django_Logger.roam - 06:20:08:03s PM
+INFO : 	SearchedBook: Neck Deep and Other Predicaments: Essays - Django_Logger.roam - 06:20:08:03s PM
+INFO : 		SearchedAuthor: Monson, Ander - Django_Logger.roam - 06:20:08:03s PM
+INFO : Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'} - Django_Logger.roam - 06:20:08:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:20:08:03s PM
+INFO : Returned: 70 - Django_Logger.roam - 06:20:08:03s PM
+WARNING : Collab: [<Author: Monson>] - Django_Logger.roam - 06:20:08:03s PM
+INFO : 	SearchedBook: Twenty Poems That Could Save America and Other Essays - Django_Logger.roam - 06:20:08:03s PM
+INFO : 		SearchedAuthor: Hoagland, Tony - Django_Logger.roam - 06:20:08:03s PM
+INFO : Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'} - Django_Logger.roam - 06:20:08:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:20:08:03s PM
+INFO : Returned: 71 - Django_Logger.roam - 06:20:08:03s PM
+WARNING : Collab: [<Author: Hoagland>] - Django_Logger.roam - 06:20:08:03s PM
+INFO : -----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+ - Django_Logger.roam - 06:20:08:03s PM
+INFO : 	Searched for: Atlas Shrugged, type: book - Django_Logger.roam - 06:20:08:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged - Django_Logger.roam - 06:20:08:03s PM
+INFO : 	Success - Django_Logger.roam - 06:20:09:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:20:09:03s PM
+INFO : 	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science) - Django_Logger.roam - 06:20:09:03s PM
+INFO : 		SearchedAuthor: Netter MD, Frank H. - Django_Logger.roam - 06:20:09:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:20:09:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:20:09:03s PM
+INFO : Returned: 72 - Django_Logger.roam - 06:20:09:03s PM
+WARNING : Collab: [<Author: z>] - Django_Logger.roam - 06:20:09:03s PM
+INFO : 	SearchedBook: A Brief Atlas Of The Human Body - Django_Logger.roam - 06:20:09:03s PM
+INFO : 		SearchedAuthor: Hutchinson - Django_Logger.roam - 06:20:09:03s PM
+INFO : Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:20:09:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:20:09:03s PM
+INFO : Returned: 73 - Django_Logger.roam - 06:20:09:03s PM
+INFO : 		SearchedAuthor: Matt - Django_Logger.roam - 06:20:09:03s PM
+INFO : Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:20:09:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:20:09:03s PM
+INFO : Returned: 74 - Django_Logger.roam - 06:20:09:03s PM
+INFO : 		SearchedAuthor: Mallatt - Django_Logger.roam - 06:20:09:03s PM
+INFO : Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:20:09:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:20:09:03s PM
+INFO : Returned: 75 - Django_Logger.roam - 06:20:09:03s PM
+INFO : 		SearchedAuthor: Jon - Django_Logger.roam - 06:20:09:03s PM
+INFO : Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:20:09:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:20:09:03s PM
+INFO : Returned: 76 - Django_Logger.roam - 06:20:09:03s PM
+INFO : 		SearchedAuthor: Marieb - Django_Logger.roam - 06:20:09:03s PM
+INFO : Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:20:09:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:20:09:03s PM
+INFO : Returned: 77 - Django_Logger.roam - 06:20:09:03s PM
+INFO : 		SearchedAuthor: Elaine Nicpon - Django_Logger.roam - 06:20:09:03s PM
+INFO : Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'} - Django_Logger.roam - 06:20:09:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:20:09:03s PM
+INFO : Returned: 78 - Django_Logger.roam - 06:20:09:03s PM
+WARNING : Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>] - Django_Logger.roam - 06:20:09:03s PM
+INFO : **************************
+BEGIN NEW TEST - Django_Logger.roam - 06:23:12:03s PM
+INFO : Number of books: 4 - Django_Logger.roam - 06:23:12:03s PM
+INFO : Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json - Django_Logger.roam - 06:23:12:03s PM
+INFO : -----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+ - Django_Logger.roam - 06:23:12:03s PM
+INFO : 	Searched for: A.D. After Disclosure, type: book - Django_Logger.roam - 06:23:12:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure - Django_Logger.roam - 06:23:12:03s PM
+INFO : 	Success - Django_Logger.roam - 06:23:13:03s PM
+INFO : Total Results: 78 - Django_Logger.roam - 06:23:13:03s PM
+INFO : 	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact - Django_Logger.roam - 06:23:13:03s PM
+INFO : 		SearchedAuthor: Dolan, Richard M. - Django_Logger.roam - 06:23:13:03s PM
+INFO : Created Richard Dolan 101 - Django_Logger.roam - 06:23:13:03s PM
+INFO : 		SearchedAuthor: Zabel, Bryce - Django_Logger.roam - 06:23:13:03s PM
+INFO : Created Bryce Zabel 102 - Django_Logger.roam - 06:23:13:03s PM
+WARNING : Collab: [<Author: Dolan>, <Author: Zabel>] - Django_Logger.roam - 06:23:13:03s PM
+INFO : 	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882) - Django_Logger.roam - 06:23:13:03s PM
+INFO : 		SearchedAuthor: John Chalmers - Django_Logger.roam - 06:23:13:03s PM
+INFO : Created John Chalmers 103 - Django_Logger.roam - 06:23:13:03s PM
+WARNING : Collab: [<Author: Chalmers>] - Django_Logger.roam - 06:23:13:03s PM
+INFO : -----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+ - Django_Logger.roam - 06:23:13:03s PM
+INFO : 	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book - Django_Logger.roam - 06:23:13:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse - Django_Logger.roam - 06:23:13:03s PM
+INFO : 	Success - Django_Logger.roam - 06:23:13:03s PM
+INFO : Total Results: None - Django_Logger.roam - 06:23:13:03s PM
+WARNING : Cannot find: GRAHAM_HANCOCK - Django_Logger.roam - 06:23:13:03s PM
+INFO : -----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+ - Django_Logger.roam - 06:23:13:03s PM
+INFO : 	Searched for: Anarchism and Other Essays, type: book - Django_Logger.roam - 06:23:13:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays - Django_Logger.roam - 06:23:13:03s PM
+INFO : 	Success - Django_Logger.roam - 06:23:13:03s PM
+INFO : Total Results: 9679 - Django_Logger.roam - 06:23:13:03s PM
+INFO : 	SearchedBook: Neck Deep and Other Predicaments: Essays - Django_Logger.roam - 06:23:13:03s PM
+INFO : 		SearchedAuthor: Monson, Ander - Django_Logger.roam - 06:23:13:03s PM
+INFO : Created Ander Monson 104 - Django_Logger.roam - 06:23:13:03s PM
+WARNING : Collab: [<Author: Monson>] - Django_Logger.roam - 06:23:13:03s PM
+INFO : 	SearchedBook: Twenty Poems That Could Save America and Other Essays - Django_Logger.roam - 06:23:13:03s PM
+INFO : 		SearchedAuthor: Hoagland, Tony - Django_Logger.roam - 06:23:13:03s PM
+INFO : Created Tony Hoagland 105 - Django_Logger.roam - 06:23:13:03s PM
+WARNING : Collab: [<Author: Hoagland>] - Django_Logger.roam - 06:23:13:03s PM
+INFO : -----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+ - Django_Logger.roam - 06:23:13:03s PM
+INFO : 	Searched for: Atlas Shrugged, type: book - Django_Logger.roam - 06:23:13:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged - Django_Logger.roam - 06:23:13:03s PM
+INFO : 	Success - Django_Logger.roam - 06:23:14:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:23:14:03s PM
+INFO : 	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science) - Django_Logger.roam - 06:23:14:03s PM
+INFO : 		SearchedAuthor: Netter MD, Frank H. - Django_Logger.roam - 06:23:14:03s PM
+INFO : Created z z 106 - Django_Logger.roam - 06:23:14:03s PM
+WARNING : Collab: [<Author: z>] - Django_Logger.roam - 06:23:14:03s PM
+INFO : 	SearchedBook: A Brief Atlas Of The Human Body - Django_Logger.roam - 06:23:14:03s PM
+INFO : 		SearchedAuthor: Hutchinson - Django_Logger.roam - 06:23:14:03s PM
+INFO : Created Hutchinson z 107 - Django_Logger.roam - 06:23:14:03s PM
+INFO : 		SearchedAuthor: Matt - Django_Logger.roam - 06:23:14:03s PM
+INFO : Created Matt z 108 - Django_Logger.roam - 06:23:14:03s PM
+INFO : 		SearchedAuthor: Mallatt - Django_Logger.roam - 06:23:14:03s PM
+INFO : Created Mallatt z 109 - Django_Logger.roam - 06:23:14:03s PM
+INFO : 		SearchedAuthor: Jon - Django_Logger.roam - 06:23:14:03s PM
+INFO : Created Jon z 110 - Django_Logger.roam - 06:23:14:03s PM
+INFO : 		SearchedAuthor: Marieb - Django_Logger.roam - 06:23:14:03s PM
+INFO : Created Marieb z 111 - Django_Logger.roam - 06:23:14:03s PM
+INFO : 		SearchedAuthor: Elaine Nicpon - Django_Logger.roam - 06:23:14:03s PM
+INFO : Created Elaine Nicpon 112 - Django_Logger.roam - 06:23:14:03s PM
+WARNING : Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>] - Django_Logger.roam - 06:23:14:03s PM
+INFO : **************************
+BEGIN NEW TEST - Django_Logger.roam - 06:23:27:03s PM
+INFO : Number of books: 4 - Django_Logger.roam - 06:23:27:03s PM
+INFO : Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json - Django_Logger.roam - 06:23:27:03s PM
+INFO : -----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+ - Django_Logger.roam - 06:23:27:03s PM
+INFO : 	Searched for: A.D. After Disclosure, type: book - Django_Logger.roam - 06:23:27:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure - Django_Logger.roam - 06:23:27:03s PM
+INFO : 	Success - Django_Logger.roam - 06:23:27:03s PM
+INFO : Total Results: 78 - Django_Logger.roam - 06:23:27:03s PM
+INFO : 	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact - Django_Logger.roam - 06:23:27:03s PM
+INFO : 		SearchedAuthor: Dolan, Richard M. - Django_Logger.roam - 06:23:27:03s PM
+INFO : Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'} - Django_Logger.roam - 06:23:27:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:23:27:03s PM
+INFO : Returned: 101 - Django_Logger.roam - 06:23:27:03s PM
+INFO : 		SearchedAuthor: Zabel, Bryce - Django_Logger.roam - 06:23:27:03s PM
+INFO : Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'} - Django_Logger.roam - 06:23:27:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:23:27:03s PM
+INFO : Returned: 102 - Django_Logger.roam - 06:23:27:03s PM
+WARNING : Collab: [<Author: Dolan>, <Author: Zabel>] - Django_Logger.roam - 06:23:27:03s PM
+INFO : 	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882) - Django_Logger.roam - 06:23:27:03s PM
+INFO : 		SearchedAuthor: John Chalmers - Django_Logger.roam - 06:23:27:03s PM
+INFO : Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'} - Django_Logger.roam - 06:23:27:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:23:27:03s PM
+INFO : Returned: 103 - Django_Logger.roam - 06:23:27:03s PM
+WARNING : Collab: [<Author: Chalmers>] - Django_Logger.roam - 06:23:27:03s PM
+INFO : -----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+ - Django_Logger.roam - 06:23:27:03s PM
+INFO : 	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book - Django_Logger.roam - 06:23:27:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse - Django_Logger.roam - 06:23:27:03s PM
+INFO : 	Success - Django_Logger.roam - 06:23:28:03s PM
+INFO : Total Results: None - Django_Logger.roam - 06:23:28:03s PM
+WARNING : Cannot find: GRAHAM_HANCOCK - Django_Logger.roam - 06:23:28:03s PM
+INFO : -----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+ - Django_Logger.roam - 06:23:28:03s PM
+INFO : 	Searched for: Anarchism and Other Essays, type: book - Django_Logger.roam - 06:23:28:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays - Django_Logger.roam - 06:23:28:03s PM
+INFO : 	Success - Django_Logger.roam - 06:23:28:03s PM
+INFO : Total Results: 9679 - Django_Logger.roam - 06:23:28:03s PM
+INFO : 	SearchedBook: Neck Deep and Other Predicaments: Essays - Django_Logger.roam - 06:23:28:03s PM
+INFO : 		SearchedAuthor: Monson, Ander - Django_Logger.roam - 06:23:28:03s PM
+INFO : Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'} - Django_Logger.roam - 06:23:28:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:23:28:03s PM
+INFO : Returned: 104 - Django_Logger.roam - 06:23:28:03s PM
+WARNING : Collab: [<Author: Monson>] - Django_Logger.roam - 06:23:28:03s PM
+INFO : 	SearchedBook: Twenty Poems That Could Save America and Other Essays - Django_Logger.roam - 06:23:28:03s PM
+INFO : 		SearchedAuthor: Hoagland, Tony - Django_Logger.roam - 06:23:28:03s PM
+INFO : Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'} - Django_Logger.roam - 06:23:28:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:23:28:03s PM
+INFO : Returned: 105 - Django_Logger.roam - 06:23:28:03s PM
+WARNING : Collab: [<Author: Hoagland>] - Django_Logger.roam - 06:23:28:03s PM
+INFO : -----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+ - Django_Logger.roam - 06:23:28:03s PM
+INFO : 	Searched for: Atlas Shrugged, type: book - Django_Logger.roam - 06:23:28:03s PM
+INFO : 	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged - Django_Logger.roam - 06:23:28:03s PM
+INFO : 	Success - Django_Logger.roam - 06:23:29:03s PM
+INFO : Total Results: 10000 - Django_Logger.roam - 06:23:29:03s PM
+INFO : 	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science) - Django_Logger.roam - 06:23:29:03s PM
+INFO : 		SearchedAuthor: Netter MD, Frank H. - Django_Logger.roam - 06:23:29:03s PM
+INFO : Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:23:29:03s PM
+INFO : Filt: 1	 RevFilt: 1 - Django_Logger.roam - 06:23:29:03s PM
+INFO : Returned: 106 - Django_Logger.roam - 06:23:29:03s PM
+WARNING : Collab: [<Author: z>] - Django_Logger.roam - 06:23:29:03s PM
+INFO : 	SearchedBook: A Brief Atlas Of The Human Body - Django_Logger.roam - 06:23:29:03s PM
+INFO : 		SearchedAuthor: Hutchinson - Django_Logger.roam - 06:23:29:03s PM
+INFO : Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:23:29:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:23:29:03s PM
+INFO : Returned: 107 - Django_Logger.roam - 06:23:29:03s PM
+INFO : 		SearchedAuthor: Matt - Django_Logger.roam - 06:23:29:03s PM
+INFO : Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:23:29:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:23:29:03s PM
+INFO : Returned: 108 - Django_Logger.roam - 06:23:29:03s PM
+INFO : 		SearchedAuthor: Mallatt - Django_Logger.roam - 06:23:29:03s PM
+INFO : Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:23:29:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:23:29:03s PM
+INFO : Returned: 109 - Django_Logger.roam - 06:23:29:03s PM
+INFO : 		SearchedAuthor: Jon - Django_Logger.roam - 06:23:29:03s PM
+INFO : Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:23:29:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:23:29:03s PM
+INFO : Returned: 110 - Django_Logger.roam - 06:23:29:03s PM
+INFO : 		SearchedAuthor: Marieb - Django_Logger.roam - 06:23:29:03s PM
+INFO : Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'} - Django_Logger.roam - 06:23:29:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:23:29:03s PM
+INFO : Returned: 111 - Django_Logger.roam - 06:23:29:03s PM
+INFO : 		SearchedAuthor: Elaine Nicpon - Django_Logger.roam - 06:23:29:03s PM
+INFO : Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'} - Django_Logger.roam - 06:23:29:03s PM
+INFO : Filt: 1	 RevFilt: 0 - Django_Logger.roam - 06:23:29:03s PM
+INFO : Returned: 112 - Django_Logger.roam - 06:23:29:03s PM
+WARNING : Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>] - Django_Logger.roam - 06:23:29:03s PM

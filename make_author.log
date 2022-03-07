@@ -6681,3 +6681,126 @@ INFO : Full Name: {'first': 'Hepworth', 'middle': 'Lewis', 'last': 'Walter'} - D
 INFO : *** BEGIN MAKE AUTHOR ***
 Name: Memory P. F. Elvin-Lewis	RAW: ['Memory', 'P.', 'F.', 'Elvin-Lewis'] - Django_Logger.make_author - 04:52:20:03s PM
 INFO : Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 04:52:20:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.'] - Django_Logger.make_author - 06:18:11:03s PM
+INFO : Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'} - Django_Logger.make_author - 06:18:11:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce'] - Django_Logger.make_author - 06:18:11:03s PM
+INFO : Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'} - Django_Logger.make_author - 06:18:11:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers'] - Django_Logger.make_author - 06:18:11:03s PM
+INFO : Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'} - Django_Logger.make_author - 06:18:11:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander'] - Django_Logger.make_author - 06:18:12:03s PM
+INFO : Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'} - Django_Logger.make_author - 06:18:12:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony'] - Django_Logger.make_author - 06:18:12:03s PM
+INFO : Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'} - Django_Logger.make_author - 06:18:12:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.'] - Django_Logger.make_author - 06:20:07:03s PM
+INFO : Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'} - Django_Logger.make_author - 06:20:07:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce'] - Django_Logger.make_author - 06:20:07:03s PM
+INFO : Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'} - Django_Logger.make_author - 06:20:07:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers'] - Django_Logger.make_author - 06:20:07:03s PM
+INFO : Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'} - Django_Logger.make_author - 06:20:07:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander'] - Django_Logger.make_author - 06:20:08:03s PM
+INFO : Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'} - Django_Logger.make_author - 06:20:08:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony'] - Django_Logger.make_author - 06:20:08:03s PM
+INFO : Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'} - Django_Logger.make_author - 06:20:08:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.'] - Django_Logger.make_author - 06:20:09:03s PM
+INFO : Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:20:09:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson'] - Django_Logger.make_author - 06:20:09:03s PM
+INFO : Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:20:09:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt'] - Django_Logger.make_author - 06:20:09:03s PM
+INFO : Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:20:09:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt'] - Django_Logger.make_author - 06:20:09:03s PM
+INFO : Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:20:09:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon'] - Django_Logger.make_author - 06:20:09:03s PM
+INFO : Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:20:09:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb'] - Django_Logger.make_author - 06:20:09:03s PM
+INFO : Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:20:09:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon'] - Django_Logger.make_author - 06:20:09:03s PM
+INFO : Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'} - Django_Logger.make_author - 06:20:09:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.'] - Django_Logger.make_author - 06:23:13:03s PM
+INFO : Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'} - Django_Logger.make_author - 06:23:13:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce'] - Django_Logger.make_author - 06:23:13:03s PM
+INFO : Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'} - Django_Logger.make_author - 06:23:13:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers'] - Django_Logger.make_author - 06:23:13:03s PM
+INFO : Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'} - Django_Logger.make_author - 06:23:13:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander'] - Django_Logger.make_author - 06:23:13:03s PM
+INFO : Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'} - Django_Logger.make_author - 06:23:13:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony'] - Django_Logger.make_author - 06:23:13:03s PM
+INFO : Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'} - Django_Logger.make_author - 06:23:13:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.'] - Django_Logger.make_author - 06:23:14:03s PM
+INFO : Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:23:14:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson'] - Django_Logger.make_author - 06:23:14:03s PM
+INFO : Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:23:14:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt'] - Django_Logger.make_author - 06:23:14:03s PM
+INFO : Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:23:14:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt'] - Django_Logger.make_author - 06:23:14:03s PM
+INFO : Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:23:14:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon'] - Django_Logger.make_author - 06:23:14:03s PM
+INFO : Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:23:14:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb'] - Django_Logger.make_author - 06:23:14:03s PM
+INFO : Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:23:14:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon'] - Django_Logger.make_author - 06:23:14:03s PM
+INFO : Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'} - Django_Logger.make_author - 06:23:14:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.'] - Django_Logger.make_author - 06:23:27:03s PM
+INFO : Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'} - Django_Logger.make_author - 06:23:27:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce'] - Django_Logger.make_author - 06:23:27:03s PM
+INFO : Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'} - Django_Logger.make_author - 06:23:27:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers'] - Django_Logger.make_author - 06:23:27:03s PM
+INFO : Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'} - Django_Logger.make_author - 06:23:27:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander'] - Django_Logger.make_author - 06:23:28:03s PM
+INFO : Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'} - Django_Logger.make_author - 06:23:28:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony'] - Django_Logger.make_author - 06:23:28:03s PM
+INFO : Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'} - Django_Logger.make_author - 06:23:28:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.'] - Django_Logger.make_author - 06:23:29:03s PM
+INFO : Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:23:29:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson'] - Django_Logger.make_author - 06:23:29:03s PM
+INFO : Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:23:29:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt'] - Django_Logger.make_author - 06:23:29:03s PM
+INFO : Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:23:29:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt'] - Django_Logger.make_author - 06:23:29:03s PM
+INFO : Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:23:29:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon'] - Django_Logger.make_author - 06:23:29:03s PM
+INFO : Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:23:29:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb'] - Django_Logger.make_author - 06:23:29:03s PM
+INFO : Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'} - Django_Logger.make_author - 06:23:29:03s PM
+INFO : *** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon'] - Django_Logger.make_author - 06:23:29:03s PM
+INFO : Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'} - Django_Logger.make_author - 06:23:29:03s PM

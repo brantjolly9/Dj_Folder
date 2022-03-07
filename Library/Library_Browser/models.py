@@ -29,9 +29,10 @@ class Book(models.Model):
     isbn = models.CharField(max_length=200, default='0')
     msrp = models.DecimalField(decimal_places=2, max_digits=10, default=0)
     imageLink = models.CharField(max_length =200, default='No Link') ##! Put link
+    
 
 #     # Attaches the book obj to the author obj
-    author = models.ForeignKey(Author, on_delete=models.SET_NULL, null=True)
+    author = models.ManyToManyField(Author)
     def __str__(self):
         return self.title
 

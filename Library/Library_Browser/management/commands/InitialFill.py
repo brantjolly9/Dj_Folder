@@ -34,6 +34,7 @@ class Command(BaseCommand):
         mainLog = DjangoLogger(homePath = r'C:\Users\User\Documents\Programming\Python_stuff\Dj_Folder')
         self.roamLog = mainLog.make_log(name='roam')
         self.makeAuthorLog = mainLog.make_log(name='make_author')
+        self.makeBookLog = mainLog.make_log(name='make_book')
         self.roamLog.info('**************************\nBEGIN NEW TEST')
         #! Table for cleaning titles with title.translate(translationTable)
         #! ord('x') returns the unicode point for x
@@ -125,6 +126,39 @@ class Command(BaseCommand):
         def cleanAuthorISBN(authors):
             pass
             
+        def makeBook(result, writers):
+            
+            newBook = Book(
+                title=result.get('title'),
+                # titleLong=result.get('titleLong'),
+                imageLink=result.get('image'),
+                isbn=result.get('isbn'),
+                # author=authorObject,               #! Pass newAuthor into Book model
+                # publishedDate=result.get('date_published')
+            )
+
+            # check if msrp exists; add
+            try: 
+                msrp = float(result.get('msrp'))
+                newBook.msrp = msrp
+            except Exception as e:
+                self.makeBookLog.info('No MSRP\n')
+
+            # check if pageCount exists: add
+            try:
+                pageCount = int(result.get('pages'))
+                newBook.pageCount = pageCount
+            except Exception as e:
+                self.makeBookLog.info('No PageCount')
+            
+            newBook.save()
+            for author in writers:
+                newBook.author.add(author)
+                self.makeBookLog.info(f'Book: {newBook.title}\tWritten By: {author.last_name}')
+                
+            return newBook
+            
+            
         def makeAuthor(name):
             """
             Takes a name object (LAST, FIRST | FIRST LAST | LAST, FIRST MI.)
@@ -181,8 +215,15 @@ class Command(BaseCommand):
             if len(filt) != 0 or len(revFilt) != 0:
                 self.roamLog.info(f'Repeat Filtered {fullName}')
                 self.roamLog.info(f'Filt: {len(filt)}\t RevFilt: {len(revFilt)}')
+                try:
+                    oldAuthor = filt[0]
+                    self.roamLog.info(f'Returned: {oldAuthor.pk}')
+                    return oldAuthor
+                except Exception as e:
+                    oldAuthor = revFilt[0]
+                    self.roamLog.info(f'Returned: {oldAuthor.pk}')
+                    return oldAuthor
                 
-            
             else:
                 try:
                     newAuthor = Author(first_name=fullName['first'],
@@ -191,11 +232,11 @@ class Command(BaseCommand):
                     newAuthor.save()
                     pk = newAuthor.pk
                     self.roamLog.info(f'Created {newAuthor.first_name} {newAuthor.last_name} {pk}')
-                    return pk
+                    return newAuthor
                 except Exception as e:
                     self.roamLog.warn(f'Failed to create{newAuthor.first_name} {newAuthor.last_name}')
                     self.roamLog.error(e)
-                    return fullName
+                    return None
             
         def fillAuthors():
             # Chdir to books and list file names
@@ -225,6 +266,7 @@ class Command(BaseCommand):
                     self.roamLog.info(f'-----------------------\nTitle: {title}\nFileAuthor: {fileAuthor}\n')
                 except Exception as e:
                     self.roamLog('Cannot Write !!!!')
+                
                 searchInfo = searchIsbn(title, 'book')
                 if searchInfo:
                     
@@ -235,11 +277,16 @@ class Command(BaseCommand):
                         for searchedBook in searchedBookResults:
                             self.roamLog.info(f'\tSearchedBook: {searchedBook.get("title")}')
                             searchedAuthors = searchedBook.get('authors')
+                            collaborators = []
                             for author in searchedAuthors:
                                 self.roamLog.info(f'\t\tSearchedAuthor: {author}')
                                 authorList.append(author)
-                                pk = makeAuthor(author)
+                                authObj = makeAuthor(author)
+                                collaborators.append(authObj)
+                                
                                 bookCount += 1
+                            self.roamLog.warning(f'Collab: {collaborators}')
+                            makeBook(searchedBook, collaborators)
                     except TypeError as e:
                         self.roamLog.warning(f'Cannot find: {fileAuthor}')
                         pass

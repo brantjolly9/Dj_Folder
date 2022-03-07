@@ -1565,3 +1565,538 @@ Name: Memory P. F. Elvin-Lewis	RAW: ['Memory', 'P.', 'F.', 'Elvin-Lewis']
 Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
 Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
 Filt: 1	 RevFilt: 1
+**************************
+BEGIN NEW TEST
+Number of books: 3
+Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+	Searched for: A.D. After Disclosure, type: book
+	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+	Success
+Total Results: 78
+	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+		SearchedAuthor: Dolan, Richard M.
+*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Filt: 1	 RevFilt: 0
+Returned: 67
+		SearchedAuthor: Zabel, Bryce
+*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Filt: 1	 RevFilt: 0
+Returned: 68
+Collab: [<Author: Dolan>, <Author: Zabel>]
+Lang: en
+	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+		SearchedAuthor: John Chalmers
+*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Filt: 1	 RevFilt: 0
+Returned: 69
+Collab: [<Author: Chalmers>]
+Lang: en
+-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+	Success
+Total Results: None
+Cannot find: GRAHAM_HANCOCK
+-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+	Searched for: Anarchism and Other Essays, type: book
+	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+	Success
+Total Results: 9679
+	SearchedBook: Neck Deep and Other Predicaments: Essays
+		SearchedAuthor: Monson, Ander
+*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Filt: 1	 RevFilt: 0
+Returned: 70
+Collab: [<Author: Monson>]
+Lang: en
+	SearchedBook: Twenty Poems That Could Save America and Other Essays
+		SearchedAuthor: Hoagland, Tony
+*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Filt: 1	 RevFilt: 0
+Returned: 71
+Collab: [<Author: Hoagland>]
+Lang: en
+**************************
+BEGIN NEW TEST
+Number of books: 4
+Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+	Searched for: A.D. After Disclosure, type: book
+	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+	Success
+Total Results: 78
+	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+		SearchedAuthor: Dolan, Richard M.
+*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Filt: 1	 RevFilt: 0
+Returned: 67
+		SearchedAuthor: Zabel, Bryce
+*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Filt: 1	 RevFilt: 0
+Returned: 68
+Collab: [<Author: Dolan>, <Author: Zabel>]
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Dolan
+ISBN: 0967799538
+
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Zabel
+ISBN: 0967799538
+
+	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+		SearchedAuthor: John Chalmers
+*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Filt: 1	 RevFilt: 0
+Returned: 69
+Collab: [<Author: Chalmers>]
+Book: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)	Written By: Chalmers
+ISBN: 1165309572
+
+-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+	Success
+Total Results: None
+Cannot find: GRAHAM_HANCOCK
+-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+	Searched for: Anarchism and Other Essays, type: book
+	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+	Success
+Total Results: 9679
+	SearchedBook: Neck Deep and Other Predicaments: Essays
+		SearchedAuthor: Monson, Ander
+*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Filt: 1	 RevFilt: 0
+Returned: 70
+Collab: [<Author: Monson>]
+Book: Neck Deep and Other Predicaments: Essays	Written By: Monson
+ISBN: 1555974597
+
+	SearchedBook: Twenty Poems That Could Save America and Other Essays
+		SearchedAuthor: Hoagland, Tony
+*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Filt: 1	 RevFilt: 0
+Returned: 71
+Collab: [<Author: Hoagland>]
+Book: Twenty Poems That Could Save America and Other Essays	Written By: Hoagland
+ISBN: 1555976948
+
+-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+	Searched for: Atlas Shrugged, type: book
+	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+	Success
+Total Results: 10000
+	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+		SearchedAuthor: Netter MD, Frank H.
+*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 72
+Collab: [<Author: z>]
+Book: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)	Written By: z
+ISBN: 1455704180
+
+	SearchedBook: A Brief Atlas Of The Human Body
+		SearchedAuthor: Hutchinson
+*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 73
+		SearchedAuthor: Matt
+*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 74
+		SearchedAuthor: Mallatt
+*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 75
+		SearchedAuthor: Jon
+*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 76
+		SearchedAuthor: Marieb
+*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 77
+		SearchedAuthor: Elaine Nicpon
+*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Filt: 1	 RevFilt: 0
+Returned: 78
+Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>]
+Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+Book: A Brief Atlas Of The Human Body	Written By: Nicpon
+ISBN: 032166261x
+
+**************************
+BEGIN NEW TEST
+Number of books: 4
+Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+	Searched for: A.D. After Disclosure, type: book
+	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+	Success
+Total Results: 78
+	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+		SearchedAuthor: Dolan, Richard M.
+*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Created Richard Dolan 101
+		SearchedAuthor: Zabel, Bryce
+*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Created Bryce Zabel 102
+Collab: [<Author: Dolan>, <Author: Zabel>]
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Dolan
+ISBN: 0967799538
+
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Zabel
+ISBN: 0967799538
+
+	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+		SearchedAuthor: John Chalmers
+*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Created John Chalmers 103
+Collab: [<Author: Chalmers>]
+Book: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)	Written By: Chalmers
+ISBN: 1165309572
+
+-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+	Success
+Total Results: None
+Cannot find: GRAHAM_HANCOCK
+-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+	Searched for: Anarchism and Other Essays, type: book
+	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+	Success
+Total Results: 9679
+	SearchedBook: Neck Deep and Other Predicaments: Essays
+		SearchedAuthor: Monson, Ander
+*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Created Ander Monson 104
+Collab: [<Author: Monson>]
+Book: Neck Deep and Other Predicaments: Essays	Written By: Monson
+ISBN: 1555974597
+
+	SearchedBook: Twenty Poems That Could Save America and Other Essays
+		SearchedAuthor: Hoagland, Tony
+*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Created Tony Hoagland 105
+Collab: [<Author: Hoagland>]
+Book: Twenty Poems That Could Save America and Other Essays	Written By: Hoagland
+ISBN: 1555976948
+
+-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+	Searched for: Atlas Shrugged, type: book
+	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+	Success
+Total Results: 10000
+	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+		SearchedAuthor: Netter MD, Frank H.
+*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Created z z 106
+Collab: [<Author: z>]
+Book: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)	Written By: z
+ISBN: 1455704180
+
+	SearchedBook: A Brief Atlas Of The Human Body
+		SearchedAuthor: Hutchinson
+*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Created Hutchinson z 107
+		SearchedAuthor: Matt
+*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Created Matt z 108
+		SearchedAuthor: Mallatt
+*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Created Mallatt z 109
+		SearchedAuthor: Jon
+*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Created Jon z 110
+		SearchedAuthor: Marieb
+*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Created Marieb z 111
+		SearchedAuthor: Elaine Nicpon
+*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Created Elaine Nicpon 112
+Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>]
+Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+Book: A Brief Atlas Of The Human Body	Written By: z
+ISBN: 032166261x
+
+Book: A Brief Atlas Of The Human Body	Written By: Nicpon
+ISBN: 032166261x
+
+**************************
+BEGIN NEW TEST
+Number of books: 4
+Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+	Searched for: A.D. After Disclosure, type: book
+	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+	Success
+Total Results: 78
+	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+		SearchedAuthor: Dolan, Richard M.
+*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Repeat Filtered {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Filt: 1	 RevFilt: 0
+Returned: 101
+		SearchedAuthor: Zabel, Bryce
+*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Repeat Filtered {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Filt: 1	 RevFilt: 0
+Returned: 102
+Collab: [<Author: Dolan>, <Author: Zabel>]
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Dolan
+Book: A.D. After Disclosure: The People's Guide to Life After Contact	Written By: Zabel
+	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+		SearchedAuthor: John Chalmers
+*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Repeat Filtered {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Filt: 1	 RevFilt: 0
+Returned: 103
+Collab: [<Author: Chalmers>]
+Book: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)	Written By: Chalmers
+-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+	Success
+Total Results: None
+Cannot find: GRAHAM_HANCOCK
+-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+	Searched for: Anarchism and Other Essays, type: book
+	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+	Success
+Total Results: 9679
+	SearchedBook: Neck Deep and Other Predicaments: Essays
+		SearchedAuthor: Monson, Ander
+*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Repeat Filtered {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Filt: 1	 RevFilt: 0
+Returned: 104
+Collab: [<Author: Monson>]
+Book: Neck Deep and Other Predicaments: Essays	Written By: Monson
+	SearchedBook: Twenty Poems That Could Save America and Other Essays
+		SearchedAuthor: Hoagland, Tony
+*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Repeat Filtered {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Filt: 1	 RevFilt: 0
+Returned: 105
+Collab: [<Author: Hoagland>]
+Book: Twenty Poems That Could Save America and Other Essays	Written By: Hoagland
+-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+	Searched for: Atlas Shrugged, type: book
+	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+	Success
+Total Results: 10000
+	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+		SearchedAuthor: Netter MD, Frank H.
+*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'z', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 1
+Returned: 106
+Collab: [<Author: z>]
+Book: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)	Written By: z
+	SearchedBook: A Brief Atlas Of The Human Body
+		SearchedAuthor: Hutchinson
+*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 107
+		SearchedAuthor: Matt
+*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 108
+		SearchedAuthor: Mallatt
+*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 109
+		SearchedAuthor: Jon
+*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 110
+		SearchedAuthor: Marieb
+*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Repeat Filtered {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Filt: 1	 RevFilt: 0
+Returned: 111
+		SearchedAuthor: Elaine Nicpon
+*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Repeat Filtered {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Filt: 1	 RevFilt: 0
+Returned: 112
+Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>]
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: z
+Book: A Brief Atlas Of The Human Body	Written By: Nicpon
