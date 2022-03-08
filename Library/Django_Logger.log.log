@@ -4622,3 +4622,124 @@ Collab: [<Author: Hamilton>]
 Title: Beyond Belief: Finding the Strength to Come Back
 Book: Beyond Belief: Finding the Strength to Come Back
 Written By: Hamilton
+**************************
+BEGIN NEW TEST
+Number of books: 4
+Book Info Path: C:\Users\User\Documents\Programming\Python_stuff\LibraryBuilder\Book_Info_Json
+-----------------------
+Title: A.D. After Disclosure
+FileAuthor: Richard_Dolan
+
+	Searched for: A.D. After Disclosure, type: book
+	SearchUrl: https://api2.isbndb.com/books/A.D. After Disclosure
+	Success
+Total Results: 78
+	SearchedBook: A.D. After Disclosure: The People's Guide to Life After Contact
+		SearchedAuthor: Dolan, Richard M.
+*** BEGIN MAKE AUTHOR ***
+Name: Dolan, Richard M.	RAW: ['Dolan,', 'Richard', 'M.']
+Full Name: {'first': 'Richard', 'middle': 'M.', 'last': 'Dolan'}
+Created Richard Dolan 218
+		SearchedAuthor: Zabel, Bryce
+*** BEGIN MAKE AUTHOR ***
+Name: Zabel, Bryce	RAW: ['Zabel,', 'Bryce']
+Full Name: {'first': 'Bryce', 'middle': 'z', 'last': 'Zabel'}
+Created Bryce Zabel 219
+Collab: [<Author: Dolan>, <Author: Zabel>]
+Title: A.D. After Disclosure: The People's Guide to Life After Contact
+Filtered A.D. After Disclosure: The People's Guide to Life After Contact
+	SearchedBook: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+		SearchedAuthor: John Chalmers
+*** BEGIN MAKE AUTHOR ***
+Name: John Chalmers	RAW: ['John', 'Chalmers']
+Full Name: {'first': 'John', 'middle': 'z', 'last': 'Chalmers'}
+Created John Chalmers 220
+Collab: [<Author: Chalmers>]
+Title: An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+Filtered An Account Of The Structure Of Chinese Characters Under 300 Primary Forms: After The Shwoh-wan, 100, A.d. And The Phonetic Shwoh-wan, 1833 (1882)
+-----------------------
+Title: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+FileAuthor: GRAHAM_HANCOCK
+
+	Searched for: America Before a New Investigation Into the Mysteries of the Human Past by the Bestse, type: book
+	SearchUrl: https://api2.isbndb.com/books/America Before a New Investigation Into the Mysteries of the Human Past by the Bestse
+	Success
+Total Results: None
+Cannot find: GRAHAM_HANCOCK
+-----------------------
+Title: Anarchism and Other Essays
+FileAuthor: Emma_Goldman
+
+	Searched for: Anarchism and Other Essays, type: book
+	SearchUrl: https://api2.isbndb.com/books/Anarchism and Other Essays
+	Success
+Total Results: 9679
+	SearchedBook: Neck Deep and Other Predicaments: Essays
+		SearchedAuthor: Monson, Ander
+*** BEGIN MAKE AUTHOR ***
+Name: Monson, Ander	RAW: ['Monson,', 'Ander']
+Full Name: {'first': 'Ander', 'middle': 'z', 'last': 'Monson'}
+Created Ander Monson 221
+Collab: [<Author: Monson>]
+Title: Neck Deep and Other Predicaments: Essays
+Filtered Neck Deep and Other Predicaments: Essays
+	SearchedBook: Twenty Poems That Could Save America and Other Essays
+		SearchedAuthor: Hoagland, Tony
+*** BEGIN MAKE AUTHOR ***
+Name: Hoagland, Tony	RAW: ['Hoagland,', 'Tony']
+Full Name: {'first': 'Tony', 'middle': 'z', 'last': 'Hoagland'}
+Created Tony Hoagland 222
+Collab: [<Author: Hoagland>]
+Title: Twenty Poems That Could Save America and Other Essays
+Filtered Twenty Poems That Could Save America and Other Essays
+-----------------------
+Title: Atlas Shrugged
+FileAuthor: Ayn_Rand
+
+	Searched for: Atlas Shrugged, type: book
+	SearchUrl: https://api2.isbndb.com/books/Atlas Shrugged
+	Success
+Total Results: 10000
+	SearchedBook: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+		SearchedAuthor: Netter MD, Frank H.
+*** BEGIN MAKE AUTHOR ***
+Name: Netter MD, Frank H.	RAW: ['Netter', 'MD,', 'Frank', 'H.']
+Full Name: {'first': 'z', 'middle': 'z', 'last': 'z'}
+Created z z 223
+Collab: [<Author: z>]
+Title: Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+Filtered Atlas of Human Anatomy: Including Student Consult Interactive Ancillaries and Guides (Netter Basic Science)
+	SearchedBook: A Brief Atlas Of The Human Body
+		SearchedAuthor: Hutchinson
+*** BEGIN MAKE AUTHOR ***
+Name: Hutchinson	RAW: ['Hutchinson']
+Full Name: {'first': 'Hutchinson', 'middle': 'z', 'last': 'z'}
+Created Hutchinson z 224
+		SearchedAuthor: Matt
+*** BEGIN MAKE AUTHOR ***
+Name: Matt	RAW: ['Matt']
+Full Name: {'first': 'Matt', 'middle': 'z', 'last': 'z'}
+Created Matt z 225
+		SearchedAuthor: Mallatt
+*** BEGIN MAKE AUTHOR ***
+Name: Mallatt	RAW: ['Mallatt']
+Full Name: {'first': 'Mallatt', 'middle': 'z', 'last': 'z'}
+Created Mallatt z 226
+		SearchedAuthor: Jon
+*** BEGIN MAKE AUTHOR ***
+Name: Jon	RAW: ['Jon']
+Full Name: {'first': 'Jon', 'middle': 'z', 'last': 'z'}
+Created Jon z 227
+		SearchedAuthor: Marieb
+*** BEGIN MAKE AUTHOR ***
+Name: Marieb	RAW: ['Marieb']
+Full Name: {'first': 'Marieb', 'middle': 'z', 'last': 'z'}
+Created Marieb z 228
+		SearchedAuthor: Elaine Nicpon
+*** BEGIN MAKE AUTHOR ***
+Name: Elaine Nicpon	RAW: ['Elaine', 'Nicpon']
+Full Name: {'first': 'Elaine', 'middle': 'z', 'last': 'Nicpon'}
+Created Elaine Nicpon 229
+Collab: [<Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: z>, <Author: Nicpon>]
+Title: A Brief Atlas Of The Human Body
+Filtered A Brief Atlas Of The Human Body
