@@ -12,7 +12,7 @@ class Author(models.Model):
     first_name = models.CharField(max_length=200, default=None)
     last_name = models.CharField(max_length=200, default=None)
     middle_initial = models.CharField(max_length=200, default=None)
-    
+    full_name = ''.join([first_name, middle_initial, last_name])
     # Lots of stuff
 
     def __str__(self):

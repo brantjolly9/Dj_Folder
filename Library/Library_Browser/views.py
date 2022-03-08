@@ -9,17 +9,21 @@ def index(request):
     return render(request, 'browser/index.html', context=context)
     
 def authors_home(request):
-    context = {}
+    allAuthors = Author.objects.all()
+    context = {'dataset': allAuthors}
     return render(request, 'browser/author_home.html', context=context)
 
 def author_detail(request, pk):
     authorDetail = get_object_or_404(Author, pk=pk)
+    
     context = {'author': author_detail}
     return render(request, 'browser/author_detail.html', context=context)
     
 
 def books_home(request):
-    pass
+    allBooks = Book.objects.all()
+    context = {'books': allBooks}
+    return render(request, 'browser/book_home.html', context=context)
 
 def book_detail(request):
     pass

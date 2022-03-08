@@ -1,13 +1,12 @@
 
-<!DOCTYPE html >
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         {% load static %}
-       
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-     
-        <link rel="stylesheet" type="text/css" href={% static 'css/BlueSampleStyle.css' %}/>
-  
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href={%static 'browser/BlueSampleStyle'%}
+        <title>NightBeach | florida web design</title>
     </head>
 
     <body>
@@ -31,9 +30,6 @@
                 <div id="leftmenu_main">
                     <h3>Links</h3>
                     <ul>
-                        {% for book in books %}
-                        <li> {{ book.title }}</li>
-                        {% endfor %}
                         <li><a href="#">SEO</a></li>
                         <li><a href="#">PHP</a></li>
                         <li><a href="#">Ajax</a></li>
