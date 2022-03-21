@@ -207,16 +207,14 @@ class Command(BaseCommand):
             # Fill full name according to input data
             if len(raw) == 1:
                 fullName['first'] = raw[0]
-
+                
             elif len(raw) == 2:
                 if ',' in raw[0]:
                     fullName['last'] = raw[0].replace(',', '')
                     fullName['first'] = raw[1]
-                   
                 else:
                     fullName['first'] = raw[0]
                     fullName['last'] = raw[1]
-                    
                     
             elif len(raw) == 3:
                 if ',' in raw[0]:
@@ -278,10 +276,8 @@ class Command(BaseCommand):
             bookCount = 0
             authorList = []
             for book in bookInfo[:self.numBooks]:
-            
                 with open(book, 'r') as b:
                     info = json.load(b)
-
                 title = info.get('title')
 
                 # Get first author from booksInfo and search isbn

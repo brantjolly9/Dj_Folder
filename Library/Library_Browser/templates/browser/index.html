@@ -8,10 +8,18 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <link rel="stylesheet" href={% static 'css/index.css' %}>
     <link rel="stylesheet" href={% static 'css/main.css' %}>
- 
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="/signup">Sign Up</a></li>
+            <li><a href="{% url 'books_home' %}">Book Home</a></li>
+            <li><a href="{% url 'authors_home' %}">Author Home</a></li>      
+            <li><a href="/admin">Admin</a></li>
+            <li><a href="/testimonials">Testimonials</a></li>
+        </ul>
+    </nav>
     <h2>CSS Layout Float</h2>
     <p>In this example, we have created a header, two columns/boxes and a footer. On smaller screens, the columns will
         stack on top of each other.</p>

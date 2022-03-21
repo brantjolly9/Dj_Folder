@@ -5,6 +5,7 @@ from django.utils.timezone import now as djNow
 Represents a frame in the database
 has attributes to be called by Author.attr
 Passed into views.py to change webpage
+Can see DB by typing sql in command pallette
 '''
 
 class Author(models.Model):

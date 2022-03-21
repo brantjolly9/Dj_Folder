@@ -58,16 +58,3 @@ class DjangoLogger:
         fileHandler = logging.FileHandler(filePath)
         fileHandler.setFormatter(formatter)
         return fileHandler
-
-def changeDir():
-    import os
-    cwd = os.getcwd()
-    print(f'CWD = {cwd}')
-    newDir = os.path.join(cwd, input('Path: ')+ '/')
-    print(newDir)
-    os.chdir(newDir)
-    
-    if input('Continue (y)') == 'y':
-        print(f'Return: {cwd}')
-        os.chdir(cwd)
-        print(os.getcwd())
