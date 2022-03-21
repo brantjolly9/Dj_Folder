@@ -28,7 +28,7 @@ class Command(BaseCommand):
                 choice = int(i)
                 if choice < 0 or choice > 3:
                     choice = None
-            except ValueError as ve:
+            except ValueError:
                 pass
 
         if choice == 0:
@@ -38,7 +38,7 @@ class Command(BaseCommand):
             try:
                 deletedAuths = Author.objects.all().delete()
                 print(len(deletedAuths))
-            except Exception as e:
+            except Exception:
                 print('1 Author failed')
                 
             try:

@@ -1,4 +1,5 @@
-{% extends 'builder/Sample_Layout.html' %}
+<!-- Need to extend an Author Detail template or no extension and reuse same file --> 
+{% extends 'browser/Sample_Layout.html' %}
 
 {% block content %}
 <div class="card">
@@ -12,6 +13,7 @@
 
 <ul>
     <div class="author">
+        <!-- WRONG -->
         <li class="first_name">{{ author.first_name }}</li>
         <li class="last_name">{{ detail }}</li>
         <li><a href="{% url 'author_detail' pk=author.pk %}">{{ auth.first_name }}</a></li>

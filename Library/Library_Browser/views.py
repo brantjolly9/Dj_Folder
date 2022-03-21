@@ -25,5 +25,8 @@ def books_home(request):
     context = {'books': allBooks}
     return render(request, 'browser/book_home.html', context=context)
 
-def book_detail(request):
-    pass
+def book_detail(request, pk):
+    bookDetail = get_object_or_404(Book, pk=pk)
+    context = {'book': bookDetail}
+    return render(request, 'browser/book_detail.html', context=context)
+    
